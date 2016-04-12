@@ -37,7 +37,7 @@ Main=
 Selected=main.cpp
 [main.cpp]
 TopLine=1
-Caret=53,10
+Caret=34,52
 [pRTOS.cpp]
 TopLine=247
 Caret=25,247

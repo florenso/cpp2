@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.15" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlState" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlObject" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInteraction" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAction" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCallBehaviorAction" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivity" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlState" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlObject" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>96</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlInteraction" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAction" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCallBehaviorAction" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivity" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlActivityParameterNode" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlObjectFlow" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlControlFlow" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlStateMachineDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlObjectDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlInteractionOverviewDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P03d2cfa80a0a437a807cba6f073e81c1">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p705910fa9d42430393980c8db95808ed_604121850" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/13/2016 00:42:46</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p792740b45953431bb09829fc11a29fa7_225664322" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2016 00:42:46</creation-date>
+          <change-date>04/13/2016 00:42:46</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="uml-statechart" id="p630bb28afef0463ca31d895b4d1a1bef_975490310" name="StateMachineDiagram1" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2016 00:42:51</creation-date>
+          <change-date>04/13/2016 00:42:54</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di800760358252112411" cid="ST001" type="state" name="State1" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:42:54">
+            <style class="default" />
+            <state-invariant />
+            <actions />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di800760358252112411" iid="ef07018c2e244938b6b55b67e1fed3b9" creation-date="04/13/2016 00:42:54" order-index="0" type="entity">
+            <layout ax="240" ay="220" awidth="100" aheight="50" x="240" y="220" width="100" height="50" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-object" id="p608c63c062674b15bf1ee7e2446bddbc_727827605" name="ObjectDiagram1" order-index="3" overview-order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2016 00:42:58</creation-date>
+          <change-date>04/13/2016 00:43:38</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di830245972856622822" cid="OBJ001" type="object" name="waiting" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:43:00">
+            <style class="default" />
+            <object classifier-name="">
+              <attributes />
+            </object>
+          </item>
+          <item id="di395943990990520314" cid="OBJ002" type="object" name="Object2" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:43:38">
+            <style class="default" />
+            <object classifier-name="">
+              <attributes />
+            </object>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di830245972856622822" iid="cab56ebf5cbf40f3afff9bac702360ca" creation-date="04/13/2016 00:43:00" order-index="0" type="entity">
+            <layout ax="160" ay="90" awidth="140" aheight="160" x="160" y="90" width="140" height="160" angle="0" />
+          </item>
+          <item id="di395943990990520314" iid="44f01c695c074d93a5cea137b6af7a25" creation-date="04/13/2016 00:43:38" order-index="1" type="entity">
+            <layout ax="210" ay="290" awidth="140" aheight="160" x="210" y="290" width="140" height="160" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-interaction-overview" id="p9d75b4858bd24824a17c2b9508ad18e7_935652728" name="InteractionOverviewDiagram1" order-index="4" overview-order-index="2" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2016 00:44:08</creation-date>
+          <change-date>04/13/2016 00:44:10</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di289432476608770619" cid="ELEM001" type="interaction" name="Interaction1" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:44:10">
+            <style class="default" />
+            <interaction type="sd" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di289432476608770619" iid="d577ef6bc4284f30ac1db6817c7dc451" creation-date="04/13/2016 00:44:10" order-index="0" type="entity">
+            <layout ax="40" ay="130" awidth="300" aheight="200" x="40" y="130" width="300" height="200" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-activity" id="p190ee677b1b347a5a73801b146a756ee_362644744" name="ActivityDiagram1" order-index="5" overview-order-index="3" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2016 00:44:14</creation-date>
+          <change-date>04/13/2016 00:54:00</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di989386808609122909" cid="OBJ003" type="object" name="waiting" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:44:28">
+            <style class="default" />
+            <object classifier-name="">
+              <attributes>
+                <attribute name="entry[]/sleep" value="" />
+              </attributes>
+            </object>
+          </item>
+          <item id="di509874092486511506" cid="OBJ004" type="object" name="read mb" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:45:00">
+            <style class="default" />
+            <object classifier-name="">
+              <attributes>
+                <attribute name="entry[]/readMb" value="" />
+                <attribute name="readmb[]/exit" value="" />
+                <attribute name="exit[]/beepOn" value="" />
+              </attributes>
+            </object>
+          </item>
+          <item id="di242273369164987201" cid="ELEM002" type="object-flow" name="call [] /" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:45:26" from="di989386808609122909" to="di509874092486511506">
+            <style class="default" />
+            <object-flow guard="" />
+          </item>
+          <item id="di960124284443509299" cid="ELEM003" type="object-flow" name="beepOn[]/" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:47:12" from="di509874092486511506" to="di166096533206264884">
+            <style class="default" />
+            <object-flow guard="" />
+          </item>
+          <item id="di166096533206264884" cid="OBJ005" type="object" name="sleep" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:48:26">
+            <style class="default" />
+            <object classifier-name="">
+              <attributes>
+                <attribute name="entry[]/sleep" value="" />
+                <attribute name="exit[]/beepOff" value="" />
+              </attributes>
+            </object>
+          </item>
+          <item id="di488389632652306935" cid="ELEM004" type="object-flow" name="beepOff[]/" style-class="" visibility="package" change-tracking-state="added" creator="P03d2cfa80a0a437a807cba6f073e81c1" creation-date="04/13/2016 00:54:00" from="di166096533206264884" to="di989386808609122909">
+            <style class="default" />
+            <object-flow guard="" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di989386808609122909" iid="71801d8c99c747c69859de6066324fdb" creation-date="04/13/2016 00:44:28" order-index="0" type="entity">
+            <layout ax="260" ay="60" awidth="140" aheight="160" x="260" y="60" width="140" height="160" angle="0" />
+          </item>
+          <item id="di509874092486511506" iid="0c218fc325d149f1bf85f2250d85255d" creation-date="04/13/2016 00:45:00" order-index="1" type="entity">
+            <layout ax="260" ay="350" awidth="140" aheight="160" x="260" y="350" width="140" height="160" angle="0" />
+          </item>
+          <item id="di242273369164987201" iid="569b8fd4ab714e6996c0adc4475e153c" creation-date="04/13/2016 00:45:26" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="330" y1="220" x2="330" y2="350" start-border-pos="0.625" end-border-pos="0.125" name-position="40,-10">
+              <points>
+                <point x="330" y="220" />
+                <point x="330" y="350" />
+              </points>
+            </layout>
+            <relation from="di989386808609122909" from-iid="71801d8c99c747c69859de6066324fdb" to="di509874092486511506" to-iid="0c218fc325d149f1bf85f2250d85255d" />
+          </item>
+          <item id="di960124284443509299" iid="dd16ebdbc5f049cf83db3abfab172122" creation-date="04/13/2016 00:47:12" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="288" y1="350" x2="180" y2="430" start-border-pos="0.05" end-border-pos="0.375" name-position="40,-20">
+              <points>
+                <point x="288" y="350" />
+                <point x="300" y="310" />
+                <point x="220" y="310" />
+                <point x="220" y="420" />
+                <point x="180" y="430" />
+              </points>
+            </layout>
+            <relation from="di509874092486511506" from-iid="0c218fc325d149f1bf85f2250d85255d" to="di166096533206264884" to-iid="8c9a2c6812d044d18669428ea43ee8de" />
+          </item>
+          <item id="di166096533206264884" iid="8c9a2c6812d044d18669428ea43ee8de" creation-date="04/13/2016 00:48:26" order-index="4" type="entity">
+            <layout ax="40" ay="350" awidth="140" aheight="160" x="40" y="350" width="140" height="160" angle="0" />
+          </item>
+          <item id="di488389632652306935" iid="4c1bcff0bf0b437090e10a0449986db3" creation-date="04/13/2016 00:54:00" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="133" y1="350" x2="260" y2="175" start-border-pos="0.165816334315709" end-border-pos="0.8203125" name-position="0,0">
+              <points>
+                <point x="133" y="350" />
+                <point x="170" y="220" />
+                <point x="260" y="175" />
+              </points>
+            </layout>
+            <relation from="di166096533206264884" from-iid="8c9a2c6812d044d18669428ea43ee8de" to="di989386808609122909" to-iid="71801d8c99c747c69859de6066324fdb" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

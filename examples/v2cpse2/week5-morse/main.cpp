@@ -150,6 +150,7 @@ private:
    beep_task & beeper;
    bar_task & bar;
    RTOS::channel< char, 100 > store;
+   static constexpr auto dot = 200 * bmptk::ms;
    
    
    void main(){
@@ -157,7 +158,7 @@ private:
          char c = store.read();
 		bar.change( -1 );
 		if( c == ' ' ){
-			sleep(7 * 200 * bmptk::ms);
+			sleep(7 * dot);
 		} else {
 			const char * s = morse(c);
 			beeper.mail_morse(s);
