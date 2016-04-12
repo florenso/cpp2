@@ -1,0 +1,1448 @@
+	.cpu cortex-m0
+	.fpu softvfp
+	.eabi_attribute 20, 1
+	.eabi_attribute 21, 1
+	.eabi_attribute 23, 3
+	.eabi_attribute 24, 1
+	.eabi_attribute 25, 1
+	.eabi_attribute 26, 1
+	.eabi_attribute 30, 4
+	.eabi_attribute 34, 0
+	.eabi_attribute 18, 4
+	.code	16
+	.file	"main.cpp"
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc:
+.L3:
+	ldr	r3, .L5
+	ldr	r2, [r3, #20]
+	lsl	r1, r2, #25
+	bpl	.L3
+	str	r0, [r3]
+	@ sp needed
+	bx	lr
+.L6:
+	.align	2
+.L5:
+	.word	1073774592
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.section	.text._ZN4RTOS8waitable5clearEv,"axG",%progbits,_ZN4RTOS8waitable5clearEv,comdat
+	.align	1
+	.weak	_ZN4RTOS8waitable5clearEv
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS8waitable5clearEv, %function
+_ZN4RTOS8waitable5clearEv:
+	push	{r3, lr}
+	mov	r1, r0
+	ldr	r0, [r0, #4]
+	@ sp needed
+	add	r0, r0, #177
+	add	r0, r0, #255
+	bl	_ZN4RTOS12waitable_set5clearERKNS_8waitableE
+	pop	{r3, pc}
+	.size	_ZN4RTOS8waitable5clearEv, .-_ZN4RTOS8waitable5clearEv
+	.section	.text._ZN4RTOS7channelIcLi100EE5clearEv,"axG",%progbits,_ZN4RTOS7channelIcLi100EE5clearEv,comdat
+	.align	1
+	.weak	_ZN4RTOS7channelIcLi100EE5clearEv
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS7channelIcLi100EE5clearEv, %function
+_ZN4RTOS7channelIcLi100EE5clearEv:
+	push	{r3, lr}
+	mov	r3, #0
+	str	r3, [r0, #64]
+	str	r3, [r0, #72]
+	str	r3, [r0, #68]
+	bl	_ZN4RTOS8waitable5clearEv
+	@ sp needed
+	pop	{r3, pc}
+	.size	_ZN4RTOS7channelIcLi100EE5clearEv, .-_ZN4RTOS7channelIcLi100EE5clearEv
+	.section	.text._ZN4RTOS7channelIiLi10EE5clearEv,"axG",%progbits,_ZN4RTOS7channelIiLi10EE5clearEv,comdat
+	.align	1
+	.weak	_ZN4RTOS7channelIiLi10EE5clearEv
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS7channelIiLi10EE5clearEv, %function
+_ZN4RTOS7channelIiLi10EE5clearEv:
+	push	{r3, lr}
+	mov	r3, #0
+	str	r3, [r0, #64]
+	str	r3, [r0, #72]
+	str	r3, [r0, #68]
+	bl	_ZN4RTOS8waitable5clearEv
+	@ sp needed
+	pop	{r3, pc}
+	.size	_ZN4RTOS7channelIiLi10EE5clearEv, .-_ZN4RTOS7channelIiLi10EE5clearEv
+	.section	.text._ZN5hwcpp2iolsERNS0_7ostreamEPKc,"axG",%progbits,_ZN5hwcpp2iolsERNS0_7ostreamEPKc,comdat
+	.align	1
+	.weak	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp2iolsERNS0_7ostreamEPKc, %function
+_ZN5hwcpp2iolsERNS0_7ostreamEPKc:
+	push	{r4, r5, r6, lr}
+	ldrb	r3, [r0, #10]
+	mov	r4, r0
+	mov	r5, r1
+	cmp	r3, #0
+	beq	.L12
+	ldr	r6, [r0]
+	mov	r3, r1
+.L13:
+	ldrb	r1, [r3]
+	sub	r2, r3, r5
+	cmp	r1, #0
+	beq	.L27
+	add	r3, r3, #1
+	b	.L13
+.L27:
+	sub	r6, r6, r2
+.L15:
+	cmp	r6, #0
+	ble	.L12
+	ldr	r3, [r4, #16]
+	ldrb	r0, [r4, #8]
+	cmp	r3, #0
+	beq	.L16
+	blx	r3
+.L16:
+	sub	r6, r6, #1
+	b	.L15
+.L20:
+	ldr	r3, [r4, #16]
+	cmp	r3, #0
+	beq	.L19
+	blx	r3
+.L19:
+	add	r5, r5, #1
+.L12:
+	ldrb	r0, [r5]
+	cmp	r0, #0
+	bne	.L20
+	str	r0, [r4]
+	@ sp needed
+	mov	r0, r4
+	pop	{r4, r5, r6, pc}
+	.size	_ZN5hwcpp2iolsERNS0_7ostreamEPKc, .-_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	.global	__aeabi_idivmod
+	.global	__aeabi_idiv
+	.section	.text._ZN5hwcpp2iolsERNS0_7ostreamEi,"axG",%progbits,_ZN5hwcpp2iolsERNS0_7ostreamEi,comdat
+	.align	1
+	.weak	_ZN5hwcpp2iolsERNS0_7ostreamEi
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp2iolsERNS0_7ostreamEi, %function
+_ZN5hwcpp2iolsERNS0_7ostreamEi:
+	push	{r4, r5, r6, lr}
+	sub	sp, sp, #80
+	mov	r3, sp
+	add	r3, r3, #73
+	mov	r2, #0
+	mov	r4, r0
+	mov	r5, r1
+	strb	r2, [r3]
+	str	r3, [sp, #76]
+	neg	r6, r1
+	cmp	r1, r2
+	blt	.L31
+	sub	r6, r1, #0
+	bne	.L31
+	add	r3, sp, #72
+	mov	r2, #48
+	str	r3, [sp, #76]
+	strb	r2, [r3]
+	b	.L31
+.L34:
+	mov	r0, r6
+	ldr	r1, [r4, #4]
+	bl	__aeabi_idivmod
+	uxtb	r1, r1
+	mov	r2, r1
+	add	r2, r2, #48
+	ldrb	r3, [r4, #9]
+	uxtb	r2, r2
+	cmp	r1, #9
+	bls	.L33
+	mov	r2, r3
+	sub	r2, r2, #10
+	add	r1, r1, r2
+	uxtb	r2, r1
+.L33:
+	ldr	r3, [sp, #76]
+	mov	r0, r6
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	strb	r2, [r3]
+	ldr	r1, [r4, #4]
+	bl	__aeabi_idiv
+	mov	r6, r0
+.L31:
+	cmp	r6, #0
+	bgt	.L34
+	ldrb	r3, [r4, #13]
+	cmp	r3, #0
+	beq	.L35
+	ldr	r3, [r4, #4]
+	cmp	r3, #8
+	beq	.L37
+	bgt	.L38
+	cmp	r3, #2
+	bne	.L36
+	ldr	r3, [sp, #76]
+	mov	r2, #98
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	b	.L54
+.L38:
+	cmp	r3, #10
+	beq	.L35
+	cmp	r3, #16
+	bne	.L36
+	ldr	r3, [sp, #76]
+	mov	r2, #120
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	b	.L54
+.L37:
+	ldr	r3, [sp, #76]
+	mov	r2, #111
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	b	.L54
+.L36:
+	ldr	r3, [sp, #76]
+	mov	r2, #63
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+.L54:
+	strb	r2, [r3]
+	ldr	r3, [sp, #76]
+	mov	r2, #48
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	strb	r2, [r3]
+.L35:
+	cmp	r5, #0
+	bge	.L42
+	ldr	r3, [sp, #76]
+	mov	r2, #45
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+	b	.L55
+.L42:
+	ldrb	r3, [r4, #11]
+	cmp	r3, #0
+	beq	.L43
+	ldr	r3, [sp, #76]
+	mov	r2, #43
+	sub	r3, r3, #1
+	str	r3, [sp, #76]
+.L55:
+	strb	r2, [r3]
+.L43:
+	ldr	r1, [sp, #76]
+	mov	r0, r4
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	mov	r0, r4
+	add	sp, sp, #80
+	@ sp needed
+	pop	{r4, r5, r6, pc}
+	.size	_ZN5hwcpp2iolsERNS0_7ostreamEi, .-_ZN5hwcpp2iolsERNS0_7ostreamEi
+	.section	.text._ZN4RTOS8waitable3setEv,"axG",%progbits,_ZN4RTOS8waitable3setEv,comdat
+	.align	1
+	.weak	_ZN4RTOS8waitable3setEv
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS8waitable3setEv, %function
+_ZN4RTOS8waitable3setEv:
+	push	{r3, lr}
+	mov	r1, r0
+	ldr	r0, [r0, #4]
+	@ sp needed
+	add	r0, r0, #177
+	add	r0, r0, #255
+	bl	_ZN4RTOS12waitable_set3setERKNS_8waitableE
+	pop	{r3, pc}
+	.size	_ZN4RTOS8waitable3setEv, .-_ZN4RTOS8waitable3setEv
+	.section	.text._ZN4RTOS4taskD2Ev,"axG",%progbits,_ZN4RTOS4taskD5Ev,comdat
+	.align	1
+	.weak	_ZN4RTOS4taskD2Ev
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS4taskD2Ev, %function
+_ZN4RTOS4taskD2Ev:
+	push	{r3, lr}
+	ldr	r3, .L59
+	ldr	r1, .L59+4
+	str	r3, [r0]
+	ldr	r0, .L59+8
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L59+12
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L59+16
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L58:
+	b	.L58
+.L60:
+	.align	2
+.L59:
+	.word	_ZTVN4RTOS4taskE+8
+	.word	.LC4
+	.word	_ZN5hwcpp2io4coutE
+	.word	.LC6
+	.word	.LC8
+	.size	_ZN4RTOS4taskD2Ev, .-_ZN4RTOS4taskD2Ev
+	.weak	_ZN4RTOS4taskD1Ev
+	.thumb_set _ZN4RTOS4taskD1Ev,_ZN4RTOS4taskD2Ev
+	.section	.text._ZN4RTOS12channel_baseD2Ev,"axG",%progbits,_ZN4RTOS12channel_baseD5Ev,comdat
+	.align	1
+	.weak	_ZN4RTOS12channel_baseD2Ev
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS12channel_baseD2Ev, %function
+_ZN4RTOS12channel_baseD2Ev:
+	push	{r3, lr}
+	ldr	r3, .L63
+	ldr	r1, .L63+4
+	str	r3, [r0]
+	ldr	r0, .L63+8
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L63+12
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L63+16
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L62:
+	b	.L62
+.L64:
+	.align	2
+.L63:
+	.word	_ZTVN4RTOS12channel_baseE+8
+	.word	.LC4
+	.word	_ZN5hwcpp2io4coutE
+	.word	.LC13
+	.word	.LC8
+	.size	_ZN4RTOS12channel_baseD2Ev, .-_ZN4RTOS12channel_baseD2Ev
+	.weak	_ZN4RTOS12channel_baseD1Ev
+	.thumb_set _ZN4RTOS12channel_baseD1Ev,_ZN4RTOS12channel_baseD2Ev
+	.section	.text._ZN9beep_task4beepEx,"axG",%progbits,_ZN9beep_task4beepEx,comdat
+	.align	1
+	.weak	_ZN9beep_task4beepEx
+	.code	16
+	.thumb_func
+	.type	_ZN9beep_task4beepEx, %function
+_ZN9beep_task4beepEx:
+	push	{r4, r5, r6, r7, lr}
+	sub	sp, sp, #36
+	mov	r6, r0
+	str	r2, [sp, #16]
+	str	r3, [sp, #20]
+	bl	_ZN5bmptk3nowEv
+	str	r0, [sp, #4]
+.L66:
+	ldr	r3, [sp, #4]
+	ldr	r4, [sp, #16]
+	ldr	r5, [sp, #20]
+	asr	r2, r3, #31
+	str	r3, [sp, #8]
+	str	r2, [sp, #12]
+	ldr	r2, [sp, #8]
+	ldr	r3, [sp, #12]
+	add	r4, r4, r2
+	adc	r5, r5, r3
+	bl	_ZN5bmptk3nowEv
+	cmp	r5, r1
+	ble	.L70
+.L67:
+	ldr	r7, .L71+8
+	mov	r3, #1
+	mov	r2, #216
+	neg	r3, r3
+	lsl	r2, r2, #1
+	mov	r5, #144
+	str	r3, [r7]
+	add	r4, r6, r2
+	lsl	r5, r5, #2
+	add	r0, sp, #24
+	mov	r1, r4
+	ldr	r2, [r6, r5]
+	bl	_ZN4RTOS12waitable_set4waitEj
+	mov	r3, #0
+	str	r3, [r7]
+	ldr	r2, [r6, r5]
+	add	r0, sp, #24
+	mov	r1, r4
+	bl	_ZN4RTOS12waitable_set4waitEj
+	b	.L66
+.L70:
+	cmp	r5, r1
+	bne	.L69
+	cmp	r4, r0
+	bhi	.L67
+.L69:
+	mov	r0, r6
+	ldr	r3, .L71+4
+	ldr	r2, .L71
+	bl	_ZN4RTOS4task5sleepEx
+	add	sp, sp, #36
+	@ sp needed
+	pop	{r4, r5, r6, r7, pc}
+.L72:
+	.align	3
+.L71:
+	.word	4800000
+	.word	0
+	.word	1342242848
+	.size	_ZN9beep_task4beepEx, .-_ZN9beep_task4beepEx
+	.section	.text.startup._ZN9beep_task4mainEv,"axG",%progbits,_ZN9beep_task4mainEv,comdat
+	.align	1
+	.weak	_ZN9beep_task4mainEv
+	.code	16
+	.thumb_func
+	.type	_ZN9beep_task4mainEv, %function
+_ZN9beep_task4mainEv:
+	push	{r3, r4, r5, lr}
+	ldr	r3, .L84+16
+	mov	r2, #128
+	ldr	r1, [r3, #124]
+	lsl	r2, r2, #9
+	orr	r2, r1
+	str	r2, [r3, #124]
+	ldr	r3, .L84+20
+	mov	r1, #7
+	ldr	r2, [r3]
+	mov	r4, r0
+	bic	r2, r1
+	mov	r1, #129
+	orr	r2, r1
+	str	r2, [r3]
+	ldr	r3, .L84+24
+	mov	r1, #8
+	ldr	r2, [r3]
+	orr	r2, r1
+	str	r2, [r3]
+.L82:
+	mov	r3, #164
+	lsl	r3, r3, #2
+	ldr	r0, [r4, r3]
+	mov	r3, #164
+	lsl	r3, r3, #2
+	add	r5, r4, r3
+	cmp	r0, #0
+	beq	.L74
+	mov	r2, #0
+	str	r2, [r4, r3]
+	bl	_ZN4RTOS4task7unblockEv
+	b	.L75
+.L74:
+	ldr	r2, [r5, #4]
+	cmp	r2, #0
+	beq	.L76
+	ldr	r1, .L84+28
+	ldr	r0, .L84+32
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L84+36
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L84+40
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L77:
+	b	.L77
+.L76:
+	ldr	r3, .L84+44
+	ldr	r0, [r3]
+	str	r0, [r5, #4]
+	bl	_ZN4RTOS4task5blockEv
+.L75:
+	ldr	r3, [r5, #32]
+	add	r3, r3, #1
+	str	r3, [r5, #32]
+	ldr	r5, [r5, #40]
+.L78:
+	ldrb	r3, [r5]
+	cmp	r3, #0
+	beq	.L82
+	mov	r0, r4
+	cmp	r3, #46
+	bne	.L79
+	ldr	r3, .L84+4
+	ldr	r2, .L84
+	b	.L83
+.L79:
+	ldr	r2, .L84+8
+	ldr	r3, .L84+12
+.L83:
+	bl	_ZN9beep_task4beepEx
+	add	r5, r5, #1
+	b	.L78
+.L85:
+	.align	3
+.L84:
+	.word	4800000
+	.word	0
+	.word	14400000
+	.word	0
+	.word	1074036740
+	.word	1074020496
+	.word	1342275584
+	.word	.LC4
+	.word	_ZN5hwcpp2io4coutE
+	.word	.LC18
+	.word	.LC8
+	.word	_ZN4RTOS17rtos_current_taskE
+	.size	_ZN9beep_task4mainEv, .-_ZN9beep_task4mainEv
+	.section	.text._Z5morsec,"ax",%progbits
+	.align	1
+	.global	_Z5morsec
+	.code	16
+	.thumb_func
+	.type	_Z5morsec, %function
+_Z5morsec:
+	sub	r0, r0, #97
+	uxtb	r0, r0
+	cmp	r0, #25
+	bhi	.L88
+	ldr	r3, .L89
+	lsl	r0, r0, #2
+	ldr	r0, [r0, r3]
+	b	.L87
+.L88:
+	ldr	r0, .L89+4
+.L87:
+	@ sp needed
+	bx	lr
+.L90:
+	.align	2
+.L89:
+	.word	.LANCHOR0
+	.word	.LC22
+	.size	_Z5morsec, .-_Z5morsec
+	.section	.text._ZN4RTOS7channelIiLi10EE5writeEi,"axG",%progbits,_ZN4RTOS7channelIiLi10EE5writeEi,comdat
+	.align	1
+	.weak	_ZN4RTOS7channelIiLi10EE5writeEi
+	.code	16
+	.thumb_func
+	.type	_ZN4RTOS7channelIiLi10EE5writeEi, %function
+_ZN4RTOS7channelIiLi10EE5writeEi:
+	ldr	r3, [r0, #64]
+	push	{r4, lr}
+	cmp	r3, #9
+	bgt	.L92
+	ldr	r2, [r0, #56]
+	add	r2, r2, #1
+	str	r2, [r0, #56]
+	ldr	r2, [r0, #68]
+	mov	r4, r2
+	add	r4, r4, #18
+	lsl	r4, r4, #2
+	add	r4, r0, r4
+	add	r2, r2, #1
+	str	r1, [r4, #4]
+	cmp	r2, #10
+	bne	.L96
+	mov	r2, #0
+.L96:
+	add	r3, r3, #1
+	str	r2, [r0, #68]
+	str	r3, [r0, #64]
+	bl	_ZN4RTOS8waitable3setEv
+	b	.L91
+.L92:
+	ldr	r3, [r0, #60]
+	add	r3, r3, #1
+	str	r3, [r0, #60]
+.L91:
+	@ sp needed
+	pop	{r4, pc}
+	.size	_ZN4RTOS7channelIiLi10EE5writeEi, .-_ZN4RTOS7channelIiLi10EE5writeEi
+	.section	.text.startup._ZN9poll_task4mainEv,"axG",%progbits,_ZN9poll_task4mainEv,comdat
+	.align	1
+	.weak	_ZN9poll_task4mainEv
+	.code	16
+	.thumb_func
+	.type	_ZN9poll_task4mainEv, %function
+_ZN9poll_task4mainEv:
+	push	{r4, r5, r6, lr}
+	mov	r5, r0
+.L100:
+	ldr	r3, .L109+4
+	ldr	r2, .L109
+	mov	r0, r5
+	bl	_ZN4RTOS4task5sleepEx
+	ldr	r3, .L109+8
+	ldr	r2, [r3, #20]
+	lsl	r1, r2, #31
+	bpl	.L100
+.L102:
+	ldr	r2, [r3, #20]
+	lsl	r1, r2, #31
+	bpl	.L102
+	ldr	r3, .L109+8
+	ldr	r6, [r3]
+	uxtb	r6, r6
+	cmp	r6, #64
+	bne	.L103
+	bl	_ZN4RTOS18display_statisticsEv
+.L103:
+	mov	r3, #141
+	lsl	r3, r3, #2
+	ldr	r4, [r5, r3]
+	mov	r3, #142
+	lsl	r3, r3, #2
+	ldr	r0, [r4, r3]
+	mov	r3, #141
+	lsl	r3, r3, #2
+	add	r0, r0, r3
+	mov	r1, #1
+	bl	_ZN4RTOS7channelIiLi10EE5writeEi
+	mov	r1, #143
+	lsl	r1, r1, #2
+	add	r0, r4, r1
+	ldr	r2, [r0, #64]
+	cmp	r2, #99
+	bgt	.L104
+	ldr	r1, [r0, #56]
+	mov	r3, #161
+	add	r1, r1, #1
+	str	r1, [r0, #56]
+	ldr	r1, [r0, #68]
+	lsl	r3, r3, #2
+	add	r4, r4, r1
+	add	r4, r4, r3
+	add	r1, r1, #1
+	strb	r6, [r4, #4]
+	cmp	r1, #100
+	bne	.L108
+	mov	r1, #0
+.L108:
+	add	r2, r2, #1
+	str	r1, [r0, #68]
+	str	r2, [r0, #64]
+	bl	_ZN4RTOS8waitable3setEv
+	b	.L100
+.L104:
+	ldr	r2, [r0, #60]
+	add	r2, r2, #1
+	str	r2, [r0, #60]
+	b	.L100
+.L110:
+	.align	3
+.L109:
+	.word	12000
+	.word	0
+	.word	1073774592
+	.size	_ZN9poll_task4mainEv, .-_ZN9poll_task4mainEv
+	.section	.text.startup._ZN10morse_task4mainEv,"axG",%progbits,_ZN10morse_task4mainEv,comdat
+	.align	1
+	.weak	_ZN10morse_task4mainEv
+	.code	16
+	.thumb_func
+	.type	_ZN10morse_task4mainEv, %function
+_ZN10morse_task4mainEv:
+	push	{r0, r1, r4, r5, r6, lr}
+	mov	r5, r0
+.L112:
+	mov	r0, #143
+	lsl	r0, r0, #2
+	add	r4, r5, r0
+	ldr	r3, [r4, #64]
+	cmp	r3, #0
+	bne	.L113
+	ldr	r1, [r4, #4]
+	mov	r3, #145
+	add	r1, r1, #177
+	lsl	r3, r3, #2
+	add	r1, r1, #255
+	ldr	r2, [r5, r3]
+	mov	r0, sp
+	bl	_ZN4RTOS12waitable_set4waitEj
+.L113:
+	ldr	r2, [r4, #64]
+	cmp	r2, #0
+	bne	.L114
+	ldr	r1, .L126+8
+	ldr	r0, .L126+12
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L126+16
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L126+20
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L115:
+	b	.L115
+.L114:
+	ldr	r3, [r4, #72]
+	mov	r0, #161
+	add	r1, r5, r3
+	lsl	r0, r0, #2
+	add	r1, r1, r0
+	add	r3, r3, #1
+	ldrb	r6, [r1, #4]
+	cmp	r3, #100
+	bne	.L125
+	mov	r3, #0
+.L125:
+	str	r3, [r4, #72]
+	sub	r3, r2, #1
+	str	r3, [r4, #64]
+	mov	r0, r4
+	cmp	r3, #0
+	ble	.L118
+	bl	_ZN4RTOS8waitable3setEv
+	b	.L119
+.L118:
+	bl	_ZN4RTOS8waitable5clearEv
+.L119:
+	mov	r3, #142
+	lsl	r3, r3, #2
+	ldr	r0, [r5, r3]
+	mov	r3, #141
+	lsl	r3, r3, #2
+	mov	r1, #1
+	add	r0, r0, r3
+	neg	r1, r1
+	bl	_ZN4RTOS7channelIiLi10EE5writeEi
+	cmp	r6, #32
+	bne	.L120
+	mov	r0, r5
+	ldr	r3, .L126+4
+	ldr	r2, .L126
+	bl	_ZN4RTOS4task5sleepEx
+	b	.L112
+.L120:
+	mov	r0, r6
+	bl	_Z5morsec
+	mov	r3, #141
+	lsl	r3, r3, #2
+	ldr	r2, [r5, r3]
+	mov	r1, #164
+	lsl	r1, r1, #2
+	add	r3, r2, r1
+	ldr	r4, [r3, #28]
+	str	r0, [r3, #40]
+	ldr	r0, [r3, #4]
+	add	r4, r4, #1
+	str	r4, [r3, #28]
+	cmp	r0, #0
+	beq	.L122
+	mov	r2, #0
+	str	r2, [r3, #4]
+	bl	_ZN4RTOS4task7unblockEv
+	b	.L112
+.L122:
+	ldr	r4, [r2, r1]
+	cmp	r4, #0
+	beq	.L123
+	ldr	r1, .L126+8
+	ldr	r0, .L126+12
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L126+24
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L126+20
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L124:
+	b	.L124
+.L123:
+	ldr	r3, .L126+28
+	ldr	r0, [r3]
+	str	r0, [r2, r1]
+	bl	_ZN4RTOS4task5blockEv
+	b	.L112
+.L127:
+	.align	3
+.L126:
+	.word	33600000
+	.word	0
+	.word	.LC4
+	.word	_ZN5hwcpp2io4coutE
+	.word	.LC27
+	.word	.LC8
+	.word	.LC30
+	.word	_ZN4RTOS17rtos_current_taskE
+	.size	_ZN10morse_task4mainEv, .-_ZN10morse_task4mainEv
+	.section	.text.startup._ZN8bar_task4mainEv,"axG",%progbits,_ZN8bar_task4mainEv,comdat
+	.align	1
+	.weak	_ZN8bar_task4mainEv
+	.code	16
+	.thumb_func
+	.type	_ZN8bar_task4mainEv, %function
+_ZN8bar_task4mainEv:
+	push	{r4, r5, r6, r7, lr}
+	mov	r3, #170
+	mov	r1, #0
+	lsl	r3, r3, #2
+	str	r1, [r0, r3]
+	mov	r4, r0
+	mov	r0, #141
+	lsl	r0, r0, #2
+	add	r5, r4, r0
+	mov	r0, r5
+	sub	sp, sp, #20
+	bl	_ZN4RTOS7channelIiLi10EE5writeEi
+	ldr	r2, .L141
+	mov	r0, #128
+	ldr	r3, [r2, #124]
+	lsl	r0, r0, #9
+	orr	r3, r0
+	str	r3, [r2, #124]
+	ldr	r3, .L141+4
+	mov	r1, #7
+	ldr	r6, [r3]
+	mov	r7, #128
+	bic	r6, r1
+	orr	r6, r7
+	str	r6, [r3]
+	ldr	r3, .L141+8
+	mov	r7, #16
+	ldr	r6, [r3]
+	orr	r6, r7
+	str	r6, [r3]
+	ldr	r6, [r2, #124]
+	orr	r6, r0
+	str	r6, [r2, #124]
+	ldr	r6, .L141+12
+	ldr	r7, [r6]
+	bic	r7, r1
+	str	r7, [r6]
+	ldr	r6, [r3]
+	mov	r7, #32
+	orr	r6, r7
+	str	r6, [r3]
+	ldr	r6, [r2, #124]
+	orr	r6, r0
+	str	r6, [r2, #124]
+	ldr	r6, .L141+16
+	ldr	r7, [r6]
+	bic	r7, r1
+	str	r7, [r6]
+	ldr	r7, [r3]
+	mov	r6, #128
+	lsl	r6, r6, #1
+	orr	r6, r7
+	str	r6, [r3]
+	ldr	r6, [r2, #124]
+	orr	r0, r6
+	str	r0, [r2, #124]
+	ldr	r2, .L141+20
+	ldr	r0, [r2]
+	bic	r0, r1
+	str	r0, [r2]
+	ldr	r1, [r3]
+	mov	r2, #128
+	lsl	r2, r2, #2
+	orr	r2, r1
+	str	r2, [r3]
+.L139:
+	ldr	r1, [r5, #64]
+	cmp	r1, #0
+	bne	.L129
+	ldr	r1, [r5, #4]
+	mov	r3, #143
+	add	r1, r1, #177
+	lsl	r3, r3, #2
+	add	r1, r1, #255
+	ldr	r2, [r4, r3]
+	add	r0, sp, #8
+	bl	_ZN4RTOS12waitable_set4waitEj
+.L129:
+	ldr	r2, [r5, #64]
+	ldr	r7, .L141+24
+	cmp	r2, #0
+	bne	.L130
+	ldr	r1, .L141+28
+	mov	r0, r7
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L141+32
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, .L141+36
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+.L131:
+	b	.L131
+.L130:
+	ldr	r3, [r5, #72]
+	mov	r0, #141
+	mov	r1, r3
+	add	r1, r1, #18
+	lsl	r1, r1, #2
+	add	r1, r4, r1
+	lsl	r0, r0, #2
+	add	r1, r1, r0
+	ldr	r1, [r1, #4]
+	add	r3, r3, #1
+	str	r1, [sp, #4]
+	cmp	r3, #10
+	bne	.L140
+	mov	r3, #0
+.L140:
+	str	r3, [r5, #72]
+	sub	r3, r2, #1
+	str	r3, [r5, #64]
+	mov	r0, r5
+	cmp	r3, #0
+	ble	.L134
+	bl	_ZN4RTOS8waitable3setEv
+	b	.L135
+.L134:
+	bl	_ZN4RTOS8waitable5clearEv
+.L135:
+	mov	r6, #170
+	lsl	r6, r6, #2
+	ldr	r2, [sp, #4]
+	ldr	r1, [r4, r6]
+	mov	r0, r7
+	add	r3, r1, r2
+	str	r3, [r4, r6]
+	ldr	r1, .L141+40
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r1, [r4, r6]
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEi
+	ldr	r1, .L141+44
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	ldr	r3, [r4, r6]
+	asr	r2, r3, #31
+	sub	r3, r2, r3
+	ldr	r2, .L141+48
+	asr	r3, r3, #31
+	str	r3, [r2]
+	ldr	r0, [r4, r6]
+	mov	r3, #1
+	cmp	r0, r3
+	bgt	.L136
+	mov	r3, #0
+.L136:
+	ldr	r2, .L141+52
+	neg	r3, r3
+	str	r3, [r2]
+	ldr	r2, [r4, r6]
+	mov	r3, #1
+	cmp	r2, #2
+	bgt	.L137
+	mov	r3, #0
+.L137:
+	ldr	r2, .L141+56
+	neg	r3, r3
+	str	r3, [r2]
+	mov	r2, #170
+	lsl	r2, r2, #2
+	ldr	r2, [r4, r2]
+	mov	r3, #1
+	cmp	r2, #3
+	bgt	.L138
+	mov	r3, #0
+.L138:
+	ldr	r2, .L141+60
+	neg	r3, r3
+	str	r3, [r2]
+	mov	r3, #143
+	lsl	r3, r3, #2
+	ldr	r2, [r4, r3]
+	mov	r3, #216
+	lsl	r3, r3, #1
+	add	r0, sp, #8
+	add	r1, r4, r3
+	bl	_ZN4RTOS12waitable_set4waitEj
+	b	.L139
+.L142:
+	.align	2
+.L141:
+	.word	1074036740
+	.word	1074020500
+	.word	1342275584
+	.word	1074020512
+	.word	1074020372
+	.word	1074020408
+	.word	_ZN5hwcpp2io4coutE
+	.word	.LC4
+	.word	.LC27
+	.word	.LC8
+	.word	.LC37
+	.word	.LC39
+	.word	1342242880
+	.word	1342242944
+	.word	1342243840
+	.word	1342244864
+	.size	_ZN8bar_task4mainEv, .-_ZN8bar_task4mainEv
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv:
+	ldr	r3, .L146
+	mov	r2, #1
+	str	r2, [r3, #120]
+	ldr	r1, [r3, #112]
+	mov	r0, #3
+	bic	r1, r0
+	str	r1, [r3, #112]
+	ldr	r1, [r3, #116]
+	bic	r1, r2
+	str	r1, [r3, #116]
+	ldr	r1, [r3, #116]
+	orr	r2, r1
+	str	r2, [r3, #116]
+	mov	r2, #142
+	lsl	r2, r2, #2
+	ldr	r0, [r3, r2]
+	mov	r1, #128
+	orr	r0, r1
+	str	r0, [r3, r2]
+	mov	r0, #35
+	str	r0, [r3, #8]
+	ldr	r0, [r3, r2]
+	bic	r0, r1
+	str	r0, [r3, r2]
+.L145:
+	ldr	r0, [r3, #12]
+	mov	r1, #1
+	ldr	r2, .L146
+	tst	r0, r1
+	beq	.L145
+	mov	r3, #3
+	str	r3, [r2, #112]
+	ldr	r3, [r2, #116]
+	@ sp needed
+	bic	r3, r1
+	str	r3, [r2, #116]
+	ldr	r3, [r2, #116]
+	orr	r1, r3
+	str	r1, [r2, #116]
+	bx	lr
+.L147:
+	.align	2
+.L146:
+	.word	1074036736
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	.global	__aeabi_uidiv
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv:
+	push	{r3, r4, r5, lr}
+	bl	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	ldr	r3, .L154
+	mov	r2, #128
+	lsl	r2, r2, #14
+	str	r2, [r3, #124]
+	ldr	r3, .L154+4
+	mov	r2, #128
+	ldr	r1, [r3, #124]
+	lsl	r2, r2, #9
+	orr	r2, r1
+	str	r2, [r3, #124]
+	ldr	r2, [r3, #124]
+	mov	r0, #128
+	lsl	r0, r0, #5
+	orr	r2, r0
+	str	r2, [r3, #124]
+	ldr	r2, .L154+8
+	mov	r5, #7
+	ldr	r1, [r2]
+	bic	r1, r5
+	str	r1, [r2]
+	ldr	r4, [r2]
+	mov	r1, #1
+	orr	r4, r1
+	str	r4, [r2]
+	ldr	r2, .L154+12
+	ldr	r4, [r2]
+	bic	r4, r5
+	str	r4, [r2]
+	ldr	r4, [r2]
+	orr	r4, r1
+	str	r4, [r2]
+	ldr	r2, [r3, #124]
+	ldr	r4, .L154+16
+	orr	r0, r2
+	str	r0, [r3, #124]
+	mov	r3, #131
+	str	r3, [r4, #12]
+	ldr	r3, .L154+20
+	ldr	r0, .L154+24
+	str	r1, [r3]
+	ldr	r3, .L154+28
+	mov	r1, #150
+	ldr	r3, [r3, #120]
+	lsl	r1, r1, #12
+	mul	r1, r3
+	bl	__aeabi_uidiv
+	lsr	r3, r0, #8
+	str	r3, [r4, #4]
+	uxtb	r0, r0
+	mov	r3, #3
+	str	r0, [r4]
+	str	r3, [r4, #12]
+	str	r5, [r4, #8]
+	ldr	r3, [r4, #20]
+.L151:
+	ldr	r2, [r4, #20]
+	mov	r3, #96
+	and	r3, r2
+	cmp	r3, #96
+	bne	.L151
+.L150:
+	ldr	r3, [r4, #20]
+	lsl	r2, r3, #31
+	bpl	.L153
+	ldr	r3, .L154+16
+	ldr	r3, [r3]
+	b	.L150
+.L153:
+	@ sp needed
+	pop	{r3, r4, r5, pc}
+.L155:
+	.align	2
+.L154:
+	.word	-536813308
+	.word	1074036740
+	.word	1074020516
+	.word	1074020520
+	.word	1073774592
+	.word	1074036888
+	.word	48000000
+	.word	1074036736
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	.section	.text.startup.main,"ax",%progbits
+	.align	1
+	.global	main
+	.code	16
+	.thumb_func
+	.type	main, %function
+main:
+	push	{r4, r5, r6, r7, lr}
+	ldr	r4, .L157+8
+	mov	r6, #141
+	add	sp, sp, r4
+	bl	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	ldr	r5, .L157+12
+	ldr	r3, .L157+16
+	add	r7, sp, #1020
+	add	r7, r7, #244
+	str	r3, [r5, #16]
+	ldr	r1, .L157+20
+	mov	r0, r5
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	mov	r0, r7
+	mov	r1, #0
+	ldr	r2, .L157+24
+	bl	_ZN4RTOS4taskC2EjPKc
+	ldr	r3, .L157+28
+	add	r2, sp, #1020
+	add	r2, r2, #244
+	str	r3, [r2]
+	mov	r0, #229
+	ldr	r3, .L157+32
+	lsl	r0, r0, #3
+	mov	r1, r7
+	str	r3, [sp]
+	add	r0, r0, sp
+	ldr	r3, .L157+4
+	ldr	r2, .L157
+	bl	_ZN4RTOS5clockC1EPNS_4taskExPKc
+	mov	r0, #240
+	lsl	r0, r0, #3
+	ldr	r1, .L157+36
+	add	r0, r0, sp
+	bl	_ZN4RTOS12mailbox_baseC2EPKc
+	mov	r1, #3
+	ldr	r2, .L157+40
+	add	r0, sp, #576
+	bl	_ZN4RTOS4taskC2EjPKc
+	ldr	r3, .L157+44
+	add	r0, sp, #1020
+	add	r1, sp, #576
+	ldr	r2, .L157+48
+	add	r0, r0, #120
+	mov	r4, #246
+	str	r3, [sp, #576]
+	lsl	r4, r4, #3
+	bl	_ZN4RTOS12channel_baseC2EPNS_4taskEPKc
+	ldr	r3, .L157+52
+	add	r4, r4, sp
+	lsl	r6, r6, #2
+	add	r2, sp, #576
+	str	r3, [r2, r6]
+	mov	r1, #1
+	ldr	r2, .L157+56
+	mov	r0, r4
+	bl	_ZN4RTOS4taskC2EjPKc
+	mov	r2, #246
+	ldr	r3, .L157+60
+	lsl	r2, r2, #3
+	add	r2, r2, sp
+	str	r3, [r2]
+	ldr	r0, .L157+64
+	mov	r3, #142
+	lsl	r3, r3, #2
+	add	r2, sp, #576
+	str	r2, [r4, r3]
+	mov	r1, r4
+	ldr	r2, .L157+68
+	add	r0, r0, sp
+	str	r7, [r4, r6]
+	bl	_ZN4RTOS12channel_baseC2EPNS_4taskEPKc
+	ldr	r2, .L157+72
+	mov	r3, #143
+	lsl	r3, r3, #2
+	str	r2, [r4, r3]
+	mov	r1, #1
+	ldr	r2, .L157+76
+	add	r0, sp, #8
+	bl	_ZN4RTOS4taskC2EjPKc
+	ldr	r7, .L157+80
+	add	r3, sp, #8
+	str	r4, [r3, r6]
+	str	r7, [sp, #8]
+	bl	_ZN4RTOS3runEv
+	mov	r0, r5
+	ldr	r1, .L157+84
+	bl	_ZN5hwcpp2iolsERNS0_7ostreamEPKc
+	add	r0, sp, #8
+	str	r7, [sp, #8]
+	bl	_ZN4RTOS4taskD2Ev
+.L158:
+	.align	3
+.L157:
+	.word	12000
+	.word	0
+	.word	-2724
+	.word	_ZN5hwcpp2io4coutE
+	.word	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.word	.LC43
+	.word	.LC45
+	.word	_ZTV9beep_task+8
+	.word	.LC48
+	.word	.LC50
+	.word	.LC52
+	.word	_ZTV8bar_task+8
+	.word	.LC55
+	.word	_ZTVN4RTOS7channelIiLi10EEE+8
+	.word	.LC58
+	.word	_ZTV10morse_task+8
+	.word	2540
+	.word	.LC61
+	.word	_ZTVN4RTOS7channelIcLi100EEE+8
+	.word	.LC64
+	.word	_ZTV9poll_task+8
+	.word	.LC67
+	.size	main, .-main
+	.weak	_ZTVN4RTOS12channel_baseE
+	.section	.rodata._ZTVN4RTOS12channel_baseE,"aG",%progbits,_ZTVN4RTOS12channel_baseE,comdat
+	.align	3
+	.type	_ZTVN4RTOS12channel_baseE, %object
+	.size	_ZTVN4RTOS12channel_baseE, 12
+_ZTVN4RTOS12channel_baseE:
+	.word	0
+	.word	0
+	.word	_ZN4RTOS8waitable5clearEv
+	.weak	_ZTV9beep_task
+	.section	.rodata._ZTV9beep_task,"aG",%progbits,_ZTV9beep_task,comdat
+	.align	3
+	.type	_ZTV9beep_task, %object
+	.size	_ZTV9beep_task, 20
+_ZTV9beep_task:
+	.word	0
+	.word	0
+	.word	_ZN9beep_task4mainEv
+	.word	_ZN4RTOS4task7suspendEv
+	.word	_ZN4RTOS4task6resumeEv
+	.weak	_ZTVN4RTOS7channelIiLi10EEE
+	.section	.rodata._ZTVN4RTOS7channelIiLi10EEE,"aG",%progbits,_ZTVN4RTOS7channelIiLi10EEE,comdat
+	.align	3
+	.type	_ZTVN4RTOS7channelIiLi10EEE, %object
+	.size	_ZTVN4RTOS7channelIiLi10EEE, 12
+_ZTVN4RTOS7channelIiLi10EEE:
+	.word	0
+	.word	0
+	.word	_ZN4RTOS7channelIiLi10EE5clearEv
+	.weak	_ZTV8bar_task
+	.section	.rodata._ZTV8bar_task,"aG",%progbits,_ZTV8bar_task,comdat
+	.align	3
+	.type	_ZTV8bar_task, %object
+	.size	_ZTV8bar_task, 20
+_ZTV8bar_task:
+	.word	0
+	.word	0
+	.word	_ZN8bar_task4mainEv
+	.word	_ZN4RTOS4task7suspendEv
+	.word	_ZN4RTOS4task6resumeEv
+	.weak	_ZTVN4RTOS7channelIcLi100EEE
+	.section	.rodata._ZTVN4RTOS7channelIcLi100EEE,"aG",%progbits,_ZTVN4RTOS7channelIcLi100EEE,comdat
+	.align	3
+	.type	_ZTVN4RTOS7channelIcLi100EEE, %object
+	.size	_ZTVN4RTOS7channelIcLi100EEE, 12
+_ZTVN4RTOS7channelIcLi100EEE:
+	.word	0
+	.word	0
+	.word	_ZN4RTOS7channelIcLi100EE5clearEv
+	.weak	_ZTV10morse_task
+	.section	.rodata._ZTV10morse_task,"aG",%progbits,_ZTV10morse_task,comdat
+	.align	3
+	.type	_ZTV10morse_task, %object
+	.size	_ZTV10morse_task, 20
+_ZTV10morse_task:
+	.word	0
+	.word	0
+	.word	_ZN10morse_task4mainEv
+	.word	_ZN4RTOS4task7suspendEv
+	.word	_ZN4RTOS4task6resumeEv
+	.weak	_ZTV9poll_task
+	.section	.rodata._ZTV9poll_task,"aG",%progbits,_ZTV9poll_task,comdat
+	.align	3
+	.type	_ZTV9poll_task, %object
+	.size	_ZTV9poll_task, 20
+_ZTV9poll_task:
+	.word	0
+	.word	0
+	.word	_ZN9poll_task4mainEv
+	.word	_ZN4RTOS4task7suspendEv
+	.word	_ZN4RTOS4task6resumeEv
+	.weak	_ZN5hwcpp2io4coutE
+	.section	.data._ZN5hwcpp2io4coutE,"aw",%progbits
+	.align	2
+	.type	_ZN5hwcpp2io4coutE, %object
+	.size	_ZN5hwcpp2io4coutE, 20
+_ZN5hwcpp2io4coutE:
+	.word	0
+	.word	10
+	.byte	32
+	.byte	65
+	.byte	1
+	.byte	0
+	.byte	0
+	.byte	0
+	.space	2
+	.word	0
+	.section	.rodata.str1.1,"aMS",%progbits,1
+.LC4:
+	.ascii	"\012 >> Fatal error: \000"
+.LC6:
+	.ascii	"task destructor called\000"
+.LC8:
+	.ascii	"\012\000"
+.LC13:
+	.ascii	"channel destructor called\000"
+.LC18:
+	.ascii	"second reader for mailbox\000"
+.LC22:
+	.ascii	"\000"
+.LC27:
+	.ascii	"channel should not be empty now\000"
+.LC30:
+	.ascii	"second writer for mailbox\000"
+.LC37:
+	.ascii	"value is: \000"
+.LC39:
+	.ascii	"\012\012\000"
+.LC43:
+	.ascii	"RTOS demo\012\012\000"
+.LC45:
+	.ascii	"beep\000"
+.LC48:
+	.ascii	"interval\000"
+.LC50:
+	.ascii	"morse_mailbox\000"
+.LC52:
+	.ascii	"bar\000"
+.LC55:
+	.ascii	"bar_indicator\000"
+.LC58:
+	.ascii	"morse\000"
+.LC61:
+	.ascii	"store\000"
+.LC64:
+	.ascii	"poll\000"
+.LC67:
+	.ascii	"back in main\000"
+.LC69:
+	.ascii	".-\000"
+.LC70:
+	.ascii	"-...\000"
+.LC71:
+	.ascii	"-.-.\000"
+.LC72:
+	.ascii	"-..\000"
+.LC73:
+	.ascii	".\000"
+.LC74:
+	.ascii	"..-.\000"
+.LC75:
+	.ascii	"--.\000"
+.LC76:
+	.ascii	"....\000"
+.LC77:
+	.ascii	"..\000"
+.LC78:
+	.ascii	".---\000"
+.LC79:
+	.ascii	"-.-\000"
+.LC80:
+	.ascii	".-..\000"
+.LC81:
+	.ascii	"--\000"
+.LC82:
+	.ascii	"-.\000"
+.LC83:
+	.ascii	"---\000"
+.LC84:
+	.ascii	".--.\000"
+.LC85:
+	.ascii	"--.-\000"
+.LC86:
+	.ascii	".-.\000"
+.LC87:
+	.ascii	"...\000"
+.LC88:
+	.ascii	"-\000"
+.LC89:
+	.ascii	"..-\000"
+.LC90:
+	.ascii	"...-\000"
+.LC91:
+	.ascii	".--\000"
+.LC92:
+	.ascii	"-..-\000"
+.LC93:
+	.ascii	"-.--\000"
+.LC94:
+	.ascii	"--..\000"
+	.section	.rodata.CSWTCH.80,"a",%progbits
+	.align	2
+	.set	.LANCHOR0,. + 0
+	.type	CSWTCH.80, %object
+	.size	CSWTCH.80, 104
+CSWTCH.80:
+	.word	.LC69
+	.word	.LC70
+	.word	.LC71
+	.word	.LC72
+	.word	.LC73
+	.word	.LC74
+	.word	.LC75
+	.word	.LC76
+	.word	.LC77
+	.word	.LC78
+	.word	.LC79
+	.word	.LC80
+	.word	.LC81
+	.word	.LC82
+	.word	.LC83
+	.word	.LC84
+	.word	.LC85
+	.word	.LC86
+	.word	.LC87
+	.word	.LC88
+	.word	.LC89
+	.word	.LC90
+	.word	.LC91
+	.word	.LC92
+	.word	.LC93
+	.word	.LC94
+	.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-branch revision 208322]"

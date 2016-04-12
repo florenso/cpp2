@@ -1,0 +1,808 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+                              main.o (__aeabi_uidiv)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+                              pRTOS.o (__aeabi_idiv)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o)
+                              pRTOS.o (__aeabi_ldivmod)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o) (__aeabi_lmul)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o) (__divdi3)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o) (__udivdi3)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_clzsi2.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+__dso_handle        0x4               cortex_startup.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 switch_to.o
+ .bss           0x00000000        0x0 switch_to.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .group         0x00000000        0x8 pRTOS.o
+ .text          0x00000000        0x0 pRTOS.o
+ .data          0x00000000        0x0 pRTOS.o
+ .bss           0x00000000        0x0 pRTOS.o
+ .text._ZSt3hexRSt8ios_base
+                0x00000000       0x10 pRTOS.o
+ .text._ZNK4RTOS5eventeqERKS0_
+                0x00000000       0x40 pRTOS.o
+ .text._ZNK4RTOS5eventneERKS0_
+                0x00000000       0x40 pRTOS.o
+ .text._ZNK4RTOS5eventeqERKNS_8waitableE
+                0x00000000       0x12 pRTOS.o
+ .text._ZNK4RTOS5eventneERKNS_8waitableE
+                0x00000000       0x12 pRTOS.o
+ .text._ZNK4RTOS5eventplERKS0_
+                0x00000000       0x3c pRTOS.o
+ .text._ZNK4RTOS5event5printERN5hwcpp2io7ostreamE
+                0x00000000       0x6c pRTOS.o
+ .text._ZN4RTOS5timer3setEx
+                0x00000000        0xc pRTOS.o
+ .text._ZN4RTOS5mutexD2Ev
+                0x00000000       0x28 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS4taskE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS4flagE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS5eventE
+                0x00000000       0x10 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS5timerE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS5clockE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS12channel_baseE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS5mutexE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS12mailbox_baseE
+                0x00000000       0x12 pRTOS.o
+ .text._ZlsRN5hwcpp2io7ostreamERKN4RTOS9pool_baseE
+                0x00000000       0x12 pRTOS.o
+ .text._ZN4RTOS8run_timeEv
+                0x00000000        0x8 pRTOS.o
+ .text._ZNK4RTOS4task4nameEv
+                0x00000000        0x4 pRTOS.o
+ .text._ZN4RTOS3addEPNS_4flagE
+                0x00000000       0x10 pRTOS.o
+ .text._ZN4RTOS4flagC2EPNS_4taskEPKc
+                0x00000000       0x20 pRTOS.o
+ .text._ZN4RTOS3addEPNS_5mutexE
+                0x00000000       0x10 pRTOS.o
+ .text._ZN4RTOS5mutexC2EPKc
+                0x00000000       0x20 pRTOS.o
+ .text._ZN4RTOS3addEPNS_9pool_baseE
+                0x00000000       0x10 pRTOS.o
+ .text._ZN4RTOS9pool_baseC2EPKc
+                0x00000000       0x1e pRTOS.o
+ .text._ZN4RTOS4flag3setEv
+                0x00000000       0x16 pRTOS.o
+ .text._ZN4RTOS5mutex6signalEv
+                0x00000000       0x50 pRTOS.o
+ .text._ZN4RTOS5mutex4waitEv
+                0x00000000       0x3c pRTOS.o
+ .text._ZN4RTOS19do_statistics_clearEv
+                0x00000000       0x2c pRTOS.o
+ .rodata._ZTVN4RTOS4flagE
+                0x00000000       0x10 pRTOS.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .group         0x00000000        0x8 main.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text._ZN4RTOS8waitable5clearEv
+                0x00000000       0x10 main.o
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEPKc
+                0x00000000       0x46 main.o
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEi
+                0x00000000       0xd2 main.o
+ .text._ZN4RTOS12channel_baseD2Ev
+                0x00000000       0x30 main.o
+ .rodata._ZTVN4RTOS12channel_baseE
+                0x00000000       0x10 main.o
+ .data._ZN5hwcpp2io4coutE
+                0x00000000       0x14 main.o
+ .text          0x00000000        0x0 cortex_startup.o
+ .data          0x00000000        0x0 cortex_startup.o
+ .bss           0x00000000        0x0 cortex_startup.o
+ COMMON         0x00000000        0x4 cortex_startup.o
+ .group         0x00000000        0x8 cortex.o
+ .group         0x00000000        0x8 cortex.o
+ .group         0x00000000        0x8 cortex.o
+ .text          0x00000000        0x0 cortex.o
+ .data          0x00000000        0x0 cortex.o
+ .bss           0x00000000        0x0 cortex.o
+ .text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+                0x00000000       0x50 cortex.o
+ .text._ZN5bmptk4waitEx
+                0x00000000       0x1e cortex.o
+ .data._ZN5hwcpp2io4coutE
+                0x00000000       0x14 cortex.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x10000000         0x00001000         xrw
+nul              0x20000000         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD switch_to.o
+LOAD pRTOS.o
+LOAD main.o
+LOAD cortex_startup.o
+LOAD cortex.o
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libstdc++.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+END GROUP
+                0x00000c00                __main_stack_size = 0xc00
+                0x00000000                __process_stack_size = 0x0
+                [0x00000c00]                PROVIDE (__main_stack_size, __main_stack_size)
+                [0x00000000]                PROVIDE (__process_stack_size, __process_stack_size)
+                0x00000000                __rom_start = ORIGIN (rom)
+                0x00008000                __rom_size = 0x8000
+                0x00008000                __rom_end = (__rom_start + __rom_size)
+                0x10000000                __ram_start = ORIGIN (ram)
+                0x00001000                __ram_size = 0x1000
+                0x10001000                __ram_end = (__ram_start + __ram_size)
+                [0x00000000]                PROVIDE (__rom_start, __rom_start)
+                [0x00008000]                PROVIDE (__rom_size, __rom_size)
+                [0x00008000]                PROVIDE (__rom_end, __rom_end)
+                [0x10000000]                PROVIDE (__ram_start, __ram_start)
+                [0x00001000]                PROVIDE (__ram_size, __ram_size)
+                [0x10001000]                PROVIDE (__ram_end, __ram_end)
+
+.text           0x00000000     0x2a4c
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                __text_start = .
+                [0x00000000]                PROVIDE (__text_start, __text_start)
+                0x00000000                . = ALIGN (0x4)
+ *(.vectors)
+ .vectors       0x00000000       0x20 cortex_startup.o
+                0x00000000                __vectors
+                0x00000020                . = ALIGN (0x4)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000020       0x24 switch_to.o
+                0x00000020                switch_from_to
+ .text._ZN4RTOS8callback6cancelEv
+                0x00000044        0xa pRTOS.o
+                0x00000044                RTOS::callback::cancel()
+ .text._ZN5hwcpp2io7ostream4putcEc.isra.2
+                0x0000004e        0xc pRTOS.o
+ .text._ZN5hwcpp2io7ostream7reverse10add_prefixERKS1_
+                0x0000005a       0x4e pRTOS.o
+                0x0000005a                hwcpp::io::ostream::reverse::add_prefix(hwcpp::io::ostream const&)
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEPKc
+                0x000000a8       0x44 pRTOS.o
+                0x000000a8                hwcpp::io::operator<<(hwcpp::io::ostream&, char const*)
+ .text._Z15task_trampolinev
+                0x000000ec       0x48 pRTOS.o
+                0x000000ec                task_trampoline()
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEi
+                0x00000134       0x8e pRTOS.o
+                0x00000134                hwcpp::io::operator<<(hwcpp::io::ostream&, int)
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEx
+                0x000001c2       0xb2 pRTOS.o
+                0x000001c2                hwcpp::io::operator<<(hwcpp::io::ostream&, long long)
+ .text._ZN5hwcpp2iolsERNS0_7ostreamEj
+                0x00000274        0xc pRTOS.o
+                0x00000274                hwcpp::io::operator<<(hwcpp::io::ostream&, unsigned int)
+ .text._Z12nr_from_maskj
+                0x00000280       0x1a pRTOS.o
+                0x00000280                nr_from_mask(unsigned int)
+ .text._Z8strncopyPciPKc
+                0x0000029a       0x1c pRTOS.o
+                0x0000029a                strncopy(char*, int, char const*)
+ *fill*         0x000002b6        0x2 
+ .text._ZNK4RTOS4task12stack_unusedEv
+                0x000002b8       0x1c pRTOS.o
+                0x000002b8                RTOS::task::stack_unused() const
+ .text._ZNK4RTOS4task5printERN5hwcpp2io7ostreamEb
+                0x000002d4      0x154 pRTOS.o
+                0x000002d4                RTOS::task::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS4flag5printERN5hwcpp2io7ostreamEb
+                0x00000428       0xe0 pRTOS.o
+                0x00000428                RTOS::flag::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS5timer5printERN5hwcpp2io7ostreamEb
+                0x00000508       0xe4 pRTOS.o
+                0x00000508                RTOS::timer::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS5clock5printERN5hwcpp2io7ostreamEb
+                0x000005ec       0xe4 pRTOS.o
+                0x000005ec                RTOS::clock::print(hwcpp::io::ostream&, bool) const
+ .text._ZN4RTOS12waitable_set17waitable_allocateEv
+                0x000006d0       0x38 pRTOS.o
+                0x000006d0                RTOS::waitable_set::waitable_allocate()
+ .text._ZN4RTOS8waitableC2EPNS_4taskEPKc
+                0x00000708       0x2c pRTOS.o
+                0x00000708                RTOS::waitable::waitable(RTOS::task*, char const*)
+                0x00000708                RTOS::waitable::waitable(RTOS::task*, char const*)
+ .text._ZN4RTOS12waitable_set5clearERKNS_8waitableE
+                0x00000734        0xa pRTOS.o
+                0x00000734                RTOS::waitable_set::clear(RTOS::waitable const&)
+ .text._ZN4RTOS8waitable5clearEv
+                0x0000073e       0x10 pRTOS.o
+                0x0000073e                RTOS::waitable::clear()
+ .text._ZN4RTOS5clock5clearEv
+                0x0000074e        0x8 pRTOS.o
+                0x0000074e                RTOS::clock::clear()
+ .text._ZN4RTOS5timer6cancelEv
+                0x00000756       0x16 pRTOS.o
+                0x00000756                RTOS::timer::cancel()
+ .text._ZThn32_N4RTOS5timer6cancelEv
+                0x0000076c       0x10 pRTOS.o
+                0x0000076c                non-virtual thunk to RTOS::timer::cancel()
+ .text._ZNK4RTOS5mutex5printERN5hwcpp2io7ostreamEb
+                0x0000077c       0xd8 pRTOS.o
+                0x0000077c                RTOS::mutex::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS12channel_base5printERN5hwcpp2io7ostreamEb
+                0x00000854       0xf4 pRTOS.o
+                0x00000854                RTOS::channel_base::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS9pool_base5printERN5hwcpp2io7ostreamEb
+                0x00000948       0x94 pRTOS.o
+                0x00000948                RTOS::pool_base::print(hwcpp::io::ostream&, bool) const
+ .text._ZNK4RTOS12mailbox_base5printERN5hwcpp2io7ostreamEb
+                0x000009dc       0xe8 pRTOS.o
+                0x000009dc                RTOS::mailbox_base::print(hwcpp::io::ostream&, bool) const
+ .text._ZN4RTOS3addEPNS_5timerE
+                0x00000ac4       0x10 pRTOS.o
+                0x00000ac4                RTOS::add(RTOS::timer*)
+ .text._ZN4RTOS3addEPNS_5clockE
+                0x00000ad4       0x10 pRTOS.o
+                0x00000ad4                RTOS::add(RTOS::clock*)
+ .text._ZN4RTOS3addEPNS_12channel_baseE
+                0x00000ae4       0x10 pRTOS.o
+                0x00000ae4                RTOS::add(RTOS::channel_base*)
+ .text._ZN4RTOS12channel_baseC2EPNS_4taskEPKc
+                0x00000af4       0x34 pRTOS.o
+                0x00000af4                RTOS::channel_base::channel_base(RTOS::task*, char const*)
+                0x00000af4                RTOS::channel_base::channel_base(RTOS::task*, char const*)
+ .text._ZN4RTOS3addEPNS_12mailbox_baseE
+                0x00000b28       0x10 pRTOS.o
+                0x00000b28                RTOS::add(RTOS::mailbox_base*)
+ .text._ZN4RTOS12mailbox_baseC2EPKc
+                0x00000b38       0x22 pRTOS.o
+                0x00000b38                RTOS::mailbox_base::mailbox_base(char const*)
+                0x00000b38                RTOS::mailbox_base::mailbox_base(char const*)
+ *fill*         0x00000b5a        0x2 
+ .text._ZN4RTOS5printERN5hwcpp2io7ostreamE
+                0x00000b5c      0x1e0 pRTOS.o
+                0x00000b5c                RTOS::print(hwcpp::io::ostream&)
+ .text._ZN4RTOS4task7releaseEv
+                0x00000d3c       0x24 pRTOS.o
+                0x00000d3c                RTOS::task::release()
+ .text._ZN4RTOS4task7suspendEv
+                0x00000d60        0xc pRTOS.o
+                0x00000d60                RTOS::task::suspend()
+ .text._ZN4RTOS4task6resumeEv
+                0x00000d6c        0xc pRTOS.o
+                0x00000d6c                RTOS::task::resume()
+ .text._ZN4RTOS4task7unblockEv
+                0x00000d78        0xc pRTOS.o
+                0x00000d78                RTOS::task::unblock()
+ .text._ZN4RTOS12waitable_set3setERKNS_8waitableE
+                0x00000d84       0x18 pRTOS.o
+                0x00000d84                RTOS::waitable_set::set(RTOS::waitable const&)
+ .text._ZN4RTOS5clock7time_upEv
+                0x00000d9c       0x34 pRTOS.o
+                0x00000d9c                RTOS::clock::time_up()
+ .text._ZThn32_N4RTOS5clock7time_upEv
+                0x00000dd0       0x10 pRTOS.o
+                0x00000dd0                non-virtual thunk to RTOS::clock::time_up()
+ .text._ZN4RTOS5timer7time_upEv
+                0x00000de0       0x20 pRTOS.o
+                0x00000de0                RTOS::timer::time_up()
+                0x00000df0                non-virtual thunk to RTOS::timer::time_up()
+ .text._ZN4RTOS4task5blockEv
+                0x00000e00       0x68 pRTOS.o
+                0x00000e00                RTOS::task::block()
+ .text._ZN4RTOS12waitable_set4waitEj
+                0x00000e68       0x64 pRTOS.o
+                0x00000e68                RTOS::waitable_set::wait(unsigned int)
+ .text._ZN4RTOS4task5sleepEx
+                0x00000ecc       0x2c pRTOS.o
+                0x00000ecc                RTOS::task::sleep(long long)
+ .text._ZN4RTOS4beatEv
+                0x00000ef8      0x174 pRTOS.o
+                0x00000ef8                RTOS::beat()
+ .text._ZN4RTOS3runEv
+                0x0000106c       0x34 pRTOS.o
+                0x0000106c                RTOS::run()
+ .text._ZN4RTOS3addEPNS_8callbackE
+                0x000010a0       0x10 pRTOS.o
+                0x000010a0                RTOS::add(RTOS::callback*)
+ .text._ZN4RTOS8callbackC2EPKc
+                0x000010b0       0x28 pRTOS.o
+                0x000010b0                RTOS::callback::callback(char const*)
+                0x000010b0                RTOS::callback::callback(char const*)
+ .text._ZN4RTOS5timerC2EPNS_4taskEPKc
+                0x000010d8       0x34 pRTOS.o
+                0x000010d8                RTOS::timer::timer(RTOS::task*, char const*)
+                0x000010d8                RTOS::timer::timer(RTOS::task*, char const*)
+ .text._ZN4RTOS5clockC2EPNS_4taskExPKc
+                0x0000110c       0x40 pRTOS.o
+                0x0000110c                RTOS::clock::clock(RTOS::task*, long long, char const*)
+                0x0000110c                RTOS::clock::clock(RTOS::task*, long long, char const*)
+ .text._ZN4RTOS3addEPNS_4taskE
+                0x0000114c       0x88 pRTOS.o
+                0x0000114c                RTOS::add(RTOS::task*)
+ .text._ZN4RTOS4taskC2EjPKc
+                0x000011d4       0xa0 pRTOS.o
+                0x000011d4                RTOS::task::task(unsigned int, char const*)
+                0x000011d4                RTOS::task::task(unsigned int, char const*)
+ .text._ZN4RTOS18display_statisticsEv
+                0x00001274       0x18 pRTOS.o
+                0x00001274                RTOS::display_statistics()
+ .text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+                0x0000128c       0x10 main.o
+                0x0000128c                hwcpp::lpc1114_base<4096, 32768, 48000000>::uart<38400u>::put(char)
+ .text._ZN4RTOS7channelIcLi100EE5clearEv
+                0x0000129c       0x10 main.o
+                0x0000129c                RTOS::channel<char, 100>::clear()
+ .text._ZN4RTOS7channelIiLi10EE5clearEv
+                0x000012ac       0x10 main.o
+                0x000012ac                RTOS::channel<int, 10>::clear()
+ .text._ZN4RTOS8waitable3setEv
+                0x000012bc       0x10 main.o
+                0x000012bc                RTOS::waitable::set()
+ .text._ZN4RTOS4taskD2Ev
+                0x000012cc       0x30 main.o
+                0x000012cc                RTOS::task::~task()
+                0x000012cc                RTOS::task::~task()
+ *fill*         0x000012fc        0x4 
+ .text._ZN9beep_task4beepEx
+                0x00001300       0x80 main.o
+                0x00001300                beep_task::beep(long long)
+ .text.startup._ZN9beep_task4mainEv
+                0x00001380       0xc0 main.o
+                0x00001380                beep_task::main()
+ .text._Z5morsec
+                0x00001440       0x1c main.o
+                0x00001440                morse(char)
+ .text._ZN4RTOS7channelIiLi10EE5writeEi
+                0x0000145c       0x36 main.o
+                0x0000145c                RTOS::channel<int, 10>::write(int)
+ *fill*         0x00001492        0x6 
+ .text.startup._ZN9poll_task4mainEv
+                0x00001498       0x90 main.o
+                0x00001498                poll_task::main()
+ .text.startup._ZN10morse_task4mainEv
+                0x00001528      0x100 main.o
+                0x00001528                morse_task::main()
+ .text.startup._ZN8bar_task4mainEv
+                0x00001628      0x1a0 main.o
+                0x00001628                bar_task::main()
+ .text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+                0x000017c8       0x50 main.o
+                0x000017c8                hwcpp::lpc1114_base<4096, 32768, 48000000>::initialize_clock()
+ .text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+                0x00001818       0xac main.o
+                0x00001818                hwcpp::lpc1114_base<4096, 32768, 48000000>::uart<38400u>::init()
+ *fill*         0x000018c4        0x4 
+ .text.startup.main
+                0x000018c8      0x128 main.o
+                0x000018c8                main
+ .text.__startup
+                0x000019f0       0x54 cortex_startup.o
+                0x000019f0                __startup
+ .text.__cxa_pure_virtual
+                0x00001a44        0x2 cortex_startup.o
+                0x00001a44                __cxa_pure_virtual
+ *fill*         0x00001a46        0x2 
+ .text._ZN5bmptk3nowEv
+                0x00001a48       0x70 cortex.o
+                0x00001a48                bmptk::now()
+ .text          0x00001ab8       0x9c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00001ab8                __aeabi_uidiv
+                0x00001ab8                __udivsi3
+                0x00001b40                __aeabi_uidivmod
+ .text          0x00001b54       0xc0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+                0x00001b54                __divsi3
+                0x00001b54                __aeabi_idiv
+                0x00001c00                __aeabi_idivmod
+ .text          0x00001c14        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00001c14                __aeabi_idiv0
+                0x00001c14                __aeabi_ldiv0
+ .text          0x00001c18       0x48 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o)
+                0x00001c18                __aeabi_ldivmod
+ .text          0x00001c60       0x6c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+                0x00001c60                __gnu_ldivmod_helper
+                0x00001c98                __gnu_uldivmod_helper
+ .text          0x00001ccc       0x44 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+                0x00001ccc                __muldi3
+                0x00001ccc                __aeabi_lmul
+ .text          0x00001d10      0x3b8 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+                0x00001d10                __divdi3
+ .text          0x000020c8      0x384 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+                0x000020c8                __udivdi3
+ .text          0x0000244c       0x3c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_clzsi2.o)
+                0x0000244c                __clzsi2
+                0x00002488                . = ALIGN (0x4)
+ *(.glue_7t .glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x00002488                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZTVN4RTOS8waitableE
+                0x00002488       0x10 pRTOS.o
+                0x00002488                vtable for RTOS::waitable
+ .rodata._ZTVN4RTOS8callbackE
+                0x00002498       0x10 pRTOS.o
+                0x00002498                vtable for RTOS::callback
+ .rodata._ZTVN4RTOS12channel_baseE
+                0x000024a8       0x10 pRTOS.o
+                0x000024a8                vtable for RTOS::channel_base
+ .rodata._ZTVN4RTOS5clockE
+                0x000024b8       0x20 pRTOS.o
+                0x000024b8                vtable for RTOS::clock
+ .rodata.str1.1
+                0x000024d8      0x32c pRTOS.o
+                                0x332 (size before relaxing)
+ *fill*         0x00002804        0x4 
+ .rodata._ZTVN4RTOS5timerE
+                0x00002808       0x28 pRTOS.o
+                0x00002808                vtable for RTOS::timer
+ .rodata._ZTVN4RTOS4taskE
+                0x00002830       0x18 pRTOS.o
+                0x00002830                vtable for RTOS::task
+ .rodata._ZTV9beep_task
+                0x00002848       0x18 main.o
+                0x00002848                vtable for beep_task
+ .rodata._ZTVN4RTOS7channelIiLi10EEE
+                0x00002860       0x10 main.o
+                0x00002860                vtable for RTOS::channel<int, 10>
+ .rodata._ZTV8bar_task
+                0x00002870       0x18 main.o
+                0x00002870                vtable for bar_task
+ .rodata._ZTVN4RTOS7channelIcLi100EEE
+                0x00002888       0x10 main.o
+                0x00002888                vtable for RTOS::channel<char, 100>
+ .rodata._ZTV10morse_task
+                0x00002898       0x18 main.o
+                0x00002898                vtable for morse_task
+ .rodata._ZTV9poll_task
+                0x000028b0       0x18 main.o
+                0x000028b0                vtable for poll_task
+ .rodata.str1.1
+                0x000028c8      0x11b main.o
+                                0x16d (size before relaxing)
+ *fill*         0x000029e3        0x1 
+ .rodata.CSWTCH.80
+                0x000029e4       0x68 main.o
+                0x00002a4c                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002a4c                . = ALIGN (0x4)
+ *(.gcc_except_table)
+                0x00002a4c                . = ALIGN (0x4)
+ *(.eh_frame_hdr)
+                0x00002a4c                . = ALIGN (0x4)
+ *(.eh_frame)
+                0x00002a4c                . = ALIGN (0x4)
+                0x00002a4c                __text_end = .
+                [0x00002a4c]                PROVIDE (__text_end, __text_end)
+
+.vfp11_veneer   0x00002a4c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00002a4c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00002a4c        0x0
+ .iplt          0x00000000        0x0 pRTOS.o
+
+.IF_YOU_SEE_THIS_YOU_HAVE_ONE_OR_MORE_GLOBAL_OBJECT_CONSTRUCTORS
+ *(.init)
+ *(.preinit_array)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x00002a4c                . = ALIGN (0x4)
+                0x00002a4c                __exidx_start = .
+                [0x00002a4c]                PROVIDE (__exidx_start, __exidx_start)
+
+.ARM.exidx      0x00002a4c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00002a4c        0x8 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00002a54        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.rel.dyn        0x00002a54        0x0
+ .rel.iplt      0x00000000        0x0 pRTOS.o
+                0x00002a54                . = ALIGN (0x4)
+                0x00002a54                __exidx_end = .
+                [0x00002a54]                PROVIDE (__exidx_end, __exidx_end)
+
+.data           0x10000000       0x14 load address 0x00002a54
+                0x10000000                . = ALIGN (0x4)
+                0x00002a54                __data_init_start = LOADADDR (.data)
+                [0x00002a54]                PROVIDE (__data_init_start, __data_init_start)
+                0x10000000                __data_start = .
+                [0x10000000]                PROVIDE (__data_start, __data_start)
+                0x10000000                . = ALIGN (0x4)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data._ZN5hwcpp2io4coutE
+                0x10000000       0x14 pRTOS.o
+                0x10000000                hwcpp::io::cout
+                0x10000014                . = ALIGN (0x4)
+                0x10000014                __data_end = .
+                [0x10000014]                PROVIDE (__data_end, __data_end)
+
+.igot.plt       0x10000014        0x0 load address 0x00002a68
+ .igot.plt      0x00000000        0x0 pRTOS.o
+
+.bss            0x10000018       0x50
+                0x10000018                . = ALIGN (0x4)
+                0x10000018                __bss_start = .
+                [0x10000018]                PROVIDE (__bss_start, __bss_start)
+                0x10000018                . = ALIGN (0x4)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss._ZN4RTOS5flagsE
+                0x10000018        0x4 pRTOS.o
+                0x10000018                RTOS::flags
+ .bss._ZN4RTOS6clocksE
+                0x1000001c        0x4 pRTOS.o
+                0x1000001c                RTOS::clocks
+ .bss._ZN4RTOS10must_clearE
+                0x10000020        0x1 pRTOS.o
+                0x10000020                RTOS::must_clear
+ *fill*         0x10000021        0x3 
+ .bss._ZN4RTOS8taskListE
+                0x10000024        0x4 pRTOS.o
+                0x10000024                RTOS::taskList
+ .bss._ZN4RTOS7mutexesE
+                0x10000028        0x4 pRTOS.o
+                0x10000028                RTOS::mutexes
+ .bss._ZN4RTOS17rtos_current_taskE
+                0x1000002c        0x4 pRTOS.o
+                0x1000002c                RTOS::rtos_current_task
+ .bss._ZN4RTOS17scheduler_runningE
+                0x10000030        0x1 pRTOS.o
+                0x10000030                RTOS::scheduler_running
+ *fill*         0x10000031        0x3 
+ .bss._ZN4RTOS6timersE
+                0x10000034        0x4 pRTOS.o
+                0x10000034                RTOS::timers
+ .bss._ZN4RTOS5poolsE
+                0x10000038        0x4 pRTOS.o
+                0x10000038                RTOS::pools
+ .bss._ZN4RTOS9mailboxesE
+                0x1000003c        0x4 pRTOS.o
+                0x1000003c                RTOS::mailboxes
+ .bss._ZN4RTOS8channelsE
+                0x10000040        0x4 pRTOS.o
+                0x10000040                RTOS::channels
+ .bss.stored_main_stack_pointer
+                0x10000044        0x4 pRTOS.o
+                0x10000044                stored_main_stack_pointer
+ .bss.last_run_time
+                0x10000048        0x8 pRTOS.o
+                0x10000048                last_run_time
+ .bss._ZN4RTOS9timerListE
+                0x10000050        0x4 pRTOS.o
+                0x10000050                RTOS::timerList
+ *fill*         0x10000054        0x4 
+ .bss._ZZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE8timer_643nowEvE4high
+                0x10000058        0x8 cortex.o
+                0x10000058                hwcpp::lpc1114_base<4096, 32768, 48000000>::timer_64::now()::high
+ .bss._ZZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE8timer_643nowEvE8last_low
+                0x10000060        0x4 cortex.o
+                0x10000060                hwcpp::lpc1114_base<4096, 32768, 48000000>::timer_64::now()::last_low
+ .bss._ZZN5bmptk3nowEvE9init_done
+                0x10000064        0x1 cortex.o
+                0x10000068                . = ALIGN (0x4)
+ *fill*         0x10000065        0x3 
+ *(COMMON)
+                0x10000068                . = ALIGN (0x4)
+                0x10000068                __bss_end = .
+                [0x10000068]                PROVIDE (__bss_end, __bss_end)
+
+.stack          0x10000068      0xc00
+                0x10000068                . = ALIGN (0x8)
+                0x10000068                __stack_start = .
+                [0x10000068]                PROVIDE (__stack_start, __stack_start)
+                0x10000068                . = ALIGN (0x8)
+                0x10000068                __main_stack_start = .
+                [0x10000068]                PROVIDE (__main_stack_start, __main_stack_start)
+                0x10000c68                . = (. + __main_stack_size)
+ *fill*         0x10000068      0xc00 
+                0x10000c68                . = ALIGN (0x8)
+                0x10000c68                __main_stack_end = .
+                [0x10000c68]                PROVIDE (__main_stack_end, __main_stack_end)
+                0x10000c68                . = ALIGN (0x8)
+                0x10000c68                __process_stack_start = .
+                [0x10000c68]                PROVIDE (__process_stack_start, __process_stack_start)
+                0x10000c68                . = (. + __process_stack_size)
+                0x10000c68                . = ALIGN (0x8)
+                0x10000c68                __process_stack_end = .
+                [0x10000c68]                PROVIDE (__process_stack_end, __process_stack_end)
+                0x10000c68                . = ALIGN (0x8)
+                0x10000c68                __stack_end = .
+                [0x10000c68]                PROVIDE (__stack_end, __stack_end)
+                0x10000c68                . = ALIGN (0x4)
+                0x10000c68                __heap_start = .
+                [0x10000c68]                PROVIDE (__heap_start, __heap_start)
+                0x10000c68                . = ALIGN (0x4)
+                0x10001000                __heap_end = __ram_end
+                [0x10001000]                PROVIDE (__heap_end, __heap_end)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame    0x00000000      0x138
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000040       0x50 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000090       0x30 c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+ .debug_frame   0x000000c0       0x3c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x000000fc       0x3c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 pRTOS.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 main.o
+ .comment       0x00000000       0x71 cortex_startup.o
+ .comment       0x00000000       0x71 cortex.o
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x2d
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x21 switch_to.o
+ .ARM.attributes
+                0x00000021       0x31 pRTOS.o
+ .ARM.attributes
+                0x00000052       0x31 main.o
+ .ARM.attributes
+                0x00000083       0x31 cortex_startup.o
+ .ARM.attributes
+                0x000000b4       0x31 cortex.o
+ .ARM.attributes
+                0x000000e5       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000103       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000121       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000013f       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000015d       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000189       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x000001b5       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x000001e1       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000020d       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_clzsi2.o)
+
+/DISCARD/
+ *(.note.GNU-stack)
+                0x00002a4c                PROVIDE (__text_size, (__text_end - __text_start))
+                0x00000008                PROVIDE (__exidx_size, (__exidx_end - __exidx_start))
+                0x00000014                PROVIDE (__data_size, (__data_end - __data_start))
+                0x00000050                PROVIDE (__bss_size, (__bss_end - __bss_start))
+                0x00000c00                PROVIDE (__stack_size, (__stack_end - __stack_start))
+                0x00000398                PROVIDE (__heap_size, (__heap_end - __heap_start))
+OUTPUT(main.elf elf32-littlearm)
