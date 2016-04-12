@@ -1,0 +1,53 @@
+[Config]
+Compilator.FileName=build.bat
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.ParsLog=%F:%L:*
+Compilator.HideOutput=1
+Compilator.LogType=0
+Prog1=Clean,cmd /C "make clean "
+Prog2=Run,cmd /C "make run "
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Project
+	+Files
+		+includes
+			threads.h
+			switch_to.h
+		+compile
+			switch_to.asm
+			main.cpp
+			threads.cpp
+		+others
+			Makefile
+		uart.h
+[Open project files]
+0=threads.h
+1=switch_to.asm
+2=main.cpp
+3=threads.cpp
+4=switch_to.h
+[Selected Project Files]
+Main=
+Selected=main.cpp
+[threads.h]
+TopLine=3
+Caret=1,4
+Mark1=1,7
+[switch_to.asm]
+TopLine=8
+Caret=1,15
+[main.cpp]
+TopLine=1
+Caret=50,37
+[threads.cpp]
+TopLine=1
+Caret=29,4
+[switch_to.h]
+TopLine=1
+Caret=1,4

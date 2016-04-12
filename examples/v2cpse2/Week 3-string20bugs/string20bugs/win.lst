@@ -1,0 +1,119 @@
+	.file	"win.cpp"
+	.section	.text.unlikely.__tcf_0,"x"
+.LCOLDB0:
+	.section	.text$__tcf_0,"x"
+.LHOTB0:
+	.def	__tcf_0;	.scl	3;	.type	32;	.endef
+	.seh_proc	__tcf_0
+__tcf_0:
+	.seh_endprologue
+	leaq	_ZStL8__ioinit(%rip), %rcx
+	jmp	_ZNSt8ios_base4InitD1Ev
+	.seh_endproc
+	.section	.text.unlikely.__tcf_0,"x"
+.LCOLDE0:
+	.section	.text$__tcf_0,"x"
+.LHOTE0:
+	.section	.text.unlikely._ZN5bmptk3nowEv,"x"
+.LCOLDB1:
+	.section	.text$_ZN5bmptk3nowEv,"x"
+.LHOTB1:
+	.globl	_ZN5bmptk3nowEv
+	.def	_ZN5bmptk3nowEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZN5bmptk3nowEv
+_ZN5bmptk3nowEv:
+	subq	$40, %rsp
+	.seh_stackalloc	40
+	.seh_endprologue
+	call	*__imp_GetTickCount(%rip)
+	movl	%eax, %eax
+	imulq	$1000, %rax, %rax
+	addq	$40, %rsp
+	ret
+	.seh_endproc
+	.section	.text.unlikely._ZN5bmptk3nowEv,"x"
+.LCOLDE1:
+	.section	.text$_ZN5bmptk3nowEv,"x"
+.LHOTE1:
+	.section	.text.unlikely._ZN5bmptk4waitEx,"x"
+.LCOLDB2:
+	.section	.text$_ZN5bmptk4waitEx,"x"
+.LHOTB2:
+	.globl	_ZN5bmptk4waitEx
+	.def	_ZN5bmptk4waitEx;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZN5bmptk4waitEx
+_ZN5bmptk4waitEx:
+	pushq	%rsi
+	.seh_pushreg	%rsi
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	subq	$104, %rsp
+	.seh_stackalloc	104
+	.seh_endprologue
+	movq	%rcx, %rbx
+	call	_ZN5bmptk3nowEv
+	leaq	(%rax,%rbx), %rsi
+.L7:
+	call	_ZN5bmptk3nowEv
+	cmpq	%rax, %rsi
+	jle	.L3
+	xorl	%r9d, %r9d
+	xorl	%r8d, %r8d
+	xorl	%edx, %edx
+	movl	$1, 32(%rsp)
+	leaq	48(%rsp), %rbx
+	movq	%rbx, %rcx
+	call	*__imp_PeekMessageA(%rip)
+	cmpl	$-1, %eax
+	jne	.L5
+	xorl	%ecx, %ecx
+	call	exit
+.L5:
+	testl	%eax, %eax
+	jle	.L7
+	movq	%rbx, %rcx
+	call	*__imp_TranslateMessage(%rip)
+	movq	%rbx, %rcx
+	call	*__imp_DispatchMessageA(%rip)
+	jmp	.L7
+.L3:
+	addq	$104, %rsp
+	popq	%rbx
+	popq	%rsi
+	ret
+	.seh_endproc
+	.section	.text.unlikely._ZN5bmptk4waitEx,"x"
+.LCOLDE2:
+	.section	.text$_ZN5bmptk4waitEx,"x"
+.LHOTE2:
+	.section	.text.unlikely._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+.LCOLDB3:
+	.section	.text.startup._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+.LHOTB3:
+	.def	_GLOBAL__sub_I__ZN5bmptk3nowEv;	.scl	3;	.type	32;	.endef
+	.seh_proc	_GLOBAL__sub_I__ZN5bmptk3nowEv
+_GLOBAL__sub_I__ZN5bmptk3nowEv:
+	subq	$40, %rsp
+	.seh_stackalloc	40
+	.seh_endprologue
+	leaq	_ZStL8__ioinit(%rip), %rcx
+	call	_ZNSt8ios_base4InitC1Ev
+	leaq	__tcf_0(%rip), %rcx
+	addq	$40, %rsp
+	jmp	atexit
+	.seh_endproc
+	.section	.text.unlikely._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+.LCOLDE3:
+	.section	.text.startup._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+.LHOTE3:
+	.section	.ctors,"w"
+	.align 8
+	.quad	_GLOBAL__sub_I__ZN5bmptk3nowEv
+	.section	.data$_ZStL8__ioinit,"w"
+_ZStL8__ioinit:
+	.space 1
+	.ident	"GCC: (GNU) 5.2.0"
+	.def	_ZNSt8ios_base4InitD1Ev;	.scl	2;	.type	32;	.endef
+	.def	exit;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt8ios_base4InitC1Ev;	.scl	2;	.type	32;	.endef
+	.def	atexit;	.scl	2;	.type	32;	.endef

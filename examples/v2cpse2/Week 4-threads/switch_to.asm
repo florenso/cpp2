@@ -1,0 +1,44 @@
+
+	.cpu cortex-m0
+   .global switch_from_to
+   .text
+   .align 2
+   
+   // extern "C" void switch_from_to( 
+   //    thread ** current_thread, 
+   //    thread * next_thread 
+   // ); 
+switch_from_to:
+
+   // save current context on the stack
+   push { r4 - r7, lr }
+   mov r2, r8
+   mov r3, r9
+   mov r4, r10
+   mov r5, r11
+   mov r6, r12
+   push { r2 - r6 }
+   
+   // (*current_thread)->sp = sp
+   ldr r2, [ r0 ]
+   mov r3, sp
+   str r3, [ r2 ]
+   
+   // *current_thread = next_thread
+   str r1, [ r0 ]
+  
+   // sp = next_thread->sp
+   ldr r3, [ r1 ]
+   mov sp, r3
+   
+   // restore the new context from the stack
+   pop { r2 - r6 }
+   mov r12, r6
+   mov r11, r5
+   mov r10, r4
+   mov r9, r3
+   mov r8, r2
+   pop { r4 - r7, pc }
+
+   
+

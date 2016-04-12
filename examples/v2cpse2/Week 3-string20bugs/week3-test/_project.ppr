@@ -1,0 +1,40 @@
+[Config]
+Compilator.FileName=build.bat
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.ParsLog=%F:%L:*
+Compilator.HideOutput=1
+Compilator.LogType=0
+Prog1=Clean,cmd /C "make clean "
+Prog2=Run,cmd /C "make run "
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Project
+	+Files
+		+includes
+			string20.hpp
+		+compile
+			main.cpp
+		+others
+			Makefile
+[Open project files]
+0=main.cpp
+1=string20.hpp
+2=Makefile
+[Selected Project Files]
+Main=
+Selected=string20.hpp
+[main.cpp]
+TopLine=1
+Caret=1,1
+[string20.hpp]
+TopLine=9
+Caret=2,19
+[Makefile]
+TopLine=1
+Caret=1,1
