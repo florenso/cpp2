@@ -1,0 +1,314 @@
+	.cpu cortex-m0
+	.fpu softvfp
+	.eabi_attribute 20, 1
+	.eabi_attribute 21, 1
+	.eabi_attribute 23, 3
+	.eabi_attribute 24, 1
+	.eabi_attribute 25, 1
+	.eabi_attribute 26, 1
+	.eabi_attribute 30, 4
+	.eabi_attribute 34, 0
+	.eabi_attribute 18, 4
+	.code	16
+	.file	"main.cpp"
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc:
+.L2:
+	ldr	r3, .L5
+	ldr	r2, [r3, #20]
+	lsl	r2, r2, #25
+	bpl	.L2
+	str	r0, [r3]
+	@ sp needed
+	bx	lr
+.L6:
+	.align	2
+.L5:
+	.word	1073774592
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.section	.text.put_char,"ax",%progbits
+	.align	1
+	.global	put_char
+	.code	16
+	.thumb_func
+	.type	put_char, %function
+put_char:
+	push	{r3, lr}
+	ldr	r3, .L12
+	ldr	r3, [r3, #16]
+	cmp	r3, #0
+	beq	.L7
+	blx	r3
+.L7:
+	@ sp needed
+	pop	{r3, pc}
+.L13:
+	.align	2
+.L12:
+	.word	_ZN5hwcpp2io4coutE
+	.size	put_char, .-put_char
+	.section	.text.do_magic,"ax",%progbits
+	.align	1
+	.global	do_magic
+	.code	16
+	.thumb_func
+	.type	do_magic, %function
+do_magic:
+	push	{r4, lr}
+	mov	r4, r0
+	bl	isupper
+	cmp	r0, #0
+	beq	.L15
+	mov	r0, r4
+	bl	magic_tolower
+	b	.L20
+.L15:
+	mov	r0, r4
+	bl	islower
+	cmp	r0, #0
+	beq	.L16
+	mov	r0, r4
+	bl	magic_toupper
+.L20:
+	mov	r4, r0
+.L16:
+	mov	r0, r4
+	@ sp needed
+	pop	{r4, pc}
+	.size	do_magic, .-do_magic
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv:
+	mov	r1, #1
+	mov	r0, #3
+	ldr	r3, .L24
+	str	r1, [r3, #120]
+	ldr	r2, [r3, #112]
+	bic	r2, r0
+	str	r2, [r3, #112]
+	ldr	r2, [r3, #116]
+	add	r0, r0, #125
+	bic	r2, r1
+	str	r2, [r3, #116]
+	ldr	r2, [r3, #116]
+	orr	r2, r1
+	str	r2, [r3, #116]
+	mov	r2, #142
+	lsl	r2, r2, #2
+	ldr	r1, [r3, r2]
+	orr	r1, r0
+	str	r1, [r3, r2]
+	mov	r1, #35
+	str	r1, [r3, #8]
+	ldr	r1, [r3, r2]
+	bic	r1, r0
+	str	r1, [r3, r2]
+.L22:
+	mov	r1, #1
+	ldr	r0, [r3, #12]
+	ldr	r2, .L24
+	tst	r0, r1
+	beq	.L22
+	mov	r3, #3
+	str	r3, [r2, #112]
+	ldr	r3, [r2, #116]
+	@ sp needed
+	bic	r3, r1
+	str	r3, [r2, #116]
+	ldr	r3, [r2, #116]
+	orr	r3, r1
+	str	r3, [r2, #116]
+	bx	lr
+.L25:
+	.align	2
+.L24:
+	.word	1074036736
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	.global	__aeabi_uidiv
+	.section	.text._ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv,"axG",%progbits,_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv,comdat
+	.align	1
+	.weak	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	.code	16
+	.thumb_func
+	.type	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv, %function
+_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv:
+	push	{r3, r4, r5, lr}
+	bl	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE16initialize_clockEv
+	mov	r2, #128
+	mov	r1, #128
+	mov	r4, #128
+	mov	r5, #7
+	ldr	r3, .L31
+	lsl	r2, r2, #14
+	str	r2, [r3, #124]
+	ldr	r3, .L31+4
+	lsl	r1, r1, #9
+	ldr	r2, [r3, #124]
+	lsl	r4, r4, #5
+	orr	r2, r1
+	str	r2, [r3, #124]
+	ldr	r2, [r3, #124]
+	orr	r2, r4
+	str	r2, [r3, #124]
+	ldr	r2, .L31+8
+	ldr	r1, [r2]
+	bic	r1, r5
+	str	r1, [r2]
+	mov	r1, #1
+	ldr	r0, [r2]
+	orr	r0, r1
+	str	r0, [r2]
+	ldr	r2, .L31+12
+	ldr	r0, [r2]
+	bic	r0, r5
+	str	r0, [r2]
+	ldr	r0, [r2]
+	orr	r0, r1
+	str	r0, [r2]
+	ldr	r2, [r3, #124]
+	ldr	r0, .L31+16
+	orr	r2, r4
+	str	r2, [r3, #124]
+	mov	r3, #131
+	ldr	r4, .L31+20
+	str	r3, [r4, #12]
+	ldr	r3, .L31+24
+	str	r1, [r3]
+	ldr	r3, .L31+28
+	ldr	r1, [r3, #120]
+	mov	r3, #150
+	lsl	r3, r3, #12
+	mul	r1, r3
+	bl	__aeabi_uidiv
+	lsr	r3, r0, #8
+	str	r3, [r4, #4]
+	mov	r3, #3
+	uxtb	r0, r0
+	str	r0, [r4]
+	str	r3, [r4, #12]
+	str	r5, [r4, #8]
+	ldr	r3, [r4, #20]
+.L27:
+	mov	r3, #96
+	ldr	r2, [r4, #20]
+	and	r3, r2
+	cmp	r3, #96
+	bne	.L27
+.L28:
+	ldr	r3, [r4, #20]
+	lsl	r3, r3, #31
+	bpl	.L30
+	ldr	r3, .L31+20
+	ldr	r3, [r3]
+	b	.L28
+.L30:
+	@ sp needed
+	pop	{r3, r4, r5, pc}
+.L32:
+	.align	2
+.L31:
+	.word	-536813308
+	.word	1074036740
+	.word	1074020516
+	.word	1074020520
+	.word	48000000
+	.word	1073774592
+	.word	1074036888
+	.word	1074036736
+	.size	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv, .-_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	.section	.text.startup.main,"ax",%progbits
+	.align	1
+	.global	main
+	.code	16
+	.thumb_func
+	.type	main, %function
+main:
+	push	{r4, r5, r6, lr}
+	bl	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE4initEv
+	ldr	r4, .L53
+	ldr	r3, .L53+4
+	str	r3, [r4, #16]
+	bl	application
+	ldrb	r3, [r4, #10]
+	ldr	r6, .L53+8
+	cmp	r3, #0
+	bne	.L34
+.L41:
+	mov	r5, #0
+	b	.L35
+.L34:
+	mov	r3, #0
+	ldr	r5, [r4]
+.L36:
+	ldrb	r2, [r6, r3]
+	cmp	r2, #0
+	beq	.L52
+	add	r3, r3, #1
+	b	.L36
+.L52:
+	sub	r5, r5, r3
+.L38:
+	cmp	r5, #0
+	ble	.L41
+	ldr	r3, [r4, #16]
+	ldrb	r0, [r4, #8]
+	cmp	r3, #0
+	beq	.L39
+	blx	r3
+.L39:
+	sub	r5, r5, #1
+	b	.L38
+.L43:
+	ldr	r3, [r4, #16]
+	cmp	r3, #0
+	beq	.L45
+	blx	r3
+.L45:
+	add	r5, r5, #1
+.L35:
+	ldrb	r0, [r6, r5]
+	cmp	r0, #0
+	bne	.L43
+	str	r0, [r4]
+.L44:
+	ldr	r0, .L53+12
+	mov	r1, #0
+	bl	_ZN5bmptk4waitEx
+	b	.L44
+.L54:
+	.align	2
+.L53:
+	.word	_ZN5hwcpp2io4coutE
+	.word	_ZN5hwcpp12lpc1114_baseILi4096ELi32768ELi48000000EE4uartILj38400EE3putEc
+	.word	.LC5
+	.word	240000
+	.size	main, .-main
+	.weak	_ZN5hwcpp2io4coutE
+	.section	.data._ZN5hwcpp2io4coutE,"aw",%progbits
+	.align	2
+	.type	_ZN5hwcpp2io4coutE, %object
+	.size	_ZN5hwcpp2io4coutE, 20
+_ZN5hwcpp2io4coutE:
+	.word	0
+	.word	10
+	.byte	32
+	.byte	65
+	.byte	1
+	.byte	0
+	.byte	0
+	.byte	0
+	.space	2
+	.word	0
+	.section	.rodata.str1.1,"aMS",%progbits,1
+.LC5:
+	.ascii	"\012** application ended **\012\000"
+	.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977]"

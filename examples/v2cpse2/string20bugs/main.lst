@@ -1,0 +1,2082 @@
+	.file	"main.cpp"
+	.section	.text$_ZN7testing4Test13SetUpTestCaseEv,"x"
+	.linkonce discard
+LCOLDB0:
+LHOTB0:
+	.globl	__ZN7testing4Test13SetUpTestCaseEv
+	.def	__ZN7testing4Test13SetUpTestCaseEv;	.scl	2;	.type	32;	.endef
+__ZN7testing4Test13SetUpTestCaseEv:
+LFB3490:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3490:
+LCOLDE0:
+LHOTE0:
+	.section	.text$_ZN7testing4Test16TearDownTestCaseEv,"x"
+	.linkonce discard
+LCOLDB1:
+LHOTB1:
+	.globl	__ZN7testing4Test16TearDownTestCaseEv
+	.def	__ZN7testing4Test16TearDownTestCaseEv;	.scl	2;	.type	32;	.endef
+__ZN7testing4Test16TearDownTestCaseEv:
+LFB3491:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3491:
+LCOLDE1:
+LHOTE1:
+	.section	.text$_ZN7testing4Test5SetupEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB2:
+LHOTB2:
+	.align 2
+	.globl	__ZN7testing4Test5SetupEv
+	.def	__ZN7testing4Test5SetupEv;	.scl	2;	.type	32;	.endef
+__ZN7testing4Test5SetupEv:
+LFB3494:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	xorl	%eax, %eax
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3494:
+LCOLDE2:
+LHOTE2:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI18Assign_string_TestED1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB3:
+LHOTB3:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED1Ev
+	.def	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED1Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED1Ev:
+LFB4296:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4296:
+LCOLDE3:
+LHOTE3:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB4:
+LHOTB4:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED1Ev
+	.def	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED1Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED1Ev:
+LFB4304:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4304:
+LCOLDE4:
+LHOTE4:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB5:
+LHOTB5:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED1Ev
+	.def	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED1Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED1Ev:
+LFB4312:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4312:
+LCOLDE5:
+LHOTE5:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI18Assign_string_TestED0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB6:
+LHOTB6:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED0Ev
+	.def	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED0Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED0Ev:
+LFB4297:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	%ecx, (%esp)
+	call	__ZdlPv
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4297:
+LCOLDE6:
+LHOTE6:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB7:
+LHOTB7:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED0Ev
+	.def	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED0Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED0Ev:
+LFB4305:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	%ecx, (%esp)
+	call	__ZdlPv
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4305:
+LCOLDE7:
+LHOTE7:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB8:
+LHOTB8:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED0Ev
+	.def	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED0Ev;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED0Ev:
+LFB4313:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	%ecx, (%esp)
+	call	__ZdlPv
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4313:
+LCOLDE8:
+LHOTE8:
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDB9:
+	.section	.text$__tcf_0,"x"
+LHOTB9:
+	.def	___tcf_0;	.scl	3;	.type	32;	.endef
+___tcf_0:
+LFB4315:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	jmp	__ZNSt8ios_base4InitD1Ev
+	.cfi_endproc
+LFE4315:
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDE9:
+	.section	.text$__tcf_0,"x"
+LHOTE9:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestE10CreateTestEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB10:
+LHOTB10:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestE10CreateTestEv
+	.def	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestE10CreateTestEv;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestE10CreateTestEv:
+LFB4324:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$40, %esp
+	movl	$8, (%esp)
+	call	__Znwj
+	movl	%eax, %ecx
+	movl	%eax, -12(%ebp)
+	call	__ZN7testing4TestC2Ev
+	movl	-12(%ebp), %eax
+	movl	$__ZTV25Constructors_Default_Test+8, (%eax)
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4324:
+LCOLDE10:
+LHOTE10:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestE10CreateTestEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB11:
+LHOTB11:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestE10CreateTestEv
+	.def	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestE10CreateTestEv;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestE10CreateTestEv:
+LFB4323:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$40, %esp
+	movl	$8, (%esp)
+	call	__Znwj
+	movl	%eax, %ecx
+	movl	%eax, -12(%ebp)
+	call	__ZN7testing4TestC2Ev
+	movl	-12(%ebp), %eax
+	movl	$__ZTV22Constructors_Char_Test+8, (%eax)
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4323:
+LCOLDE11:
+LHOTE11:
+	.section	.text$_ZN7testing8internal15TestFactoryImplI18Assign_string_TestE10CreateTestEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB12:
+LHOTB12:
+	.align 2
+	.globl	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestE10CreateTestEv
+	.def	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestE10CreateTestEv;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal15TestFactoryImplI18Assign_string_TestE10CreateTestEv:
+LFB4322:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$40, %esp
+	movl	$8, (%esp)
+	call	__Znwj
+	movl	%eax, %ecx
+	movl	%eax, -12(%ebp)
+	call	__ZN7testing4TestC2Ev
+	movl	-12(%ebp), %eax
+	movl	$__ZTV18Assign_string_Test+8, (%eax)
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4322:
+LCOLDE12:
+LHOTE12:
+	.section	.text.unlikely._ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26,"x"
+	.align 2
+LCOLDB13:
+	.section	.text$_ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26,"x"
+LHOTB13:
+	.align 2
+	.def	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26;	.scl	3;	.type	32;	.endef
+__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26:
+LFB4389:
+	.cfi_startproc
+	cmpl	$0, (%ecx)
+	je	L37
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	$1, (%esp)
+	call	__ZN7testing8internal6IsTrueEb
+	testb	%al, %al
+	je	L27
+	movl	(%ebx), %ebx
+	testl	%ebx, %ebx
+	je	L27
+	movl	%ebx, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+L27:
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+L37:
+	ret
+	.cfi_endproc
+LFE4389:
+	.section	.text.unlikely._ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26,"x"
+LCOLDE13:
+	.section	.text$_ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26,"x"
+LHOTE13:
+	.section	.text.unlikely._ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50,"x"
+	.align 2
+LCOLDB14:
+	.section	.text$_ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50,"x"
+LHOTB14:
+	.align 2
+	.def	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50;	.scl	3;	.type	32;	.endef
+__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50:
+LFB4408:
+	.cfi_startproc
+	cmpl	$0, (%ecx)
+	je	L49
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	$1, (%esp)
+	call	__ZN7testing8internal6IsTrueEb
+	testb	%al, %al
+	je	L39
+	movl	(%ebx), %ecx
+	testl	%ecx, %ecx
+	je	L39
+	movl	(%ecx), %eax
+	movl	4(%eax), %eax
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_remember_state
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	jmp	*%eax
+L39:
+	.cfi_restore_state
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+L49:
+	ret
+	.cfi_endproc
+LFE4408:
+	.section	.text.unlikely._ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50,"x"
+LCOLDE14:
+	.section	.text$_ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50,"x"
+LHOTE14:
+	.section	.text.unlikely._Z3lenPKc,"x"
+LCOLDB15:
+	.section	.text$_Z3lenPKc,"x"
+LHOTB15:
+	.globl	__Z3lenPKc
+	.def	__Z3lenPKc;	.scl	2;	.type	32;	.endef
+__Z3lenPKc:
+LFB3601:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	xorl	%edx, %edx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %ecx
+L51:
+	movl	%edx, %eax
+	incl	%edx
+	cmpb	$0, -1(%ecx,%edx)
+	jne	L51
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3601:
+	.section	.text.unlikely._Z3lenPKc,"x"
+LCOLDE15:
+	.section	.text$_Z3lenPKc,"x"
+LHOTE15:
+	.def	___main;	.scl	2;	.type	32;	.endef
+	.section .rdata,"dr"
+LC16:
+	.ascii "testing string20bug = \0"
+LC17:
+	.ascii "\12\0"
+	.section	.text.unlikely.main,"x"
+LCOLDB18:
+	.section	.text.startup.main,"x"
+LHOTB18:
+	.globl	_main
+	.def	_main;	.scl	2;	.type	32;	.endef
+_main:
+LFB3627:
+	.cfi_startproc
+	leal	4(%esp), %ecx
+	.cfi_def_cfa 1, 0
+	andl	$-16, %esp
+	pushl	-4(%ecx)
+	pushl	%ebp
+	.cfi_escape 0x10,0x5,0x2,0x75,0
+	movl	%esp, %ebp
+	pushl	%esi
+	pushl	%ebx
+	pushl	%ecx
+	.cfi_escape 0xf,0x3,0x75,0x74,0x6
+	.cfi_escape 0x10,0x6,0x2,0x75,0x7c
+	.cfi_escape 0x10,0x3,0x2,0x75,0x78
+	movl	%ecx, %ebx
+	subl	$28, %esp
+	movl	4(%ecx), %esi
+	call	___main
+	movl	$LC16, 4(%esp)
+	movl	$__ZSt4cout, (%esp)
+	movl	$1, _string20bug
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$1, (%esp)
+	movl	%eax, %ecx
+	call	__ZNSolsEi
+	pushl	%edx
+	movl	$LC17, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	%esi, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__ZN7testing14InitGoogleTestEPiPPc
+	call	__ZN7testing8UnitTest11GetInstanceEv
+	movl	%eax, %ecx
+	call	__ZN7testing8UnitTest3RunEv
+L55:
+	movl	$1000000, (%esp)
+	movl	$0, 4(%esp)
+	call	__ZN5bmptk4waitEx
+	jmp	L55
+	.cfi_endproc
+LFE3627:
+	.section	.text.unlikely.main,"x"
+LCOLDE18:
+	.section	.text.startup.main,"x"
+LHOTE18:
+	.section	.text$_ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_,"x"
+	.linkonce discard
+LCOLDB19:
+LHOTB19:
+	.globl	__ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	.def	__ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_;	.scl	2;	.type	32;	.endef
+__ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_:
+LFB4174:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$232, %esp
+	leal	-216(%ebp), %ecx
+	movl	$24, (%esp)
+	call	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+	pushl	%eax
+	movl	12(%ebp), %eax
+	leal	-208(%ebp), %ecx
+	movl	(%eax), %eax
+	movl	%eax, (%esp)
+	call	__ZNSolsEi
+	leal	-204(%ebp), %eax
+	movl	8(%ebp), %ecx
+	pushl	%edx
+	movl	%eax, (%esp)
+	call	__ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
+	pushl	%ecx
+	leal	-216(%ebp), %ecx
+	call	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+	movl	8(%ebp), %eax
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4174:
+LCOLDE19:
+LHOTE19:
+	.section	.text$_ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_,"x"
+	.linkonce discard
+LCOLDB20:
+LHOTB20:
+	.globl	__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	.def	__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_:
+LFB3963:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$92, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	24(%ebp), %eax
+	movl	20(%ebp), %edx
+	movl	8(%ebp), %ebx
+	movl	(%eax), %ecx
+	cmpl	%ecx, (%edx)
+	jne	L60
+	movl	%ebx, (%esp)
+	call	__ZN7testing16AssertionSuccessEv
+	jmp	L59
+L60:
+	leal	-48(%ebp), %esi
+	movl	%eax, 4(%esp)
+	leal	-72(%ebp), %edi
+	movl	%esi, (%esp)
+	call	__ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	movl	20(%ebp), %eax
+	movl	%edi, (%esp)
+	movl	%eax, 4(%esp)
+	call	__ZN7testing13PrintToStringIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	movl	16(%ebp), %eax
+	movl	$0, 20(%esp)
+	movl	%esi, 16(%esp)
+	movl	%edi, 12(%esp)
+	movl	%ebx, (%esp)
+	movl	%eax, 8(%esp)
+	movl	12(%ebp), %eax
+	movl	%eax, 4(%esp)
+	call	__ZN7testing8internal9EqFailureEPKcS2_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_b
+	movl	%edi, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+	movl	%esi, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+L59:
+	addl	$92, %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3963:
+LCOLDE20:
+LHOTE20:
+	.section .rdata,"dr"
+LC21:
+	.ascii "\0"
+LC22:
+	.ascii "0\0"
+LC23:
+	.ascii "e.length()\0"
+LC24:
+	.ascii "length\0"
+LC25:
+	.ascii "main.cpp\0"
+	.section	.text.unlikely._ZN25Constructors_Default_Test8TestBodyEv,"x"
+	.align 2
+LCOLDB26:
+	.section	.text$_ZN25Constructors_Default_Test8TestBodyEv,"x"
+LHOTB26:
+	.align 2
+	.globl	__ZN25Constructors_Default_Test8TestBodyEv
+	.def	__ZN25Constructors_Default_Test8TestBodyEv;	.scl	2;	.type	32;	.endef
+__ZN25Constructors_Default_Test8TestBodyEv:
+LFB3612:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	leal	-32(%ebp), %ecx
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	leal	-44(%ebp), %ebx
+	leal	-48(%ebp), %esi
+	subl	$80, %esp
+	call	__ZN8string20C1Ev
+	leal	-32(%ebp), %ecx
+	movl	$0, -44(%ebp)
+	call	__ZNK8string206lengthEv
+	movl	%eax, -48(%ebp)
+	leal	-40(%ebp), %eax
+	movl	%ebx, 16(%esp)
+	movl	%esi, 12(%esp)
+	movl	$LC22, 8(%esp)
+	movl	$LC23, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	cmpb	$0, -40(%ebp)
+	jne	L64
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-44(%ebp), %eax
+	movl	$LC24, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-36(%ebp), %edx
+	movl	$LC21, %eax
+	testl	%edx, %edx
+	je	L65
+	movl	(%edx), %eax
+L65:
+	movl	%eax, 12(%esp)
+	movl	%esi, %ecx
+	movl	$21, 8(%esp)
+	movl	$LC25, 4(%esp)
+	movl	$2, (%esp)
+	call	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_
+	subl	$16, %esp
+	movl	%esi, %ecx
+	movl	%ebx, (%esp)
+	call	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE
+	pushl	%eax
+	movl	%esi, %ecx
+	call	__ZN7testing8internal12AssertHelperD1Ev
+	movl	%ebx, %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50
+L64:
+	leal	-36(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	leal	-8(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3612:
+	.section	.text.unlikely._ZN25Constructors_Default_Test8TestBodyEv,"x"
+LCOLDE26:
+	.section	.text$_ZN25Constructors_Default_Test8TestBodyEv,"x"
+LHOTE26:
+	.section	.text$_ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_,"x"
+	.linkonce discard
+LCOLDB27:
+LHOTB27:
+	.globl	__ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	.def	__ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_;	.scl	2;	.type	32;	.endef
+__ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_:
+LFB4175:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$232, %esp
+	leal	-216(%ebp), %ecx
+	movl	$24, (%esp)
+	call	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+	pushl	%eax
+	leal	-208(%ebp), %eax
+	movl	%eax, 4(%esp)
+	movl	12(%ebp), %eax
+	movzbl	(%eax), %eax
+	movl	%eax, (%esp)
+	call	__ZN7testing8internal7PrintToEhPSo
+	leal	-204(%ebp), %eax
+	movl	8(%ebp), %ecx
+	movl	%eax, (%esp)
+	call	__ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
+	leal	-216(%ebp), %ecx
+	pushl	%edx
+	call	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+	movl	8(%ebp), %eax
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4175:
+LCOLDE27:
+LHOTE27:
+	.section	.text$_ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_,"x"
+	.linkonce discard
+LCOLDB28:
+LHOTB28:
+	.globl	__ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	.def	__ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_;	.scl	2;	.type	32;	.endef
+__ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_:
+LFB3964:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$92, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	24(%ebp), %eax
+	movl	20(%ebp), %ecx
+	movl	8(%ebp), %ebx
+	movb	(%eax), %dl
+	cmpb	%dl, (%ecx)
+	jne	L72
+	movl	%ebx, (%esp)
+	call	__ZN7testing16AssertionSuccessEv
+	jmp	L71
+L72:
+	leal	-48(%ebp), %esi
+	movl	%eax, 4(%esp)
+	leal	-72(%ebp), %edi
+	movl	%esi, (%esp)
+	call	__ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	movl	20(%ebp), %eax
+	movl	%edi, (%esp)
+	movl	%eax, 4(%esp)
+	call	__ZN7testing13PrintToStringIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_
+	movl	16(%ebp), %eax
+	movl	$0, 20(%esp)
+	movl	%esi, 16(%esp)
+	movl	%edi, 12(%esp)
+	movl	%ebx, (%esp)
+	movl	%eax, 8(%esp)
+	movl	12(%ebp), %eax
+	movl	%eax, 4(%esp)
+	call	__ZN7testing8internal9EqFailureEPKcS2_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_b
+	movl	%edi, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+	movl	%esi, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+L71:
+	addl	$92, %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3964:
+LCOLDE28:
+LHOTE28:
+	.section .rdata,"dr"
+LC29:
+	.ascii "len( rhs )\0"
+LC30:
+	.ascii "lhs.length()\0"
+LC31:
+	.ascii "rhs[ i ]\0"
+LC32:
+	.ascii "lhs[ i ]\0"
+LC33:
+	.ascii "content @ \0"
+	.section	.text.unlikely._Z5equalRK8string20PKc,"x"
+LCOLDB34:
+	.section	.text$_Z5equalRK8string20PKc,"x"
+LHOTB34:
+	.globl	__Z5equalRK8string20PKc
+	.def	__Z5equalRK8string20PKc;	.scl	2;	.type	32;	.endef
+__Z5equalRK8string20PKc:
+LFB3602:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	leal	-40(%ebp), %esi
+	leal	-36(%ebp), %ebx
+	subl	$60, %esp
+	movl	12(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__Z3lenPKc
+	movl	8(%ebp), %ecx
+	movl	%eax, -36(%ebp)
+	call	__ZNK8string206lengthEv
+	movl	%eax, -40(%ebp)
+	leal	-32(%ebp), %eax
+	movl	%ebx, 16(%esp)
+	movl	%esi, 12(%esp)
+	movl	$LC29, 8(%esp)
+	movl	$LC30, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	cmpb	$0, -32(%ebp)
+	jne	L76
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-36(%ebp), %eax
+	movl	$LC24, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-28(%ebp), %edx
+	movl	$LC21, %eax
+	testl	%edx, %edx
+	je	L77
+	movl	(%edx), %eax
+L77:
+	movl	%eax, 12(%esp)
+	movl	%esi, %ecx
+	movl	$10, 8(%esp)
+	movl	$LC25, 4(%esp)
+	movl	$1, (%esp)
+	call	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_
+	subl	$16, %esp
+	movl	%esi, %ecx
+	movl	%ebx, (%esp)
+	call	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE
+	pushl	%ecx
+	movl	%esi, %ecx
+	call	__ZN7testing8internal12AssertHelperD1Ev
+	movl	%ebx, %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50
+L76:
+	leal	-28(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	8(%ebp), %ecx
+	call	__ZNK8string206lengthEv
+	movl	%eax, %ebx
+	movl	12(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__Z3lenPKc
+	cmpl	%eax, %ebx
+	jne	L78
+	movl	12(%ebp), %ebx
+	leal	-36(%ebp), %edi
+L82:
+	movl	%ebx, %esi
+	subl	12(%ebp), %esi
+	movl	8(%ebp), %ecx
+	call	__ZNK8string206lengthEv
+	cmpl	%eax, %esi
+	jge	L84
+	movl	8(%ebp), %ecx
+	movl	%esi, (%esp)
+	call	__ZNK8string20ixEi
+	movb	%al, -36(%ebp)
+	pushl	%edx
+	leal	-32(%ebp), %eax
+	movl	%ebx, 16(%esp)
+	movl	%edi, 12(%esp)
+	movl	$LC31, 8(%esp)
+	movl	$LC32, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	cmpb	$0, -32(%ebp)
+	jne	L80
+	movl	%edi, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-36(%ebp), %eax
+	movl	$LC33, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-36(%ebp), %eax
+	movl	%esi, (%esp)
+	leal	8(%eax), %ecx
+	call	__ZNSolsEi
+	movl	-28(%ebp), %edx
+	pushl	%eax
+	movl	$LC21, %eax
+	testl	%edx, %edx
+	je	L81
+	movl	(%edx), %eax
+L81:
+	leal	-40(%ebp), %ecx
+	movl	%eax, 12(%esp)
+	movl	$13, 8(%esp)
+	movl	$LC25, 4(%esp)
+	movl	$1, (%esp)
+	call	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_
+	leal	-40(%ebp), %ecx
+	subl	$16, %esp
+	movl	%edi, (%esp)
+	call	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE
+	pushl	%ecx
+	leal	-40(%ebp), %ecx
+	call	__ZN7testing8internal12AssertHelperD1Ev
+	movl	%edi, %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50
+L80:
+	leal	-28(%ebp), %ecx
+	incl	%ebx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	8(%ebp), %ecx
+	movl	%esi, (%esp)
+	call	__ZNK8string20ixEi
+	pushl	%edx
+	cmpb	-1(%ebx), %al
+	je	L82
+L78:
+	xorl	%eax, %eax
+	jmp	L79
+L84:
+	movb	$1, %al
+L79:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3602:
+	.section	.text.unlikely._Z5equalRK8string20PKc,"x"
+LCOLDE34:
+	.section	.text$_Z5equalRK8string20PKc,"x"
+LHOTE34:
+	.section .rdata,"dr"
+LC35:
+	.ascii "empty\0"
+LC36:
+	.ascii "true\0"
+LC37:
+	.ascii "false\0"
+LC38:
+	.ascii "equal( s, \"\" )\0"
+LC39:
+	.ascii "x\0"
+LC40:
+	.ascii "1char\0"
+LC41:
+	.ascii "equal( s, \"x\" )\0"
+LC42:
+	.ascii "01234567890123456789\0"
+LC43:
+	.ascii "20char\0"
+LC44:
+	.ascii "equal( s, \"01234567890123456789\" )\0"
+LC45:
+	.ascii "012345678901234567890\0"
+LC46:
+	.ascii "21char\0"
+LC47:
+	.ascii "abc\0"
+LC48:
+	.ascii "retval\0"
+LC49:
+	.ascii "equal( s = \"abc\", \"abc\" )\0"
+LC50:
+	.ascii "fgh\0"
+LC51:
+	.ascii "retval assign\0"
+LC52:
+	.ascii "equal( ( s = \"abc\" ) = \"fgh\", \"fgh\" )\0"
+	.section	.text.unlikely._ZN18Assign_string_Test8TestBodyEv,"x"
+	.align 2
+LCOLDB53:
+	.section	.text$_ZN18Assign_string_Test8TestBodyEv,"x"
+LHOTB53:
+	.align 2
+	.globl	__ZN18Assign_string_Test8TestBodyEv
+	.def	__ZN18Assign_string_Test8TestBodyEv;	.scl	2;	.type	32;	.endef
+__ZN18Assign_string_Test8TestBodyEv:
+LFB3626:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	leal	-72(%ebp), %ebx
+	leal	-80(%ebp), %esi
+	subl	$108, %esp
+	movl	%ebx, %ecx
+	call	__ZN8string20C1Ev
+	movl	%ebx, %ecx
+	movl	$LC21, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%eax
+	movl	$LC21, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L89
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC35, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC38, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$33, 8(%esp)
+	movl	%eax, 12(%esp)
+	jmp	L98
+L89:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	%ebx, %ecx
+	movl	$LC39, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%eax
+	movl	$LC39, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L91
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC40, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC41, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$35, 8(%esp)
+	movl	%eax, 12(%esp)
+	jmp	L98
+L91:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	%ebx, %ecx
+	movl	$LC42, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%eax
+	movl	$LC42, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L92
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC43, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC44, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$38, 8(%esp)
+	movl	%eax, 12(%esp)
+	jmp	L98
+L92:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	%ebx, %ecx
+	movl	$LC45, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%eax
+	movl	$LC42, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L93
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC46, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC44, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$41, 8(%esp)
+	movl	%eax, 12(%esp)
+	jmp	L98
+L93:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	%ebx, %ecx
+	movl	$LC47, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%edi
+	movl	$LC47, 4(%esp)
+	movl	%eax, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L94
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC48, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC49, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$43, 8(%esp)
+	movl	%eax, 12(%esp)
+	jmp	L98
+L94:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	movl	%ebx, %ecx
+	movl	$LC47, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%edx
+	movl	%eax, %ecx
+	movl	$LC50, (%esp)
+	call	__ZN8string20aSEPKc
+	pushl	%ecx
+	movl	$LC50, 4(%esp)
+	movl	%eax, (%esp)
+	call	__Z5equalRK8string20PKc
+	testb	%al, %al
+	movb	%al, -80(%ebp)
+	movl	$0, -76(%ebp)
+	jne	L95
+	leal	-84(%ebp), %ebx
+	leal	-48(%ebp), %edi
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-84(%ebp), %eax
+	movl	$LC51, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	$LC36, 16(%esp)
+	movl	$LC37, 12(%esp)
+	movl	$LC52, 8(%esp)
+	movl	%esi, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_
+	movl	-48(%ebp), %eax
+	movl	$44, 8(%esp)
+	movl	%eax, 12(%esp)
+L98:
+	leal	-88(%ebp), %ecx
+	movl	$LC25, 4(%esp)
+	movl	$2, (%esp)
+	call	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_
+	leal	-88(%ebp), %ecx
+	subl	$16, %esp
+	movl	%ebx, (%esp)
+	call	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE
+	leal	-88(%ebp), %ecx
+	pushl	%eax
+	call	__ZN7testing8internal12AssertHelperD1Ev
+	movl	%edi, %ecx
+	call	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+	movl	%ebx, %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50
+L95:
+	leal	-76(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3626:
+	.section	.text.unlikely._ZN18Assign_string_Test8TestBodyEv,"x"
+LCOLDE53:
+	.section	.text$_ZN18Assign_string_Test8TestBodyEv,"x"
+LHOTE53:
+	.section .rdata,"dr"
+LC54:
+	.ascii "1\0"
+LC55:
+	.ascii "c.length()\0"
+LC56:
+	.ascii "'x'\0"
+LC57:
+	.ascii "c[ 0 ]\0"
+LC58:
+	.ascii "[0]\0"
+	.section	.text.unlikely._ZN22Constructors_Char_Test8TestBodyEv,"x"
+	.align 2
+LCOLDB59:
+	.section	.text$_ZN22Constructors_Char_Test8TestBodyEv,"x"
+LHOTB59:
+	.align 2
+	.globl	__ZN22Constructors_Char_Test8TestBodyEv
+	.def	__ZN22Constructors_Char_Test8TestBodyEv;	.scl	2;	.type	32;	.endef
+__ZN22Constructors_Char_Test8TestBodyEv:
+LFB3619:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	leal	-48(%ebp), %ecx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	leal	-56(%ebp), %edi
+	leal	-60(%ebp), %ebx
+	leal	-64(%ebp), %esi
+	subl	$92, %esp
+	movl	$120, (%esp)
+	call	__ZN8string20C1Ec
+	pushl	%ecx
+	leal	-48(%ebp), %ecx
+	movl	$1, -60(%ebp)
+	call	__ZNK8string206lengthEv
+	movl	%ebx, 16(%esp)
+	movl	%esi, 12(%esp)
+	movl	$LC54, 8(%esp)
+	movl	$LC55, 4(%esp)
+	movl	%edi, (%esp)
+	movl	%eax, -64(%ebp)
+	call	__ZN7testing8internal11CmpHelperEQIiiEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	cmpb	$0, -56(%ebp)
+	jne	L100
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-60(%ebp), %eax
+	movl	$LC24, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-52(%ebp), %edx
+	movl	$LC21, %eax
+	testl	%edx, %edx
+	je	L101
+	movl	(%edx), %eax
+L101:
+	movl	%eax, 12(%esp)
+	movl	$26, 8(%esp)
+	jmp	L109
+L100:
+	leal	-52(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	leal	-48(%ebp), %ecx
+	movl	$0, (%esp)
+	movb	$120, -60(%ebp)
+	call	__ZN8string20ixEi
+	pushl	%edx
+	movl	%ebx, 16(%esp)
+	movl	%eax, 12(%esp)
+	movl	$LC56, 8(%esp)
+	movl	$LC57, 4(%esp)
+	movl	%edi, (%esp)
+	call	__ZN7testing8internal11CmpHelperEQIccEENS_15AssertionResultEPKcS4_RKT_RKT0_
+	cmpb	$0, -56(%ebp)
+	jne	L103
+	movl	%ebx, %ecx
+	call	__ZN7testing7MessageC1Ev
+	movl	-60(%ebp), %eax
+	movl	$LC58, 4(%esp)
+	addl	$8, %eax
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	-52(%ebp), %edx
+	movl	$LC21, %eax
+	testl	%edx, %edx
+	je	L104
+	movl	(%edx), %eax
+L104:
+	movl	%eax, 12(%esp)
+	movl	$27, 8(%esp)
+L109:
+	movl	%esi, %ecx
+	movl	$LC25, 4(%esp)
+	movl	$2, (%esp)
+	call	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_
+	subl	$16, %esp
+	movl	%esi, %ecx
+	movl	%ebx, (%esp)
+	call	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE
+	pushl	%eax
+	movl	%esi, %ecx
+	call	__ZN7testing8internal12AssertHelperD1Ev
+	movl	%ebx, %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEEED4Ev.isra.15.constprop.50
+L103:
+	leal	-52(%ebp), %ecx
+	call	__ZN7testing8internal10scoped_ptrINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED4Ev.isra.26
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3619:
+	.section	.text.unlikely._ZN22Constructors_Char_Test8TestBodyEv,"x"
+LCOLDE59:
+	.section	.text$_ZN22Constructors_Char_Test8TestBodyEv,"x"
+LHOTE59:
+	.section	.text$_ZN18Assign_string_TestD4Ev,"x"
+	.align 2
+LCOLDB60:
+LHOTB60:
+	.align 2
+	.def	__ZN18Assign_string_TestD4Ev;	.scl	3;	.type	32;	.endef
+__ZN18Assign_string_TestD4Ev:
+LFB4290:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	$__ZTV18Assign_string_Test+8, (%ecx)
+	call	__ZN7testing4TestD2Ev
+	testb	$1, 8(%ebp)
+	je	L110
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+L110:
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE4290:
+LCOLDE60:
+LHOTE60:
+	.section	.text$_ZN18Assign_string_TestD1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB61:
+LHOTB61:
+	.align 2
+	.globl	__ZN18Assign_string_TestD1Ev
+	.def	__ZN18Assign_string_TestD1Ev;	.scl	2;	.type	32;	.endef
+__ZN18Assign_string_TestD1Ev:
+LFB4292:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	$2, (%esp)
+	call	__ZN18Assign_string_TestD4Ev
+	pushl	%eax
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4292:
+LCOLDE61:
+LHOTE61:
+	.section	.text$_ZN18Assign_string_TestD0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB62:
+LHOTB62:
+	.align 2
+	.globl	__ZN18Assign_string_TestD0Ev
+	.def	__ZN18Assign_string_TestD0Ev;	.scl	2;	.type	32;	.endef
+__ZN18Assign_string_TestD0Ev:
+LFB4293:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	call	__ZN18Assign_string_TestD1Ev
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4293:
+LCOLDE62:
+LHOTE62:
+	.section	.text$_ZN22Constructors_Char_TestD4Ev,"x"
+	.align 2
+LCOLDB63:
+LHOTB63:
+	.align 2
+	.def	__ZN22Constructors_Char_TestD4Ev;	.scl	3;	.type	32;	.endef
+__ZN22Constructors_Char_TestD4Ev:
+LFB4298:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	$__ZTV22Constructors_Char_Test+8, (%ecx)
+	call	__ZN7testing4TestD2Ev
+	testb	$1, 8(%ebp)
+	je	L120
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+L120:
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE4298:
+LCOLDE63:
+LHOTE63:
+	.section	.text$_ZN22Constructors_Char_TestD1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB64:
+LHOTB64:
+	.align 2
+	.globl	__ZN22Constructors_Char_TestD1Ev
+	.def	__ZN22Constructors_Char_TestD1Ev;	.scl	2;	.type	32;	.endef
+__ZN22Constructors_Char_TestD1Ev:
+LFB4300:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	$2, (%esp)
+	call	__ZN22Constructors_Char_TestD4Ev
+	pushl	%eax
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4300:
+LCOLDE64:
+LHOTE64:
+	.section	.text$_ZN22Constructors_Char_TestD0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB65:
+LHOTB65:
+	.align 2
+	.globl	__ZN22Constructors_Char_TestD0Ev
+	.def	__ZN22Constructors_Char_TestD0Ev;	.scl	2;	.type	32;	.endef
+__ZN22Constructors_Char_TestD0Ev:
+LFB4301:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	call	__ZN22Constructors_Char_TestD1Ev
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4301:
+LCOLDE65:
+LHOTE65:
+	.section	.text$_ZN25Constructors_Default_TestD4Ev,"x"
+	.align 2
+LCOLDB66:
+LHOTB66:
+	.align 2
+	.def	__ZN25Constructors_Default_TestD4Ev;	.scl	3;	.type	32;	.endef
+__ZN25Constructors_Default_TestD4Ev:
+LFB4306:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	$__ZTV25Constructors_Default_Test+8, (%ecx)
+	call	__ZN7testing4TestD2Ev
+	testb	$1, 8(%ebp)
+	je	L130
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+L130:
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE4306:
+LCOLDE66:
+LHOTE66:
+	.section	.text$_ZN25Constructors_Default_TestD1Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB67:
+LHOTB67:
+	.align 2
+	.globl	__ZN25Constructors_Default_TestD1Ev
+	.def	__ZN25Constructors_Default_TestD1Ev;	.scl	2;	.type	32;	.endef
+__ZN25Constructors_Default_TestD1Ev:
+LFB4308:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	$2, (%esp)
+	call	__ZN25Constructors_Default_TestD4Ev
+	pushl	%eax
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4308:
+LCOLDE67:
+LHOTE67:
+	.section	.text$_ZN25Constructors_Default_TestD0Ev,"x"
+	.linkonce discard
+	.align 2
+LCOLDB68:
+LHOTB68:
+	.align 2
+	.globl	__ZN25Constructors_Default_TestD0Ev
+	.def	__ZN25Constructors_Default_TestD0Ev;	.scl	2;	.type	32;	.endef
+__ZN25Constructors_Default_TestD0Ev:
+LFB4309:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	call	__ZN25Constructors_Default_TestD1Ev
+	movl	%ebx, (%esp)
+	call	__ZdlPv
+	addl	$20, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4309:
+LCOLDE68:
+LHOTE68:
+	.section .rdata,"dr"
+LC69:
+	.ascii "Default\0"
+LC70:
+	.ascii "Constructors\0"
+LC71:
+	.ascii "Char\0"
+LC72:
+	.ascii "string\0"
+LC73:
+	.ascii "Assign\0"
+	.section	.text.unlikely._GLOBAL__sub_I__Z3lenPKc,"x"
+LCOLDB74:
+	.section	.text.startup._GLOBAL__sub_I__Z3lenPKc,"x"
+LHOTB74:
+	.def	__GLOBAL__sub_I__Z3lenPKc;	.scl	3;	.type	32;	.endef
+__GLOBAL__sub_I__Z3lenPKc:
+LFB4362:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	subl	$36, %esp
+	.cfi_offset 3, -12
+	call	__ZNSt8ios_base4InitC1Ev
+	movl	$___tcf_0, (%esp)
+	call	_atexit
+	movl	$4, (%esp)
+	call	__Znwj
+	movl	%eax, %ebx
+	movl	$__ZTVN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE+8, (%eax)
+	call	__ZN7testing8internal13GetTestTypeIdEv
+	movl	%ebx, 28(%esp)
+	movl	$__ZN7testing4Test16TearDownTestCaseEv, 24(%esp)
+	movl	$__ZN7testing4Test13SetUpTestCaseEv, 20(%esp)
+	movl	%eax, 16(%esp)
+	movl	$0, 12(%esp)
+	movl	$0, 8(%esp)
+	movl	$LC69, 4(%esp)
+	movl	$LC70, (%esp)
+	call	__ZN7testing8internal23MakeAndRegisterTestInfoEPKcS2_S2_S2_PKvPFvvES6_PNS0_15TestFactoryBaseE
+	movl	$4, (%esp)
+	movl	%eax, __ZN25Constructors_Default_Test10test_info_E
+	call	__Znwj
+	movl	%eax, %ebx
+	movl	$__ZTVN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE+8, (%eax)
+	call	__ZN7testing8internal13GetTestTypeIdEv
+	movl	%ebx, 28(%esp)
+	movl	$__ZN7testing4Test16TearDownTestCaseEv, 24(%esp)
+	movl	$__ZN7testing4Test13SetUpTestCaseEv, 20(%esp)
+	movl	%eax, 16(%esp)
+	movl	$0, 12(%esp)
+	movl	$0, 8(%esp)
+	movl	$LC71, 4(%esp)
+	movl	$LC70, (%esp)
+	call	__ZN7testing8internal23MakeAndRegisterTestInfoEPKcS2_S2_S2_PKvPFvvES6_PNS0_15TestFactoryBaseE
+	movl	$4, (%esp)
+	movl	%eax, __ZN22Constructors_Char_Test10test_info_E
+	call	__Znwj
+	movl	%eax, %ebx
+	movl	$__ZTVN7testing8internal15TestFactoryImplI18Assign_string_TestEE+8, (%eax)
+	call	__ZN7testing8internal13GetTestTypeIdEv
+	movl	%ebx, 28(%esp)
+	movl	$__ZN7testing4Test16TearDownTestCaseEv, 24(%esp)
+	movl	$__ZN7testing4Test13SetUpTestCaseEv, 20(%esp)
+	movl	%eax, 16(%esp)
+	movl	$0, 12(%esp)
+	movl	$0, 8(%esp)
+	movl	$LC72, 4(%esp)
+	movl	$LC73, (%esp)
+	call	__ZN7testing8internal23MakeAndRegisterTestInfoEPKcS2_S2_S2_PKvPFvvES6_PNS0_15TestFactoryBaseE
+	movl	%eax, __ZN18Assign_string_Test10test_info_E
+	addl	$36, %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE4362:
+	.section	.text.unlikely._GLOBAL__sub_I__Z3lenPKc,"x"
+LCOLDE74:
+	.section	.text.startup._GLOBAL__sub_I__Z3lenPKc,"x"
+LHOTE74:
+	.section	.ctors,"w"
+	.align 4
+	.long	__GLOBAL__sub_I__Z3lenPKc
+	.globl	__ZTSN7testing8internal15TestFactoryBaseE
+	.section	.rdata$_ZTSN7testing8internal15TestFactoryBaseE,"dr"
+	.linkonce same_size
+	.align 32
+__ZTSN7testing8internal15TestFactoryBaseE:
+	.ascii "N7testing8internal15TestFactoryBaseE\0"
+	.globl	__ZTIN7testing8internal15TestFactoryBaseE
+	.section	.rdata$_ZTIN7testing8internal15TestFactoryBaseE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTIN7testing8internal15TestFactoryBaseE:
+	.long	__ZTVN10__cxxabiv117__class_type_infoE+8
+	.long	__ZTSN7testing8internal15TestFactoryBaseE
+	.globl	__ZTSN7testing4TestE
+	.section	.rdata$_ZTSN7testing4TestE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTSN7testing4TestE:
+	.ascii "N7testing4TestE\0"
+	.globl	__ZTIN7testing4TestE
+	.section	.rdata$_ZTIN7testing4TestE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTIN7testing4TestE:
+	.long	__ZTVN10__cxxabiv117__class_type_infoE+8
+	.long	__ZTSN7testing4TestE
+	.globl	__ZTS25Constructors_Default_Test
+	.section	.rdata$_ZTS25Constructors_Default_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTS25Constructors_Default_Test:
+	.ascii "25Constructors_Default_Test\0"
+	.globl	__ZTI25Constructors_Default_Test
+	.section	.rdata$_ZTI25Constructors_Default_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTI25Constructors_Default_Test:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTS25Constructors_Default_Test
+	.long	__ZTIN7testing4TestE
+	.globl	__ZTSN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE
+	.section	.rdata$_ZTSN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE,"dr"
+	.linkonce same_size
+	.align 32
+__ZTSN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE:
+	.ascii "N7testing8internal15TestFactoryImplI25Constructors_Default_TestEE\0"
+	.globl	__ZTIN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE
+	.section	.rdata$_ZTIN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTIN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTSN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE
+	.long	__ZTIN7testing8internal15TestFactoryBaseE
+	.globl	__ZTS22Constructors_Char_Test
+	.section	.rdata$_ZTS22Constructors_Char_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTS22Constructors_Char_Test:
+	.ascii "22Constructors_Char_Test\0"
+	.globl	__ZTI22Constructors_Char_Test
+	.section	.rdata$_ZTI22Constructors_Char_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTI22Constructors_Char_Test:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTS22Constructors_Char_Test
+	.long	__ZTIN7testing4TestE
+	.globl	__ZTSN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE
+	.section	.rdata$_ZTSN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE,"dr"
+	.linkonce same_size
+	.align 32
+__ZTSN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE:
+	.ascii "N7testing8internal15TestFactoryImplI22Constructors_Char_TestEE\0"
+	.globl	__ZTIN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE
+	.section	.rdata$_ZTIN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTIN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTSN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE
+	.long	__ZTIN7testing8internal15TestFactoryBaseE
+	.globl	__ZTS18Assign_string_Test
+	.section	.rdata$_ZTS18Assign_string_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTS18Assign_string_Test:
+	.ascii "18Assign_string_Test\0"
+	.globl	__ZTI18Assign_string_Test
+	.section	.rdata$_ZTI18Assign_string_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTI18Assign_string_Test:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTS18Assign_string_Test
+	.long	__ZTIN7testing4TestE
+	.globl	__ZTSN7testing8internal15TestFactoryImplI18Assign_string_TestEE
+	.section	.rdata$_ZTSN7testing8internal15TestFactoryImplI18Assign_string_TestEE,"dr"
+	.linkonce same_size
+	.align 32
+__ZTSN7testing8internal15TestFactoryImplI18Assign_string_TestEE:
+	.ascii "N7testing8internal15TestFactoryImplI18Assign_string_TestEE\0"
+	.globl	__ZTIN7testing8internal15TestFactoryImplI18Assign_string_TestEE
+	.section	.rdata$_ZTIN7testing8internal15TestFactoryImplI18Assign_string_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTIN7testing8internal15TestFactoryImplI18Assign_string_TestEE:
+	.long	__ZTVN10__cxxabiv120__si_class_type_infoE+8
+	.long	__ZTSN7testing8internal15TestFactoryImplI18Assign_string_TestEE
+	.long	__ZTIN7testing8internal15TestFactoryBaseE
+	.globl	__ZTVN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE
+	.section	.rdata$_ZTVN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE:
+	.long	0
+	.long	__ZTIN7testing8internal15TestFactoryImplI25Constructors_Default_TestEE
+	.long	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED1Ev
+	.long	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestED0Ev
+	.long	__ZN7testing8internal15TestFactoryImplI25Constructors_Default_TestE10CreateTestEv
+	.globl	__ZTV25Constructors_Default_Test
+	.section	.rdata$_ZTV25Constructors_Default_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTV25Constructors_Default_Test:
+	.long	0
+	.long	__ZTI25Constructors_Default_Test
+	.long	__ZN25Constructors_Default_TestD1Ev
+	.long	__ZN25Constructors_Default_TestD0Ev
+	.long	__ZN7testing4Test5SetUpEv
+	.long	__ZN7testing4Test8TearDownEv
+	.long	__ZN25Constructors_Default_Test8TestBodyEv
+	.long	__ZN7testing4Test5SetupEv
+	.globl	__ZTVN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE
+	.section	.rdata$_ZTVN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE:
+	.long	0
+	.long	__ZTIN7testing8internal15TestFactoryImplI22Constructors_Char_TestEE
+	.long	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED1Ev
+	.long	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestED0Ev
+	.long	__ZN7testing8internal15TestFactoryImplI22Constructors_Char_TestE10CreateTestEv
+	.globl	__ZTV22Constructors_Char_Test
+	.section	.rdata$_ZTV22Constructors_Char_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTV22Constructors_Char_Test:
+	.long	0
+	.long	__ZTI22Constructors_Char_Test
+	.long	__ZN22Constructors_Char_TestD1Ev
+	.long	__ZN22Constructors_Char_TestD0Ev
+	.long	__ZN7testing4Test5SetUpEv
+	.long	__ZN7testing4Test8TearDownEv
+	.long	__ZN22Constructors_Char_Test8TestBodyEv
+	.long	__ZN7testing4Test5SetupEv
+	.globl	__ZTVN7testing8internal15TestFactoryImplI18Assign_string_TestEE
+	.section	.rdata$_ZTVN7testing8internal15TestFactoryImplI18Assign_string_TestEE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN7testing8internal15TestFactoryImplI18Assign_string_TestEE:
+	.long	0
+	.long	__ZTIN7testing8internal15TestFactoryImplI18Assign_string_TestEE
+	.long	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED1Ev
+	.long	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestED0Ev
+	.long	__ZN7testing8internal15TestFactoryImplI18Assign_string_TestE10CreateTestEv
+	.globl	__ZTV18Assign_string_Test
+	.section	.rdata$_ZTV18Assign_string_Test,"dr"
+	.linkonce same_size
+	.align 4
+__ZTV18Assign_string_Test:
+	.long	0
+	.long	__ZTI18Assign_string_Test
+	.long	__ZN18Assign_string_TestD1Ev
+	.long	__ZN18Assign_string_TestD0Ev
+	.long	__ZN7testing4Test5SetUpEv
+	.long	__ZN7testing4Test8TearDownEv
+	.long	__ZN18Assign_string_Test8TestBodyEv
+	.long	__ZN7testing4Test5SetupEv
+	.globl	__ZN18Assign_string_Test10test_info_E
+	.section	.data$_ZN18Assign_string_Test10test_info_E,"w"
+	.align 4
+__ZN18Assign_string_Test10test_info_E:
+	.space 4
+	.globl	__ZN22Constructors_Char_Test10test_info_E
+	.section	.data$_ZN22Constructors_Char_Test10test_info_E,"w"
+	.align 4
+__ZN22Constructors_Char_Test10test_info_E:
+	.space 4
+	.globl	__ZN25Constructors_Default_Test10test_info_E
+	.section	.data$_ZN25Constructors_Default_Test10test_info_E,"w"
+	.align 4
+__ZN25Constructors_Default_Test10test_info_E:
+	.space 4
+	.section	.data$_ZStL8__ioinit,"w"
+__ZStL8__ioinit:
+	.space 1
+	.ident	"GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 5.2.0"
+	.def	__ZdlPv;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt8ios_base4InitD1Ev;	.scl	2;	.type	32;	.endef
+	.def	__Znwj;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing4TestC2Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal6IsTrueEb;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv;	.scl	2;	.type	32;	.endef
+	.def	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc;	.scl	2;	.type	32;	.endef
+	.def	__ZNSolsEi;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing14InitGoogleTestEPiPPc;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8UnitTest11GetInstanceEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8UnitTest3RunEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN5bmptk4waitEx;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode;	.scl	2;	.type	32;	.endef
+	.def	__ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing16AssertionSuccessEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal9EqFailureEPKcS2_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_b;	.scl	2;	.type	32;	.endef
+	.def	__ZN8string20C1Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZNK8string206lengthEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing7MessageC1Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal12AssertHelperC1ENS_14TestPartResult4TypeEPKciS5_;	.scl	2;	.type	32;	.endef
+	.def	__ZNK7testing8internal12AssertHelperaSERKNS_7MessageE;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal12AssertHelperD1Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal7PrintToEhPSo;	.scl	2;	.type	32;	.endef
+	.def	__ZNK8string20ixEi;	.scl	2;	.type	32;	.endef
+	.def	__ZN8string20aSEPKc;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal30GetBoolAssertionFailureMessageB5cxx11ERKNS_15AssertionResultEPKcS5_S5_;	.scl	2;	.type	32;	.endef
+	.def	__ZN8string20C1Ec;	.scl	2;	.type	32;	.endef
+	.def	__ZN8string20ixEi;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing4TestD2Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt8ios_base4InitC1Ev;	.scl	2;	.type	32;	.endef
+	.def	_atexit;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal13GetTestTypeIdEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing8internal23MakeAndRegisterTestInfoEPKcS2_S2_S2_PKvPFvvES6_PNS0_15TestFactoryBaseE;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing4Test5SetUpEv;	.scl	2;	.type	32;	.endef
+	.def	__ZN7testing4Test8TearDownEv;	.scl	2;	.type	32;	.endef

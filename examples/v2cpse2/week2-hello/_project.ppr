@@ -1,0 +1,41 @@
+[Config]
+Compilator.FileName=build.bat
+Compilator.SaveAll=1
+Compilator.Capture=1
+Compilator.ParsLog=%F:%L:*
+Compilator.HideOutput=1
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+Prog1=Clean,cmd /C "bmptk-make clean "
+Prog2=Run,cmd /C "bmptk-make run "
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+Project
+	+Files
+		-includes
+		+compile
+			main.cpp
+		+others
+			Makefile
+[Open project files]
+0=main.cpp
+1=asm.asm
+2=Makefile
+[Selected Project Files]
+Main=
+Selected=main.cpp
+[main.cpp]
+TopLine=27
+Caret=141,19
+[asm.asm]
+TopLine=2
+Caret=1,27
+[Makefile]
+TopLine=9
+Caret=15,22

@@ -1,0 +1,30 @@
+file: bmptk/examples/v2cpse2/README
+
+Bare Metal Programming Tool Kit V2CSPSE2 examples directory
+
+This part of the tree contains code that is used in the 
+V2CPSE2 I give at the Hogeschool Utrecht, the Netherlands.
+These examples work with either the DB013 board (LPC1114 chip),
+or with the win target, or (in most cases) with both.
+
+
+This directory contains :
+   Makefile    : supports 'clean' and 'build' targets
+   README      : this file
+   libraries   : libraries that are specific for this course
+
+subdirectories - course week 1
+   hello       : hello world using hwcpp:io::cout
+   lines       : random lines with LCD5510 or windows
+   subframes   : demonstrates subframes (windows)
+   decorators  : demonstrates some frame decorators
+   tee         : demonstrates tee decorator
+   week1-make  : starting point for week1 assignment
+   
+
+  
+   
+
+
+
+

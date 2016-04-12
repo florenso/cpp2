@@ -1,0 +1,3695 @@
+	.file	"graphics.cpp"
+	.section	.text$_ZSt3decRSt8ios_base,"x"
+	.linkonce discard
+LCOLDB0:
+LHOTB0:
+	.globl	__ZSt3decRSt8ios_base
+	.def	__ZSt3decRSt8ios_base;	.scl	2;	.type	32;	.endef
+__ZSt3decRSt8ios_base:
+LFB1102:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	movl	12(%eax), %edx
+	andl	$-75, %edx
+	orl	$2, %edx
+	movl	%edx, 12(%eax)
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE1102:
+LCOLDE0:
+LHOTE0:
+	.section	.text$_ZSt3hexRSt8ios_base,"x"
+	.linkonce discard
+LCOLDB1:
+LHOTB1:
+	.globl	__ZSt3hexRSt8ios_base
+	.def	__ZSt3hexRSt8ios_base;	.scl	2;	.type	32;	.endef
+__ZSt3hexRSt8ios_base:
+LFB1103:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	movl	12(%eax), %edx
+	andl	$-75, %edx
+	orl	$8, %edx
+	movl	%edx, 12(%eax)
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE1103:
+LCOLDE1:
+LHOTE1:
+	.section	.text$_ZNK8graphics5frame17translate_outfromENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB2:
+LHOTB2:
+	.align 2
+	.globl	__ZNK8graphics5frame17translate_outfromENS_6vectorE
+	.def	__ZNK8graphics5frame17translate_outfromENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics5frame17translate_outfromENS_6vectorE:
+LFB2476:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2476:
+LCOLDE2:
+LHOTE2:
+	.section	.text$_ZNK8graphics5frame14translate_intoENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB3:
+LHOTB3:
+	.align 2
+	.globl	__ZNK8graphics5frame14translate_intoENS_6vectorE
+	.def	__ZNK8graphics5frame14translate_intoENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics5frame14translate_intoENS_6vectorE:
+LFB2477:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2477:
+LCOLDE3:
+LHOTE3:
+	.section	.text$_ZN8graphics5frame5flushEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB4:
+LHOTB4:
+	.align 2
+	.globl	__ZN8graphics5frame5flushEv
+	.def	__ZN8graphics5frame5flushEv;	.scl	2;	.type	32;	.endef
+__ZN8graphics5frame5flushEv:
+LFB2482:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2482:
+LCOLDE4:
+LHOTE4:
+	.section	.text$_ZNK8graphics8subframe17translate_outfromENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB5:
+LHOTB5:
+	.align 2
+	.globl	__ZNK8graphics8subframe17translate_outfromENS_6vectorE
+	.def	__ZNK8graphics8subframe17translate_outfromENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics8subframe17translate_outfromENS_6vectorE:
+LFB2529:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movswl	18(%ecx), %edx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	movl	8(%ebp), %edi
+	pushl	%ebx
+	.cfi_offset 3, -20
+	movl	%edx, %ebx
+	movl	%edi, %esi
+	movswl	%di, %edi
+	sarl	$16, %esi
+	leal	(%edx,%esi), %eax
+	subl	%esi, %edx
+	cmpw	22(%ecx), %bx
+	movswl	16(%ecx), %ebx
+	cmovl	%eax, %edx
+	leal	(%ebx,%edi), %esi
+	movl	%ebx, %eax
+	subl	%edi, %ebx
+	cmpw	20(%ecx), %ax
+	movl	%edx, %eax
+	cmovl	%esi, %ebx
+	cmpb	$0, 24(%ecx)
+	cmovne	%ebx, %eax
+	cmovne	%edx, %ebx
+	movzwl	%bx, %edx
+	sall	$16, %eax
+	popl	%ebx
+	.cfi_restore 3
+	orl	%edx, %eax
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2529:
+LCOLDE5:
+LHOTE5:
+	.section	.text$_ZNK8graphics8subframe14translate_intoENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB6:
+LHOTB6:
+	.align 2
+	.globl	__ZNK8graphics8subframe14translate_intoENS_6vectorE
+	.def	__ZNK8graphics8subframe14translate_intoENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics8subframe14translate_intoENS_6vectorE:
+LFB2530:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movswl	18(%ecx), %eax
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	8(%ebp), %ebx
+	movl	%ebx, %edx
+	sarl	$16, %edx
+	cmpw	22(%ecx), %ax
+	movswl	%dx, %edx
+	jl	L27
+	negl	%edx
+L27:
+	subl	%eax, %edx
+	movswl	16(%ecx), %eax
+	movswl	%bx, %ebx
+	cmpw	20(%ecx), %ax
+	jl	L28
+	negl	%ebx
+L28:
+	subl	%eax, %ebx
+	cmpb	$0, 24(%ecx)
+	movl	%edx, %eax
+	cmovne	%ebx, %eax
+	cmovne	%edx, %ebx
+	movzwl	%bx, %edx
+	sall	$16, %eax
+	orl	%edx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2530:
+LCOLDE6:
+LHOTE6:
+	.section	.text$_ZNK8graphics10char_photo12checked_readENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB7:
+LHOTB7:
+	.align 2
+	.globl	__ZNK8graphics10char_photo12checked_readENS_6vectorE
+	.def	__ZNK8graphics10char_photo12checked_readENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics10char_photo12checked_readENS_6vectorE:
+LFB2577:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$20, %esp
+	movl	8(%ecx), %ecx
+	movl	8(%ebp), %edx
+	movl	(%ecx), %eax
+	movl	%edx, 4(%esp)
+	movsbl	12(%ebx), %edx
+	movl	%edx, (%esp)
+	call	*4(%eax)
+	pushl	%edx
+	pushl	%edx
+	leal	13(%ebx), %edx
+	addl	$17, %ebx
+	testb	%al, %al
+	cmovne	%edx, %ebx
+	movl	(%ebx), %eax
+	movl	-4(%ebp), %ebx
+	leave
+	.cfi_restore 5
+	.cfi_restore 3
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2577:
+LCOLDE7:
+LHOTE7:
+	.section	.text$_ZNK8graphics11inline_font3hasEc,"x"
+	.linkonce discard
+	.align 2
+LCOLDB8:
+LHOTB8:
+	.align 2
+	.globl	__ZNK8graphics11inline_font3hasEc
+	.def	__ZNK8graphics11inline_font3hasEc;	.scl	2;	.type	32;	.endef
+__ZNK8graphics11inline_font3hasEc:
+LFB2581:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	xorl	%eax, %eax
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	8(%ebp), %edx
+	leal	-32(%edx), %ebx
+	cmpb	$94, %bl
+	ja	L35
+	movl	32(%ecx), %eax
+	movsbl	%dl, %edx
+	movl	-128(%eax,%edx,4), %eax
+	notl	%eax
+	shrl	$31, %eax
+L35:
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2581:
+LCOLDE8:
+LHOTE8:
+	.section	.text.unlikely._ZN8graphics7WndProcEP6HWND__jjl@16,"x"
+LCOLDB9:
+	.section	.text$_ZN8graphics7WndProcEP6HWND__jjl,"x"
+LHOTB9:
+	.globl	__ZN8graphics7WndProcEP6HWND__jjl@16
+	.def	__ZN8graphics7WndProcEP6HWND__jjl@16;	.scl	2;	.type	32;	.endef
+__ZN8graphics7WndProcEP6HWND__jjl@16:
+LFB3091:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	subl	$20, %esp
+	.cfi_offset 3, -12
+	movl	12(%ebp), %eax
+	movl	8(%ebp), %edx
+	movl	16(%ebp), %ecx
+	movl	20(%ebp), %ebx
+	cmpl	$2, %eax
+	je	L41
+	cmpl	$16, %eax
+	jne	L44
+	movl	%edx, (%esp)
+	call	*__imp__DestroyWindow@4
+	jmp	L46
+L41:
+	movl	$0, (%esp)
+	call	*__imp__PostQuitMessage@4
+L46:
+	movl	-4(%ebp), %ebx
+	pushl	%eax
+	xorl	%eax, %eax
+	leave
+	.cfi_remember_state
+	.cfi_restore 5
+	.cfi_restore 3
+	.cfi_def_cfa 4, 4
+	ret	$16
+L44:
+	.cfi_restore_state
+	movl	%ebx, 20(%ebp)
+	movl	%ecx, 16(%ebp)
+	movl	%eax, 12(%ebp)
+	movl	%edx, 8(%ebp)
+	movl	-4(%ebp), %ebx
+	leave
+	.cfi_restore 5
+	.cfi_restore 3
+	.cfi_def_cfa 4, 4
+	jmp	*__imp__DefWindowProcA@16
+	.cfi_def_cfa_offset -12
+	.cfi_endproc
+LFE3091:
+	.section	.text.unlikely._ZN8graphics7WndProcEP6HWND__jjl@16,"x"
+LCOLDE9:
+	.section	.text$_ZN8graphics7WndProcEP6HWND__jjl,"x"
+LHOTE9:
+	.section	.text.unlikely._ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE,"x"
+	.align 2
+LCOLDB10:
+	.section	.text$_ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE,"x"
+LHOTB10:
+	.align 2
+	.globl	__ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE
+	.def	__ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE;	.scl	2;	.type	32;	.endef
+__ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE:
+LFB3095:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	cmpb	$0, 12(%ebp)
+	movl	8(%ebp), %eax
+	jne	L47
+	movzbl	15(%ebp), %edx
+	movzwl	13(%ebp), %ecx
+	sall	$16, %edx
+	orl	%ecx, %edx
+	movl	%edx, 12(%esp)
+	movl	%eax, %edx
+	cwtl
+	movl	%eax, 4(%esp)
+	movl	__ZN8graphics3hdcE, %eax
+	sarl	$16, %edx
+	movl	%edx, 8(%esp)
+	movl	%eax, (%esp)
+	call	*__imp__SetPixel@16
+	subl	$16, %esp
+L47:
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE3095:
+	.section	.text.unlikely._ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE,"x"
+LCOLDE10:
+	.section	.text$_ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE,"x"
+LHOTE10:
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDB11:
+	.section	.text$__tcf_0,"x"
+LHOTB11:
+	.def	___tcf_0;	.scl	3;	.type	32;	.endef
+___tcf_0:
+LFB3310:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	jmp	__ZNSt8ios_base4InitD1Ev
+	.cfi_endproc
+LFE3310:
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDE11:
+	.section	.text$__tcf_0,"x"
+LHOTE11:
+	.section	.text.unlikely._ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE,"x"
+	.align 2
+LCOLDB12:
+	.section	.text$_ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE,"x"
+LHOTB12:
+	.align 2
+	.globl	__ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE
+	.def	__ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE:
+LFB2609:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movswl	4(%ecx), %edx
+	movl	8(%ebp), %eax
+	movl	%eax, %ebx
+	cwtl
+	sarl	$16, %ebx
+	imull	%ebx, %edx
+	movl	8(%ecx), %ebx
+	addl	%eax, %edx
+	leal	(%edx,%edx,2), %edx
+	movzbl	(%ebx,%edx), %eax
+	movzbl	1(%ebx,%edx), %ecx
+	movzbl	2(%ebx,%edx), %edx
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	sall	$16, %ecx
+	sall	$8, %eax
+	sall	$24, %edx
+	orl	%ecx, %eax
+	orl	%edx, %eax
+	ret	$4
+	.cfi_endproc
+LFE2609:
+	.section	.text.unlikely._ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE,"x"
+LCOLDE12:
+	.section	.text$_ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE,"x"
+LHOTE12:
+	.section	.text.unlikely._ZNK8graphics11inline_font9char_sizeEc,"x"
+	.align 2
+LCOLDB13:
+	.section	.text$_ZNK8graphics11inline_font9char_sizeEc,"x"
+LHOTB13:
+	.align 2
+	.globl	__ZNK8graphics11inline_font9char_sizeEc
+	.def	__ZNK8graphics11inline_font9char_sizeEc;	.scl	2;	.type	32;	.endef
+__ZNK8graphics11inline_font9char_sizeEc:
+LFB2611:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	movl	%ecx, %ebx
+	subl	$16, %esp
+	movsbl	8(%ebp), %esi
+	movl	(%ecx), %eax
+	movl	%esi, (%esp)
+	call	*(%eax)
+	testb	%al, %al
+	pushl	%edx
+	jne	L55
+	movzwl	8(%ebx), %eax
+	sall	$16, %eax
+	jmp	L56
+L55:
+	cmpb	$0, 4(%ebx)
+	je	L57
+	movl	6(%ebx), %eax
+	jmp	L56
+L57:
+	movl	32(%ebx), %edx
+	movl	-124(%edx,%esi,4), %eax
+	subl	-128(%edx,%esi,4), %eax
+	movl	%eax, %ecx
+	movzwl	8(%ebx), %eax
+	sall	$16, %eax
+	movl	%eax, %edx
+	movzwl	%cx, %eax
+	orl	%edx, %eax
+L56:
+	leal	-8(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2611:
+	.section	.text.unlikely._ZNK8graphics11inline_font9char_sizeEc,"x"
+LCOLDE13:
+	.section	.text$_ZNK8graphics11inline_font9char_sizeEc,"x"
+LHOTE13:
+	.section	.text$_ZN8graphics6vector9is_withinEss,"x"
+	.linkonce discard
+LCOLDB14:
+LHOTB14:
+	.globl	__ZN8graphics6vector9is_withinEss
+	.def	__ZN8graphics6vector9is_withinEss;	.scl	2;	.type	32;	.endef
+__ZN8graphics6vector9is_withinEss:
+LFB2405:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	8(%ebp), %edx
+	movl	12(%ebp), %ecx
+	movl	%edx, %eax
+	notl	%eax
+	shrw	$15, %ax
+	cmpw	%cx, %dx
+	setl	%bl
+	andb	%bl, %al
+	jne	L60
+	testw	%dx, %dx
+	setle	%bl
+	cmpw	%cx, %dx
+	setg	%al
+	andl	%ebx, %eax
+L60:
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2405:
+LCOLDE14:
+LHOTE14:
+	.section	.text$_ZNK8graphics6vectorplES0_,"x"
+	.linkonce discard
+	.align 2
+LCOLDB15:
+LHOTB15:
+	.align 2
+	.globl	__ZNK8graphics6vectorplES0_
+	.def	__ZNK8graphics6vectorplES0_;	.scl	2;	.type	32;	.endef
+__ZNK8graphics6vectorplES0_:
+LFB2414:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %edx
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	movl	%edx, %eax
+	addw	(%ecx), %dx
+	sarl	$16, %eax
+	addw	2(%ecx), %ax
+	movl	%edx, %ecx
+	movl	%eax, %edx
+	movzwl	%cx, %eax
+	sall	$16, %edx
+	orl	%edx, %eax
+	ret	$4
+	.cfi_endproc
+LFE2414:
+LCOLDE15:
+LHOTE15:
+	.section	.text$_ZN8graphics6vectorpLES0_,"x"
+	.linkonce discard
+	.align 2
+LCOLDB16:
+LHOTB16:
+	.align 2
+	.globl	__ZN8graphics6vectorpLES0_
+	.def	__ZN8graphics6vectorpLES0_;	.scl	2;	.type	32;	.endef
+__ZN8graphics6vectorpLES0_:
+LFB2415:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	movl	%eax, %edx
+	sarl	$16, %eax
+	addw	(%ecx), %dx
+	addw	2(%ecx), %ax
+	movw	%dx, (%ecx)
+	movzwl	%dx, %edx
+	movw	%ax, 2(%ecx)
+	sall	$16, %eax
+	orl	%edx, %eax
+	ret	$4
+	.cfi_endproc
+LFE2415:
+LCOLDE16:
+LHOTE16:
+	.section .rdata,"dr"
+LC17:
+	.ascii "(\0"
+LC18:
+	.ascii ",\0"
+LC19:
+	.ascii ")\0"
+	.section	.text$_ZN8graphicslsERSoNS_6vectorE,"x"
+	.linkonce discard
+LCOLDB20:
+LHOTB20:
+	.globl	__ZN8graphicslsERSoNS_6vectorE
+	.def	__ZN8graphicslsERSoNS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZN8graphicslsERSoNS_6vectorE:
+LFB2425:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	subl	$16, %esp
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	movl	12(%ebp), %eax
+	movl	8(%ebp), %ecx
+	movl	$__ZSt3decRSt8ios_base, (%esp)
+	movswl	%ax, %esi
+	movl	%eax, %ebx
+	call	__ZNSolsEPFRSt8ios_baseS0_E
+	pushl	%edx
+	sarl	$16, %ebx
+	movl	$LC17, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	%esi, (%esp)
+	movl	%eax, %ecx
+	call	__ZNSolsEs
+	pushl	%ecx
+	movl	$LC18, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	%ebx, (%esp)
+	movl	%eax, %ecx
+	call	__ZNSolsEs
+	pushl	%ebx
+	movl	$LC19, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	8(%ebp), %eax
+	leal	-8(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2425:
+LCOLDE20:
+LHOTE20:
+	.section	.text$_ZNK8graphics6vector9directionEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB21:
+LHOTB21:
+	.align 2
+	.globl	__ZNK8graphics6vector9directionEv
+	.def	__ZNK8graphics6vector9directionEv;	.scl	2;	.type	32;	.endef
+__ZNK8graphics6vector9directionEv:
+LFB2429:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movswl	(%ecx), %ebx
+	movswl	2(%ecx), %edx
+	xorl	%ecx, %ecx
+	testw	%bx, %bx
+	setg	%cl
+	shrl	$31, %ebx
+	xorl	%eax, %eax
+	subl	%ebx, %ecx
+	testw	%dx, %dx
+	setg	%al
+	shrl	$31, %edx
+	subl	%edx, %eax
+	sall	$16, %eax
+	movl	%eax, %edx
+	movzwl	%cx, %eax
+	orl	%edx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2429:
+LCOLDE21:
+LHOTE21:
+	.section	.text.unlikely._ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19,"x"
+	.align 2
+LCOLDB22:
+	.section	.text$_ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19,"x"
+LHOTB22:
+	.align 2
+	.def	__ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19;	.scl	3;	.type	32;	.endef
+__ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19:
+LFB3329:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	pushl	%eax
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	movswl	16(%ebp), %eax
+	movl	%ecx, %ebx
+	movb	$0, 4(%ebx)
+	movb	$-1, 5(%ebx)
+	movb	$-1, 6(%ebx)
+	movb	$-1, 7(%ebx)
+	movl	$__ZTVN8graphics8subframeE+8, (%ebx)
+	cltd
+	xorl	%edx, %eax
+	subl	%edx, %eax
+	movl	%eax, %edx
+	movswl	18(%ebp), %eax
+	movw	%dx, 8(%ebx)
+	movl	%eax, %ecx
+	sarl	$31, %ecx
+	xorl	%ecx, %eax
+	subl	%ecx, %eax
+	leal	16(%ebp), %ecx
+	movw	%ax, 10(%ebx)
+	movl	8(%ebp), %eax
+	movl	%eax, 12(%ebx)
+	movl	12(%ebp), %eax
+	movl	%eax, 16(%ebx)
+	call	__ZNK8graphics6vector9directionEv
+	movl	%eax, %esi
+	movl	16(%ebp), %eax
+	leal	12(%ebp), %ecx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	%esi, %ecx
+	pushl	%edx
+	movl	%eax, %edx
+	sarl	$16, %edx
+	sarl	$16, %ecx
+	subl	%esi, %eax
+	subl	%ecx, %edx
+	movw	%ax, 20(%ebx)
+	movb	$0, 24(%ebx)
+	movw	%dx, 22(%ebx)
+	leal	-8(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$12
+	.cfi_endproc
+LFE3329:
+	.section	.text.unlikely._ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19,"x"
+LCOLDE22:
+	.section	.text$_ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19,"x"
+LHOTE22:
+	.section	.text$_ZNK8graphics6vector9is_withinES0_,"x"
+	.linkonce discard
+	.align 2
+LCOLDB23:
+LHOTB23:
+	.align 2
+	.globl	__ZNK8graphics6vector9is_withinES0_
+	.def	__ZNK8graphics6vector9is_withinES0_;	.scl	2;	.type	32;	.endef
+__ZNK8graphics6vector9is_withinES0_:
+LFB2434:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movl	%ecx, %ebx
+	subl	$8, %esp
+	movswl	8(%ebp), %eax
+	movl	%eax, 4(%esp)
+	movswl	(%ecx), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vector9is_withinEss
+	testb	%al, %al
+	je	L73
+	movl	8(%ebp), %eax
+	sarl	$16, %eax
+	movl	%eax, 4(%esp)
+	movswl	2(%ebx), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vector9is_withinEss
+L73:
+	popl	%edx
+	popl	%ecx
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2434:
+LCOLDE23:
+LHOTE23:
+	.section .rdata,"dr"
+LC24:
+	.ascii "( transparent  )\0"
+	.section	.text$_ZN8graphicslsERSoNS_5colorE,"x"
+	.linkonce discard
+LCOLDB25:
+LHOTB25:
+	.globl	__ZN8graphicslsERSoNS_5colorE
+	.def	__ZN8graphicslsERSoNS_5colorE;	.scl	2;	.type	32;	.endef
+__ZN8graphicslsERSoNS_5colorE:
+LFB2464:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$44, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	12(%ebp), %ebx
+	movl	8(%ebp), %esi
+	testb	%bl, %bl
+	je	L79
+	movl	$LC24, 4(%esp)
+	movl	%esi, (%esp)
+	jmp	L82
+L79:
+	movl	%ebx, %eax
+	movl	%esi, %ecx
+	movl	$__ZSt3hexRSt8ios_base, (%esp)
+	shrl	$24, %eax
+	movl	%eax, %edi
+	movl	%ebx, %eax
+	movzbl	%bh, %ebx
+	shrl	$16, %eax
+	movsbl	%bl, %ebx
+	movl	%eax, -28(%ebp)
+	call	__ZNSolsEPFRSt8ios_baseS0_E
+	pushl	%edx
+	movb	$48, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St8_SetfillIS3_E
+	movl	$LC17, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	(%eax), %edx
+	movl	-12(%edx), %edx
+	movl	$2, 8(%eax,%edx)
+	movl	%ebx, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+	movl	$LC18, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	(%eax), %edx
+	movl	-12(%edx), %edx
+	movl	$2, 8(%eax,%edx)
+	movsbl	-28(%ebp), %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+	movl	$LC18, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	(%eax), %edx
+	movl	%edi, %ecx
+	movl	-12(%edx), %edx
+	movl	$2, 8(%eax,%edx)
+	movsbl	%cl, %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
+	movb	$32, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St8_SetfillIS3_E
+	movl	$LC19, 4(%esp)
+	movl	%eax, (%esp)
+L82:
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leal	-12(%ebp), %esp
+	movl	%esi, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2464:
+LCOLDE25:
+LHOTE25:
+	.section	.text$_ZN8graphics5frame5writeENS_6vectorENS_5colorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB26:
+LHOTB26:
+	.align 2
+	.globl	__ZN8graphics5frame5writeENS_6vectorENS_5colorE
+	.def	__ZN8graphics5frame5writeENS_6vectorENS_5colorE;	.scl	2;	.type	32;	.endef
+__ZN8graphics5frame5writeENS_6vectorENS_5colorE:
+LFB2480:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %ebx
+	subl	$44, %esp
+	movl	8(%ecx), %eax
+	movl	8(%ebp), %esi
+	leal	-28(%ebp), %ecx
+	movl	%eax, (%esp)
+	movl	%esi, -28(%ebp)
+	call	__ZNK8graphics6vector9is_withinES0_
+	testb	%al, %al
+	pushl	%edx
+	je	L83
+	movl	(%ebx), %eax
+	movl	%ebx, %ecx
+	movl	(%eax), %eax
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_remember_state
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	jmp	*%eax
+	.cfi_def_cfa_offset -4
+L83:
+	.cfi_restore_state
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE2480:
+LCOLDE26:
+LHOTE26:
+	.section	.text$_ZN8graphics8subframe13checked_writeENS_6vectorENS_5colorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB27:
+LHOTB27:
+	.align 2
+	.globl	__ZN8graphics8subframe13checked_writeENS_6vectorENS_5colorE
+	.def	__ZN8graphics8subframe13checked_writeENS_6vectorENS_5colorE;	.scl	2;	.type	32;	.endef
+__ZN8graphics8subframe13checked_writeENS_6vectorENS_5colorE:
+LFB2534:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %edi
+	subl	$44, %esp
+	movl	8(%ebp), %esi
+	movl	8(%ecx), %eax
+	leal	-28(%ebp), %ecx
+	movl	%esi, %ebx
+	movl	%eax, (%esp)
+	movw	%si, -28(%ebp)
+	sarl	$16, %ebx
+	movw	%bx, -26(%ebp)
+	call	__ZNK8graphics6vector9is_withinES0_
+	testb	%al, %al
+	pushl	%edx
+	je	L86
+	cmpb	$0, 24(%edi)
+	je	L88
+	movzwl	%bx, %eax
+	sall	$16, %esi
+	orl	%esi, %eax
+	movl	%eax, %ebx
+	jmp	L89
+L88:
+	sall	$16, %ebx
+	movzwl	%si, %esi
+	orl	%esi, %ebx
+L89:
+	movl	(%edi), %eax
+	movl	%edi, %ecx
+	movl	%ebx, (%esp)
+	call	*8(%eax)
+	pushl	%edx
+	movl	12(%ebp), %edx
+	movl	12(%edi), %ecx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphics5frame5writeENS_6vectorENS_5colorE
+	pushl	%ecx
+	pushl	%ecx
+L86:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE2534:
+LCOLDE27:
+LHOTE27:
+	.section	.text$_ZN8graphics5frame13checked_clearEv,"x"
+	.linkonce discard
+	.align 2
+LCOLDB28:
+LHOTB28:
+	.align 2
+	.globl	__ZN8graphics5frame13checked_clearEv
+	.def	__ZN8graphics5frame13checked_clearEv;	.scl	2;	.type	32;	.endef
+__ZN8graphics5frame13checked_clearEv:
+LFB2472:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %ebx
+	leal	8(%ecx), %ecx
+	xorl	%esi, %esi
+	subl	$44, %esp
+	call	__ZNK8graphics6vector9directionEv
+	movl	%eax, %edi
+	sarl	$16, %edi
+	movl	%edi, -28(%ebp)
+L98:
+	movswl	8(%ebx), %edx
+	cmpl	%esi, %edx
+	je	L94
+	xorl	%edi, %edi
+L97:
+	movswl	10(%ebx), %edx
+	cmpl	%edi, %edx
+	je	L96
+	movl	%edi, %edx
+	movzwl	%si, %ecx
+	movl	%eax, -32(%ebp)
+	sall	$16, %edx
+	orl	%ecx, %edx
+	movl	4(%ebx), %ecx
+	movl	%edx, (%esp)
+	movl	%ecx, 4(%esp)
+	movl	%ebx, %ecx
+	call	__ZN8graphics5frame5writeENS_6vectorENS_5colorE
+	addl	-28(%ebp), %edi
+	pushl	%eax
+	pushl	%eax
+	movl	-32(%ebp), %eax
+	jmp	L97
+L96:
+	movswl	%ax, %edx
+	addl	%edx, %esi
+	jmp	L98
+L94:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2472:
+LCOLDE28:
+LHOTE28:
+	.section	.text.unlikely._ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE,"x"
+	.align 2
+LCOLDB29:
+	.section	.text$_ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE,"x"
+LHOTB29:
+	.align 2
+	.globl	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	.def	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE:
+LFB2608:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %esi
+	xorl	%edi, %edi
+	subl	$76, %esp
+L105:
+	movswl	4(%esi), %eax
+	cmpl	%eax, %edi
+	jge	L100
+	movl	$0, -44(%ebp)
+L104:
+	movswl	6(%esi), %eax
+	cmpl	%eax, -44(%ebp)
+	jge	L102
+	movl	-44(%ebp), %eax
+	movl	-44(%ebp), %edx
+	leal	-28(%ebp), %ecx
+	movw	%di, -48(%ebp)
+	movw	%di, -28(%ebp)
+	movw	%ax, -72(%ebp)
+	movl	4(%esi), %eax
+	movw	%dx, -26(%ebp)
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vector9is_withinES0_
+	testb	%al, %al
+	pushl	%ecx
+	je	L106
+	movl	(%esi), %eax
+	movzwl	%di, %ecx
+	movl	4(%eax), %edx
+	movl	-44(%ebp), %eax
+	sall	$16, %eax
+	orl	%ecx, %eax
+	movl	%esi, %ecx
+	movl	%eax, (%esp)
+	call	*%edx
+	pushl	%edx
+	movl	%eax, %edx
+	movb	%al, -45(%ebp)
+	movzbl	%ah, %ecx
+	shrl	$16, %edx
+	shrl	$24, %eax
+	jmp	L103
+L106:
+	xorl	%eax, %eax
+	xorl	%edx, %edx
+	xorl	%ecx, %ecx
+	movb	$1, -45(%ebp)
+L103:
+	movb	-45(%ebp), %bl
+	movzbl	%dl, %edx
+	sall	$24, %eax
+	sall	$16, %edx
+	movb	%cl, %bh
+	movzwl	%bx, %ecx
+	movl	%ecx, %ebx
+	leal	12(%ebp), %ecx
+	orl	%edx, %ebx
+	movzwl	-48(%ebp), %edx
+	orl	%eax, %ebx
+	movl	-72(%ebp), %eax
+	sall	$16, %eax
+	orl	%edx, %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	8(%ebp), %ecx
+	pushl	%edx
+	movl	%ebx, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZN8graphics5frame5writeENS_6vectorENS_5colorE
+	incl	-44(%ebp)
+	pushl	%ecx
+	pushl	%ecx
+	jmp	L104
+L102:
+	incl	%edi
+	jmp	L105
+L100:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE2608:
+	.section	.text.unlikely._ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE,"x"
+LCOLDE29:
+	.section	.text$_ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE,"x"
+LHOTE29:
+	.section	.text$_ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB30:
+LHOTB30:
+	.align 2
+	.globl	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	.def	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE:
+LFB2535:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	addl	$4, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	movl	12(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	movl	16(%ebp), %edx
+	movl	8(%ebp), %ecx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphics5frame5writeENS_6vectorENS_5colorE
+	pushl	%ecx
+	pushl	%ecx
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$12
+	.cfi_endproc
+LFE2535:
+LCOLDE30:
+LHOTE30:
+	.section	.text.unlikely._ZN8graphics4line4drawERNS_5frameE,"x"
+	.align 2
+LCOLDB31:
+	.section	.text$_ZN8graphics4line4drawERNS_5frameE,"x"
+LHOTB31:
+	.align 2
+	.globl	__ZN8graphics4line4drawERNS_5frameE
+	.def	__ZN8graphics4line4drawERNS_5frameE;	.scl	2;	.type	32;	.endef
+__ZN8graphics4line4drawERNS_5frameE:
+LFB2601:
+	.cfi_startproc
+	movl	16(%ecx), %eax
+	testl	%eax, %eax
+	je	L134
+	cmpb	$0, 8(%ecx)
+	jne	L134
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%eax, %edx
+	shrl	%edx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	%edx, %eax
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%edx, %edi
+	negl	%edi
+	subl	$124, %esp
+	movl	%eax, -112(%ebp)
+	movswl	22(%ecx), %eax
+	movswl	20(%ecx), %ebx
+	movl	%edi, -48(%ebp)
+	cltd
+	movl	%edx, %esi
+	xorl	%eax, %esi
+	movl	%esi, -60(%ebp)
+	subl	%edx, -60(%ebp)
+	movl	%ebx, %edx
+	sarl	$31, %edx
+	movl	%edx, %esi
+	xorl	%ebx, %esi
+	movl	%esi, -56(%ebp)
+	subl	%edx, -56(%ebp)
+	movl	-56(%ebp), %esi
+	cmpl	-60(%ebp), %esi
+	jg	L135
+	movl	%ebx, %edx
+	movw	$0, -50(%ebp)
+	movl	%eax, %ebx
+	movw	$1, -52(%ebp)
+	movl	%edx, %eax
+L123:
+	testl	%ebx, %ebx
+	movl	%ebx, %edx
+	jns	L124
+	negl	%edx
+	movl	$-1, -64(%ebp)
+	jmp	L113
+L124:
+	movl	$1, -64(%ebp)
+L113:
+	testl	%eax, %eax
+	movl	$1, -68(%ebp)
+	jns	L114
+	negl	%eax
+	movl	$-1, -68(%ebp)
+L114:
+	addl	%eax, %eax
+	movl	%ecx, %edi
+	movl	$0, -44(%ebp)
+	movl	%eax, -108(%ebp)
+	imull	$-2, %edx, %eax
+	addl	-108(%ebp), %eax
+	leal	(%edx,%eax), %esi
+	movl	%eax, -84(%ebp)
+	movl	-52(%ebp), %eax
+	imull	-48(%ebp), %eax
+	xorl	%edx, %edx
+	movw	%ax, -88(%ebp)
+	movw	-50(%ebp), %ax
+	imull	-48(%ebp), %eax
+	movw	%ax, -114(%ebp)
+L121:
+	cmpl	%edx, %ebx
+	je	L110
+	movl	-60(%ebp), %ecx
+	cmpl	%ecx, -56(%ebp)
+	jle	L126
+	movl	-44(%ebp), %eax
+	movl	%edx, -72(%ebp)
+	movl	%eax, -76(%ebp)
+	jmp	L116
+L126:
+	movl	-44(%ebp), %eax
+	movl	%edx, -76(%ebp)
+	movl	%eax, -72(%ebp)
+L116:
+	movw	-114(%ebp), %ax
+	movw	%ax, -104(%ebp)
+	movl	-88(%ebp), %eax
+	movw	%ax, -86(%ebp)
+	movl	-48(%ebp), %eax
+	movl	%eax, -80(%ebp)
+L118:
+	movl	-112(%ebp), %ecx
+	cmpl	%ecx, -80(%ebp)
+	jge	L117
+	movzwl	-86(%ebp), %ecx
+	movl	-104(%ebp), %eax
+	movl	%edx, -120(%ebp)
+	sall	$16, %eax
+	orl	%ecx, %eax
+	movl	-72(%ebp), %ecx
+	movl	%eax, (%esp)
+	movw	%cx, -28(%ebp)
+	movl	-76(%ebp), %ecx
+	movw	%cx, -26(%ebp)
+	leal	-28(%ebp), %ecx
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	movl	8(%edi), %ecx
+	movl	%eax, 4(%esp)
+	movl	8(%ebp), %eax
+	movl	%ecx, 8(%esp)
+	movl	%edi, %ecx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	-52(%ebp), %ecx
+	subl	$12, %esp
+	addw	%cx, -86(%ebp)
+	incl	-80(%ebp)
+	movw	-50(%ebp), %cx
+	movl	-120(%ebp), %edx
+	addw	%cx, -104(%ebp)
+	jmp	L118
+L117:
+	testl	%esi, %esi
+	jle	L119
+	movl	-68(%ebp), %ecx
+	addl	-84(%ebp), %esi
+	addl	%ecx, -44(%ebp)
+	jmp	L120
+L119:
+	addl	-108(%ebp), %esi
+L120:
+	addl	-64(%ebp), %edx
+	jmp	L121
+L135:
+	movw	$1, -50(%ebp)
+	movw	$0, -52(%ebp)
+	jmp	L123
+L110:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+L134:
+	ret	$4
+	.cfi_endproc
+LFE2601:
+	.section	.text.unlikely._ZN8graphics4line4drawERNS_5frameE,"x"
+LCOLDE31:
+	.section	.text$_ZN8graphics4line4drawERNS_5frameE,"x"
+LHOTE31:
+	.section	.text.unlikely._ZN8graphics9rectangle4drawERNS_5frameE,"x"
+	.align 2
+LCOLDB32:
+	.section	.text$_ZN8graphics9rectangle4drawERNS_5frameE,"x"
+LHOTB32:
+	.align 2
+	.globl	__ZN8graphics9rectangle4drawERNS_5frameE
+	.def	__ZN8graphics9rectangle4drawERNS_5frameE;	.scl	2;	.type	32;	.endef
+__ZN8graphics9rectangle4drawERNS_5frameE:
+LFB2604:
+	.cfi_startproc
+	cmpw	$0, 32(%ecx)
+	je	L146
+	cmpw	$0, 34(%ecx)
+	je	L146
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$108, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	28(%ecx), %eax
+	cmpl	$1, %eax
+	jne	L138
+	movb	20(%ecx), %al
+	movb	%al, -60(%ebp)
+	movb	21(%ecx), %al
+	movb	%al, -61(%ebp)
+	movb	22(%ecx), %al
+	movb	%al, -62(%ebp)
+	movb	23(%ecx), %al
+	movb	%al, -63(%ebp)
+	movb	24(%ecx), %al
+	movb	%al, -64(%ebp)
+	movb	25(%ecx), %al
+	movb	%al, -65(%ebp)
+	movb	26(%ecx), %al
+	movb	%al, -66(%ebp)
+	movb	27(%ecx), %al
+	movb	%al, -67(%ebp)
+	jmp	L139
+L138:
+	movb	8(%ecx), %bl
+	movb	10(%ecx), %dl
+	cmpl	$2, %eax
+	movb	%bl, -60(%ebp)
+	movb	9(%ecx), %bl
+	movb	%dl, -62(%ebp)
+	movb	%bl, -61(%ebp)
+	movb	11(%ecx), %bl
+	movb	%bl, -63(%ebp)
+	jne	L143
+	movb	20(%ecx), %al
+	movb	%al, -64(%ebp)
+	movb	21(%ecx), %al
+	movb	%al, -65(%ebp)
+	movb	22(%ecx), %al
+	movb	%al, -66(%ebp)
+	movb	23(%ecx), %al
+	movb	%al, -67(%ebp)
+	movb	24(%ecx), %al
+	movb	%al, -60(%ebp)
+	movb	25(%ecx), %al
+	movb	%al, -61(%ebp)
+	movb	26(%ecx), %al
+	movb	%al, -62(%ebp)
+	movb	27(%ecx), %al
+	movb	%al, -63(%ebp)
+	jmp	L139
+L143:
+	movb	-63(%ebp), %al
+	movb	%al, -67(%ebp)
+	movb	-62(%ebp), %al
+	movb	%al, -66(%ebp)
+	movb	-61(%ebp), %al
+	movb	%al, -65(%ebp)
+	movb	-60(%ebp), %al
+	movb	%al, -64(%ebp)
+L139:
+	leal	32(%ecx), %eax
+	movl	%ecx, %edx
+	xorl	%esi, %esi
+	movl	%eax, -72(%ebp)
+	leal	4(%ecx), %eax
+	movl	%eax, -76(%ebp)
+L141:
+	movl	16(%edx), %edi
+	cmpl	%esi, %edi
+	jbe	L140
+	movl	-72(%ebp), %ecx
+	movl	%edx, -104(%ebp)
+	call	__ZNK8graphics6vector9directionEv
+	movswl	%ax, %ecx
+	sarl	$16, %eax
+	movl	-104(%ebp), %edx
+	imull	%esi, %eax
+	imull	%esi, %ecx
+	incl	%esi
+	movl	%edx, -88(%ebp)
+	movl	%eax, %ebx
+	addl	%eax, %eax
+	movzwl	%cx, %edi
+	sall	$16, %ebx
+	addl	%ecx, %ecx
+	orl	%edi, %ebx
+	movw	32(%edx), %di
+	subl	%ecx, %edi
+	movw	34(%edx), %cx
+	movl	%ebx, (%esp)
+	subl	%eax, %ecx
+	movw	%cx, -104(%ebp)
+	movl	-104(%ebp), %eax
+	movl	-76(%ebp), %ecx
+	sall	$16, %eax
+	movl	%eax, -80(%ebp)
+	movzwl	%di, %eax
+	orl	-80(%ebp), %eax
+	movl	%eax, -84(%ebp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	%eax, %ecx
+	movw	%ax, -48(%ebp)
+	movb	-60(%ebp), %al
+	pushl	%edx
+	sarl	$16, %ecx
+	movw	%di, -32(%ebp)
+	movw	%cx, -46(%ebp)
+	leal	-52(%ebp), %ecx
+	movb	$1, -40(%ebp)
+	movb	%al, -44(%ebp)
+	movb	-61(%ebp), %al
+	movb	$0, -39(%ebp)
+	movb	$0, -38(%ebp)
+	movb	$0, -37(%ebp)
+	movl	$1, -36(%ebp)
+	movb	%al, -43(%ebp)
+	movb	-62(%ebp), %al
+	movl	$__ZTVN8graphics4lineE+8, -52(%ebp)
+	movw	$0, -30(%ebp)
+	movb	%al, -42(%ebp)
+	movb	-63(%ebp), %al
+	movb	%al, -41(%ebp)
+	movl	8(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	pushl	%ecx
+	movl	-76(%ebp), %ecx
+	movl	%ebx, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	leal	-56(%ebp), %ecx
+	movl	%eax, -56(%ebp)
+	movzwl	%di, %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -48(%ebp)
+	pushl	%ecx
+	movl	%eax, %ecx
+	movb	-64(%ebp), %al
+	sarl	$16, %ecx
+	movb	$1, -40(%ebp)
+	movw	%cx, -46(%ebp)
+	leal	-52(%ebp), %ecx
+	movb	$0, -39(%ebp)
+	movb	$0, -38(%ebp)
+	movb	$0, -37(%ebp)
+	movb	%al, -44(%ebp)
+	movb	-65(%ebp), %al
+	movl	$1, -36(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -52(%ebp)
+	movw	$0, -32(%ebp)
+	movb	%al, -43(%ebp)
+	movb	-66(%ebp), %al
+	movb	%al, -42(%ebp)
+	movb	-67(%ebp), %al
+	movb	%al, -41(%ebp)
+	movl	-104(%ebp), %eax
+	movw	%ax, -30(%ebp)
+	movl	8(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movl	-76(%ebp), %ecx
+	pushl	%eax
+	movl	%ebx, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	%eax, -56(%ebp)
+	movl	-84(%ebp), %eax
+	leal	-56(%ebp), %ecx
+	pushl	%edx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -48(%ebp)
+	pushl	%ecx
+	movl	%eax, %ecx
+	movb	-64(%ebp), %al
+	sarl	$16, %ecx
+	movb	$1, -40(%ebp)
+	movw	%cx, -46(%ebp)
+	leal	-52(%ebp), %ecx
+	movb	$0, -39(%ebp)
+	movb	$0, -38(%ebp)
+	movb	$0, -37(%ebp)
+	movb	%al, -44(%ebp)
+	movb	-65(%ebp), %al
+	movl	$1, -36(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -52(%ebp)
+	movw	$0, -30(%ebp)
+	movb	%al, -43(%ebp)
+	movb	-66(%ebp), %al
+	movb	%al, -42(%ebp)
+	movb	-67(%ebp), %al
+	movb	%al, -41(%ebp)
+	movswl	%di, %eax
+	negl	%eax
+	movw	%ax, -32(%ebp)
+	movl	8(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movl	-76(%ebp), %ecx
+	pushl	%edi
+	movl	-80(%ebp), %edi
+	movl	%ebx, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	leal	-56(%ebp), %ecx
+	movl	%eax, -56(%ebp)
+	movl	%edi, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -48(%ebp)
+	pushl	%ecx
+	movl	%eax, %ecx
+	movb	-60(%ebp), %al
+	sarl	$16, %ecx
+	movb	$1, -40(%ebp)
+	movw	%cx, -46(%ebp)
+	leal	-52(%ebp), %ecx
+	movb	$0, -39(%ebp)
+	movb	$0, -38(%ebp)
+	movb	$0, -37(%ebp)
+	movb	%al, -44(%ebp)
+	movb	-61(%ebp), %al
+	movl	$1, -36(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -52(%ebp)
+	movw	$0, -32(%ebp)
+	movb	%al, -43(%ebp)
+	movb	-62(%ebp), %al
+	movb	%al, -42(%ebp)
+	movb	-63(%ebp), %al
+	movb	%al, -41(%ebp)
+	movswl	-104(%ebp), %eax
+	negl	%eax
+	movw	%ax, -30(%ebp)
+	movl	8(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movl	-88(%ebp), %edx
+	pushl	%ebx
+	jmp	L141
+L140:
+	movl	-72(%ebp), %ecx
+	movl	%edx, -60(%ebp)
+	call	__ZNK8graphics6vector9directionEv
+	movswl	%ax, %esi
+	sarl	$16, %eax
+	movl	-72(%ebp), %ecx
+	imull	%edi, %eax
+	imull	%edi, %esi
+	movl	%eax, %ebx
+	sall	$16, %eax
+	movzwl	%si, %edi
+	addl	%esi, %esi
+	orl	%eax, %edi
+	call	__ZNK8graphics6vector9directionEv
+	movl	-72(%ebp), %ecx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	movl	%eax, %edx
+	leal	(%ebx,%ebx), %ecx
+	subl	%esi, %edx
+	sarl	$16, %eax
+	movzwl	%dx, %esi
+	movl	-60(%ebp), %edx
+	movl	%eax, %ebx
+	subl	%ecx, %ebx
+	movl	%edi, (%esp)
+	sall	$16, %ebx
+	leal	4(%edx), %ecx
+	orl	%esi, %ebx
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%ecx
+	leal	-52(%ebp), %ecx
+	movl	%eax, 4(%esp)
+	movl	8(%ebp), %eax
+	movl	%ebx, 8(%esp)
+	movl	%eax, (%esp)
+	call	__ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19
+	movl	-60(%ebp), %edx
+	subl	$12, %esp
+	movb	12(%edx), %al
+	movb	13(%edx), %bl
+	movb	14(%edx), %cl
+	movb	15(%edx), %dl
+	testb	%al, %al
+	movb	%al, -48(%ebp)
+	movb	%bl, -47(%ebp)
+	movb	%cl, -46(%ebp)
+	movb	%dl, -45(%ebp)
+	jne	L136
+	leal	-52(%ebp), %ecx
+	call	__ZN8graphics5frame13checked_clearEv
+L136:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+L146:
+	ret	$4
+	.cfi_endproc
+LFE2604:
+	.section	.text.unlikely._ZN8graphics9rectangle4drawERNS_5frameE,"x"
+LCOLDE32:
+	.section	.text$_ZN8graphics9rectangle4drawERNS_5frameE,"x"
+LHOTE32:
+	.section	.text.unlikely.abs,"x"
+LCOLDB33:
+	.section	.text$abs,"x"
+LHOTB33:
+	.globl	_abs
+	.def	_abs;	.scl	2;	.type	32;	.endef
+_abs:
+LFB2600:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %eax
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	cltd
+	xorl	%edx, %eax
+	subl	%edx, %eax
+	ret
+	.cfi_endproc
+LFE2600:
+	.section	.text.unlikely.abs,"x"
+LCOLDE33:
+	.section	.text$abs,"x"
+LHOTE33:
+	.section	.text.unlikely._ZN8graphics4flipENS_6reliefE,"x"
+LCOLDB34:
+	.section	.text$_ZN8graphics4flipENS_6reliefE,"x"
+LHOTB34:
+	.globl	__ZN8graphics4flipENS_6reliefE
+	.def	__ZN8graphics4flipENS_6reliefE;	.scl	2;	.type	32;	.endef
+__ZN8graphics4flipENS_6reliefE:
+LFB2602:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	xorl	%eax, %eax
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	movl	8(%ebp), %edx
+	testl	%edx, %edx
+	je	L150
+	xorl	%eax, %eax
+	decl	%edx
+	sete	%al
+	incl	%eax
+L150:
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2602:
+	.section	.text.unlikely._ZN8graphics4flipENS_6reliefE,"x"
+LCOLDE34:
+	.section	.text$_ZN8graphics4flipENS_6reliefE,"x"
+LHOTE34:
+	.section .rdata,"dr"
+LC35:
+	.ascii "invalid\0"
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_6reliefE,"x"
+LCOLDB36:
+	.section	.text$_ZN8graphicslsERSoRKNS_6reliefE,"x"
+LHOTB36:
+	.globl	__ZN8graphicslsERSoRKNS_6reliefE
+	.def	__ZN8graphicslsERSoRKNS_6reliefE;	.scl	2;	.type	32;	.endef
+__ZN8graphicslsERSoRKNS_6reliefE:
+LFB2603:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	subl	$20, %esp
+	.cfi_offset 3, -12
+	movl	12(%ebp), %eax
+	movl	8(%ebp), %ebx
+	movl	(%eax), %eax
+	cmpl	$1, %eax
+	jg	L157
+	movl	__ZN8graphicsL17shape_relief_nameE(,%eax,4), %eax
+	movl	%eax, 4(%esp)
+	jmp	L160
+L157:
+	movl	$LC35, 4(%esp)
+L160:
+	movl	%ebx, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	addl	$20, %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2603:
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_6reliefE,"x"
+LCOLDE36:
+	.section	.text$_ZN8graphicslsERSoRKNS_6reliefE,"x"
+LHOTE36:
+	.section	.text.unlikely._ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE,"x"
+	.align 2
+LCOLDB37:
+	.section	.text$_ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE,"x"
+LHOTB37:
+	.align 2
+	.globl	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	.def	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE:
+LFB2606:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %edi
+	subl	$44, %esp
+	movl	16(%ecx), %ecx
+	movl	%ecx, %eax
+	shrl	%eax
+	subl	%eax, %ecx
+	negl	%eax
+	movl	%ecx, -28(%ebp)
+	movl	%eax, -32(%ebp)
+	movl	%eax, %ebx
+L166:
+	cmpl	-28(%ebp), %ebx
+	jge	L161
+	movl	%ebx, %eax
+	movl	-32(%ebp), %esi
+	sarl	$31, %eax
+	movl	%eax, -36(%ebp)
+	xorl	%ebx, %eax
+	movl	%eax, -40(%ebp)
+L165:
+	cmpl	-28(%ebp), %esi
+	jge	L163
+	movl	%esi, %ecx
+	sarl	$31, %ecx
+	movl	%ecx, %eax
+	xorl	%esi, %eax
+	subl	%ecx, %eax
+	movl	-40(%ebp), %ecx
+	subl	-36(%ebp), %ecx
+	addl	%ecx, %eax
+	cmpl	16(%edi), %eax
+	jge	L164
+	movl	%esi, %eax
+	movzwl	%bx, %ecx
+	sall	$16, %eax
+	orl	%ecx, %eax
+	leal	12(%ebp), %ecx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	movl	16(%ebp), %edx
+	movl	%edi, %ecx
+	movl	%eax, 4(%esp)
+	movl	8(%ebp), %eax
+	movl	%edx, 8(%esp)
+	movl	%eax, (%esp)
+	call	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	subl	$12, %esp
+L164:
+	incl	%esi
+	jmp	L165
+L163:
+	incl	%ebx
+	jmp	L166
+L161:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$12
+	.cfi_endproc
+LFE2606:
+	.section	.text.unlikely._ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE,"x"
+LCOLDE37:
+	.section	.text$_ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE,"x"
+LHOTE37:
+	.section	.text.unlikely._ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb,"x"
+	.align 2
+LCOLDB38:
+	.section	.text$_ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb,"x"
+LHOTB38:
+	.align 2
+	.globl	__ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb
+	.def	__ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb;	.scl	2;	.type	32;	.endef
+__ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb:
+LFB2607:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$124, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	20(%ecx), %eax
+	movl	16(%ebp), %edx
+	movl	8(%ebp), %esi
+	testl	%eax, %eax
+	movb	%dl, -101(%ebp)
+	je	L168
+	movl	%ecx, %ebx
+	movl	$1, %ecx
+	movl	%eax, -64(%ebp)
+	subl	%eax, %ecx
+	movl	%ecx, -92(%ebp)
+	imull	$-2, %eax, %ecx
+	testb	%dl, %dl
+	movzwl	-64(%ebp), %eax
+	movl	%ecx, -100(%ebp)
+	je	L170
+	movl	12(%ebp), %edi
+	sall	$16, %eax
+	movl	%ebx, %ecx
+	movl	%eax, 4(%esp)
+	movl	%esi, (%esp)
+	movl	%edi, 8(%esp)
+	call	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	20(%ebx), %eax
+	movl	12(%ebp), %ecx
+	subl	$12, %esp
+	movl	%esi, (%esp)
+	negl	%eax
+	movl	%ecx, 8(%esp)
+	movl	%ebx, %ecx
+	sall	$16, %eax
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics8drawable19drawable_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	12(%ebp), %eax
+	subl	$12, %esp
+	movb	$1, -36(%ebp)
+	movb	$0, -35(%ebp)
+	movb	$0, -34(%ebp)
+	movb	$0, -33(%ebp)
+	movl	$1, -32(%ebp)
+	movzbl	%ah, %edi
+	movl	%eax, %ecx
+	movl	%eax, %edx
+	movw	4(%ebx), %ax
+	subl	20(%ebx), %eax
+	shrl	$16, %ecx
+	movb	%cl, -38(%ebp)
+	leal	-48(%ebp), %ecx
+	shrl	$24, %edx
+	movb	%dl, -37(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -48(%ebp)
+	movw	$0, -26(%ebp)
+	movw	%ax, -44(%ebp)
+	movw	6(%ebx), %ax
+	movw	%ax, -42(%ebp)
+	movb	12(%ebp), %al
+	movb	%al, -40(%ebp)
+	movl	%edi, %eax
+	movb	%al, -39(%ebp)
+	movl	20(%ebx), %eax
+	movl	%esi, (%esp)
+	addl	%eax, %eax
+	movw	%ax, -28(%ebp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	pushl	%edi
+	jmp	L171
+L170:
+	movl	12(%ebp), %edx
+	sall	$16, %eax
+	movl	%ebx, %ecx
+	movl	%eax, 4(%esp)
+	movl	%esi, (%esp)
+	movl	%edx, 8(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	20(%ebx), %eax
+	movl	12(%ebp), %edi
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	negl	%eax
+	movl	%edi, 8(%esp)
+	sall	$16, %eax
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movzwl	20(%ebx), %eax
+	movl	12(%ebp), %edx
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	movl	%edx, 8(%esp)
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	20(%ebx), %eax
+	movl	12(%ebp), %edi
+	subl	$12, %esp
+	movl	%esi, (%esp)
+	movl	%ebx, %ecx
+	negl	%eax
+	movl	%edi, 8(%esp)
+	movzwl	%ax, %eax
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	subl	$12, %esp
+L171:
+	movl	12(%ebp), %eax
+	movl	$0, -60(%ebp)
+	shrl	$16, %eax
+	movl	%eax, -68(%ebp)
+	movl	12(%ebp), %eax
+	shrl	$24, %eax
+	movl	%eax, -72(%ebp)
+L172:
+	movl	-64(%ebp), %ecx
+	cmpl	%ecx, -60(%ebp)
+	jge	L168
+	cmpl	$0, -92(%ebp)
+	js	L173
+	addl	$2, -100(%ebp)
+	decl	-64(%ebp)
+	movl	-100(%ebp), %edx
+	addl	%edx, -92(%ebp)
+L173:
+	incl	-60(%ebp)
+	movl	-60(%ebp), %eax
+	leal	1(%eax,%eax), %eax
+	addl	%eax, -92(%ebp)
+	cmpb	$0, -101(%ebp)
+	movzwl	-64(%ebp), %eax
+	je	L174
+	movl	-60(%ebp), %edx
+	sall	$16, %eax
+	movl	-60(%ebp), %edi
+	negl	%edx
+	addl	%edi, %edi
+	movw	%dx, -120(%ebp)
+	movzwl	%dx, %edx
+	orl	%edx, %eax
+	leal	4(%ebx), %edx
+	movl	%eax, (%esp)
+	movl	%edx, %ecx
+	call	__ZNK8graphics6vectorplES0_
+	movl	12(%ebp), %ecx
+	pushl	%edx
+	movl	%eax, %edx
+	movw	%ax, -44(%ebp)
+	movb	12(%ebp), %al
+	sarl	$16, %edx
+	movl	%esi, (%esp)
+	movw	%dx, -42(%ebp)
+	movzbl	%ch, %ecx
+	movw	%di, -28(%ebp)
+	movb	$1, -36(%ebp)
+	movl	%ecx, -88(%ebp)
+	movb	%al, -40(%ebp)
+	leal	-48(%ebp), %ecx
+	movb	-88(%ebp), %al
+	movb	$0, -35(%ebp)
+	movb	$0, -34(%ebp)
+	movb	$0, -33(%ebp)
+	movl	$1, -32(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -48(%ebp)
+	movb	%al, -39(%ebp)
+	movb	-68(%ebp), %al
+	movw	$0, -26(%ebp)
+	movb	%al, -38(%ebp)
+	movb	-72(%ebp), %al
+	movb	%al, -37(%ebp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movl	-64(%ebp), %eax
+	movzwl	-120(%ebp), %edx
+	pushl	%ecx
+	leal	4(%ebx), %ecx
+	negl	%eax
+	movl	%eax, -96(%ebp)
+	sall	$16, %eax
+	orl	%edx, %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -44(%ebp)
+	pushl	%edx
+	movl	%eax, %edx
+	movb	12(%ebp), %al
+	leal	-48(%ebp), %ecx
+	sarl	$16, %edx
+	movl	%esi, (%esp)
+	movw	%dx, -42(%ebp)
+	movw	%di, -28(%ebp)
+	movb	$1, -36(%ebp)
+	movb	%al, -40(%ebp)
+	movb	-88(%ebp), %al
+	movb	$0, -35(%ebp)
+	movb	$0, -34(%ebp)
+	movb	$0, -33(%ebp)
+	movl	$1, -32(%ebp)
+	movb	%al, -39(%ebp)
+	movb	-68(%ebp), %al
+	movl	$__ZTVN8graphics4lineE+8, -48(%ebp)
+	movw	$0, -26(%ebp)
+	movb	%al, -38(%ebp)
+	movb	-72(%ebp), %al
+	movb	%al, -37(%ebp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movzwl	-96(%ebp), %edx
+	movl	-60(%ebp), %eax
+	pushl	%ecx
+	leal	4(%ebx), %ecx
+	movl	-64(%ebp), %edi
+	sall	$16, %eax
+	orl	%edx, %eax
+	addl	%edi, %edi
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -44(%ebp)
+	pushl	%edx
+	movl	%eax, %edx
+	movb	12(%ebp), %al
+	leal	-48(%ebp), %ecx
+	sarl	$16, %edx
+	movl	%esi, (%esp)
+	movw	%dx, -42(%ebp)
+	movb	$1, -36(%ebp)
+	movb	$0, -35(%ebp)
+	movb	%al, -40(%ebp)
+	movb	-88(%ebp), %al
+	movb	$0, -34(%ebp)
+	movb	$0, -33(%ebp)
+	movl	$1, -32(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -48(%ebp)
+	movb	%al, -39(%ebp)
+	movb	-68(%ebp), %al
+	movw	%di, -28(%ebp)
+	movw	$0, -26(%ebp)
+	movb	%al, -38(%ebp)
+	movb	-72(%ebp), %al
+	movb	%al, -37(%ebp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	movzwl	-96(%ebp), %edx
+	movl	-120(%ebp), %eax
+	pushl	%ecx
+	leal	4(%ebx), %ecx
+	sall	$16, %eax
+	orl	%edx, %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movw	%ax, -44(%ebp)
+	pushl	%edx
+	movl	%eax, %edx
+	movb	12(%ebp), %al
+	leal	-48(%ebp), %ecx
+	sarl	$16, %edx
+	movl	%esi, (%esp)
+	movw	%dx, -42(%ebp)
+	movb	$1, -36(%ebp)
+	movb	$0, -35(%ebp)
+	movb	%al, -40(%ebp)
+	movb	-88(%ebp), %al
+	movb	$0, -34(%ebp)
+	movb	$0, -33(%ebp)
+	movl	$1, -32(%ebp)
+	movl	$__ZTVN8graphics4lineE+8, -48(%ebp)
+	movb	%al, -39(%ebp)
+	movb	-68(%ebp), %al
+	movw	%di, -28(%ebp)
+	movw	$0, -26(%ebp)
+	movb	%al, -38(%ebp)
+	movb	-72(%ebp), %al
+	movb	%al, -37(%ebp)
+	call	__ZN8graphics4line4drawERNS_5frameE
+	pushl	%ecx
+	jmp	L172
+L174:
+	sall	$16, %eax
+	movl	12(%ebp), %edx
+	movl	%ebx, %ecx
+	movl	%eax, %edi
+	movzwl	-60(%ebp), %eax
+	movl	%esi, (%esp)
+	movl	%edx, 8(%esp)
+	orl	%edi, %eax
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	-60(%ebp), %eax
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	negl	%eax
+	movw	%ax, -88(%ebp)
+	movzwl	%ax, %eax
+	orl	%eax, %edi
+	movl	12(%ebp), %eax
+	movl	%edi, 4(%esp)
+	movl	%eax, 8(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	-64(%ebp), %eax
+	movl	12(%ebp), %edx
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	negl	%eax
+	movl	%edx, 8(%esp)
+	movl	%eax, -120(%ebp)
+	movl	%eax, %edi
+	movzwl	-60(%ebp), %eax
+	sall	$16, %edi
+	orl	%edi, %eax
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movzwl	-88(%ebp), %eax
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	orl	%eax, %edi
+	movl	12(%ebp), %eax
+	movl	%edi, 4(%esp)
+	movl	%eax, 8(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	-60(%ebp), %edi
+	movzwl	-64(%ebp), %eax
+	subl	$12, %esp
+	movl	12(%ebp), %edx
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	sall	$16, %edi
+	orl	%edi, %eax
+	movl	%edx, 8(%esp)
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movzwl	-120(%ebp), %eax
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	orl	%eax, %edi
+	movl	12(%ebp), %eax
+	movl	%edi, 4(%esp)
+	movl	%eax, 8(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movl	-88(%ebp), %edi
+	movzwl	-64(%ebp), %eax
+	subl	$12, %esp
+	movl	12(%ebp), %edx
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	sall	$16, %edi
+	orl	%edi, %eax
+	movl	%edx, 8(%esp)
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	movzwl	-120(%ebp), %eax
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	orl	%eax, %edi
+	movl	12(%ebp), %eax
+	movl	%edi, 4(%esp)
+	movl	%eax, 8(%esp)
+	call	__ZNK8graphics6circle17circle_draw_pixelERNS_5frameENS_6vectorENS_5colorE
+	subl	$12, %esp
+	jmp	L172
+L168:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$12
+	.cfi_endproc
+LFE2607:
+	.section	.text.unlikely._ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb,"x"
+LCOLDE38:
+	.section	.text$_ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb,"x"
+LHOTE38:
+	.section	.text.unlikely._ZN8graphics6circle4drawERNS_5frameE,"x"
+	.align 2
+LCOLDB39:
+	.section	.text$_ZN8graphics6circle4drawERNS_5frameE,"x"
+LHOTB39:
+	.align 2
+	.globl	__ZN8graphics6circle4drawERNS_5frameE
+	.def	__ZN8graphics6circle4drawERNS_5frameE;	.scl	2;	.type	32;	.endef
+__ZN8graphics6circle4drawERNS_5frameE:
+LFB2605:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	movl	%ecx, %ebx
+	subl	$16, %esp
+	movl	8(%ebp), %esi
+	movl	$1, 8(%esp)
+	movl	12(%ecx), %eax
+	movl	%esi, (%esp)
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb
+	movl	8(%ebx), %eax
+	subl	$12, %esp
+	movl	%ebx, %ecx
+	movl	%esi, (%esp)
+	movl	$0, 8(%esp)
+	movl	%eax, 4(%esp)
+	call	__ZNK8graphics6circle11circle_drawERNS_5frameENS_5colorEb
+	subl	$12, %esp
+	leal	-8(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2605:
+	.section	.text.unlikely._ZN8graphics6circle4drawERNS_5frameE,"x"
+LCOLDE39:
+	.section	.text$_ZN8graphics6circle4drawERNS_5frameE,"x"
+LHOTE39:
+	.section	.text.unlikely._ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE,"x"
+	.align 2
+LCOLDB40:
+	.section	.text$_ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE,"x"
+LHOTB40:
+	.align 2
+	.globl	__ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE
+	.def	__ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE:
+LFB2610:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	.cfi_offset 3, -12
+	movswl	4(%ecx), %edx
+	movl	8(%ebp), %eax
+	movl	8(%ecx), %ecx
+	movl	%eax, %ebx
+	cwtl
+	sarl	$16, %ebx
+	imull	%ebx, %edx
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	addl	%eax, %edx
+	movl	%edx, %eax
+	andl	$7, %edx
+	shrl	$3, %eax
+	movzbl	(%ecx,%eax), %eax
+	movl	%edx, %ecx
+	sarl	%cl, %eax
+	andl	$1, %eax
+	ret	$4
+	.cfi_endproc
+LFE2610:
+	.section	.text.unlikely._ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE,"x"
+LCOLDE40:
+	.section	.text$_ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE,"x"
+LHOTE40:
+	.section	.text$_ZNK8graphics15inline_bw_photo12checked_readENS_6vectorE,"x"
+	.linkonce discard
+	.align 2
+LCOLDB41:
+LHOTB41:
+	.align 2
+	.globl	__ZNK8graphics15inline_bw_photo12checked_readENS_6vectorE
+	.def	__ZNK8graphics15inline_bw_photo12checked_readENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics15inline_bw_photo12checked_readENS_6vectorE:
+LFB2570:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	pushl	%eax
+	.cfi_offset 3, -12
+	movl	8(%ebp), %eax
+	movl	%ecx, %ebx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE
+	pushl	%edx
+	leal	12(%ebx), %edx
+	addl	$16, %ebx
+	testb	%al, %al
+	cmovne	%edx, %ebx
+	movl	(%ebx), %eax
+	movl	-4(%ebp), %ebx
+	leave
+	.cfi_restore 5
+	.cfi_restore 3
+	.cfi_def_cfa 4, 4
+	ret	$4
+	.cfi_endproc
+LFE2570:
+LCOLDE41:
+LHOTE41:
+	.section	.text.unlikely._ZNK8graphics11inline_font4readEcNS_6vectorE,"x"
+	.align 2
+LCOLDB42:
+	.section	.text$_ZNK8graphics11inline_font4readEcNS_6vectorE,"x"
+LHOTB42:
+	.align 2
+	.globl	__ZNK8graphics11inline_font4readEcNS_6vectorE
+	.def	__ZNK8graphics11inline_font4readEcNS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics11inline_font4readEcNS_6vectorE:
+LFB2612:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	pushl	%eax
+	.cfi_offset 3, -12
+	movsbl	8(%ebp), %edx
+	movl	32(%ecx), %eax
+	movl	%ecx, %ebx
+	leal	12(%ebp), %ecx
+	movzwl	-128(%eax,%edx,4), %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	leal	12(%ebx), %ecx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics15inline_bw_photo9bool_readENS_6vectorE
+	pushl	%ecx
+	movl	-4(%ebp), %ebx
+	leave
+	.cfi_restore 5
+	.cfi_restore 3
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE2612:
+	.section	.text.unlikely._ZNK8graphics11inline_font4readEcNS_6vectorE,"x"
+LCOLDE42:
+	.section	.text$_ZNK8graphics11inline_font4readEcNS_6vectorE,"x"
+LHOTE42:
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_14font_alignmentE,"x"
+LCOLDB43:
+	.section	.text$_ZN8graphicslsERSoRKNS_14font_alignmentE,"x"
+LHOTB43:
+	.globl	__ZN8graphicslsERSoRKNS_14font_alignmentE
+	.def	__ZN8graphicslsERSoRKNS_14font_alignmentE;	.scl	2;	.type	32;	.endef
+__ZN8graphicslsERSoRKNS_14font_alignmentE:
+LFB2613:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%ebx
+	subl	$20, %esp
+	.cfi_offset 3, -12
+	movl	12(%ebp), %eax
+	movl	8(%ebp), %ebx
+	movl	(%eax), %eax
+	cmpl	$3, %eax
+	jg	L191
+	movl	__ZN8graphicsL19font_alignment_nameE(,%eax,4), %eax
+	movl	%eax, 4(%esp)
+	jmp	L194
+L191:
+	movl	$LC35, 4(%esp)
+L194:
+	movl	%ebx, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	addl	$20, %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2613:
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_14font_alignmentE,"x"
+LCOLDE43:
+	.section	.text$_ZN8graphicslsERSoRKNS_14font_alignmentE,"x"
+LHOTE43:
+	.section .rdata,"dr"
+LC44:
+	.ascii " tlm=\0"
+LC45:
+	.ascii " brm=\0"
+LC46:
+	.ascii " fg=\0"
+LC47:
+	.ascii " bg=\0"
+LC48:
+	.ascii "}\0"
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_6formatE,"x"
+LCOLDB49:
+	.section	.text$_ZN8graphicslsERSoRKNS_6formatE,"x"
+LHOTB49:
+	.globl	__ZN8graphicslsERSoRKNS_6formatE
+	.def	__ZN8graphicslsERSoRKNS_6formatE;	.scl	2;	.type	32;	.endef
+__ZN8graphicslsERSoRKNS_6formatE:
+LFB2614:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%esi
+	pushl	%ebx
+	subl	$16, %esp
+	.cfi_offset 6, -12
+	.cfi_offset 3, -16
+	movl	8(%ebp), %ebx
+	movl	12(%ebp), %esi
+	movl	$LC44, 4(%esp)
+	movl	%ebx, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	24(%esi), %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphicslsERSoNS_6vectorE
+	movl	%ebx, (%esp)
+	movl	$LC45, 4(%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	24(%esi), %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphicslsERSoNS_6vectorE
+	movl	%ebx, (%esp)
+	movl	$LC46, 4(%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	32(%esi), %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphicslsERSoNS_5colorE
+	movl	$LC47, 4(%esp)
+	movl	%eax, (%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movl	36(%esi), %edx
+	movl	%eax, (%esp)
+	movl	%edx, 4(%esp)
+	call	__ZN8graphicslsERSoNS_5colorE
+	movl	%ebx, (%esp)
+	movl	$LC48, 4(%esp)
+	call	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	addl	$16, %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2614:
+	.section	.text.unlikely._ZN8graphicslsERSoRKNS_6formatE,"x"
+LCOLDE49:
+	.section	.text$_ZN8graphicslsERSoRKNS_6formatE,"x"
+LHOTE49:
+	.section	.text.unlikely._ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDB50:
+	.section	.text$_ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTB50:
+	.globl	__ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE
+	.def	__ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE;	.scl	2;	.type	32;	.endef
+__ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE:
+LFB2615:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	xorl	%esi, %esi
+	movl	$1, %ebx
+	subl	$44, %esp
+	movswl	12(%ebp), %eax
+	movl	16(%ebp), %edi
+	movl	%eax, -28(%ebp)
+L202:
+	movl	8(%ebp), %eax
+	movsbl	(%eax), %eax
+	testb	%al, %al
+	je	L198
+	cmpb	$10, %al
+	jne	L199
+	incl	%ebx
+	xorl	%esi, %esi
+	jmp	L200
+L199:
+	movl	(%edi), %ecx
+	movl	(%ecx), %edx
+	movl	%eax, (%esp)
+	call	*8(%edx)
+	pushl	%edx
+	movswl	20(%edi), %edx
+	cwtl
+	addl	%edx, %eax
+	leal	(%esi,%eax), %edx
+	cmpl	-28(%ebp), %edx
+	jle	L201
+	cmpb	$0, 12(%edi)
+	je	L201
+	incl	%ebx
+	xorl	%esi, %esi
+L201:
+	addl	%eax, %esi
+L200:
+	incl	8(%ebp)
+	jmp	L202
+L198:
+	leal	-12(%ebp), %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2615:
+	.section	.text.unlikely._ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDE50:
+	.section	.text$_ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTE50:
+	.section	.text.unlikely._ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDB51:
+	.section	.text$_ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTB51:
+	.globl	__ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE
+	.def	__ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE;	.scl	2;	.type	32;	.endef
+__ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE:
+LFB2616:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	xorl	%esi, %esi
+	xorl	%ebx, %ebx
+	subl	$44, %esp
+	movswl	12(%ebp), %eax
+	movl	16(%ebp), %edi
+	movl	%eax, -28(%ebp)
+L206:
+	movl	8(%ebp), %eax
+	movsbl	(%eax), %eax
+	testb	%al, %al
+	je	L205
+	cmpb	$10, %al
+	je	L205
+	movl	(%edi), %ecx
+	movl	(%ecx), %edx
+	movl	%eax, (%esp)
+	call	*8(%edx)
+	cwtl
+	pushl	%edx
+	addl	%eax, %esi
+	leal	(%esi,%ebx), %eax
+	cmpl	-28(%ebp), %eax
+	jg	L205
+	movswl	20(%edi), %esi
+	incl	8(%ebp)
+	movl	%eax, %ebx
+	jmp	L206
+L205:
+	leal	-12(%ebp), %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2616:
+	.section	.text.unlikely._ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDE51:
+	.section	.text$_ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTE51:
+	.section	.text.unlikely._ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDB52:
+	.section	.text$_ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTB52:
+	.globl	__ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE
+	.def	__ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE;	.scl	2;	.type	32;	.endef
+__ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE:
+LFB2617:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	xorl	%edi, %edi
+	xorl	%ebx, %ebx
+	xorl	%esi, %esi
+	subl	$44, %esp
+	movswl	12(%ebp), %eax
+	movl	%eax, -28(%ebp)
+L210:
+	movl	8(%ebp), %eax
+	movsbl	(%eax,%ebx), %eax
+	testb	%al, %al
+	je	L209
+	cmpb	$10, %al
+	je	L209
+	movl	16(%ebp), %edx
+	movl	(%edx), %ecx
+	movl	(%ecx), %edx
+	movl	%eax, (%esp)
+	call	*8(%edx)
+	cwtl
+	pushl	%edx
+	addl	%eax, %edi
+	addl	%edi, %esi
+	cmpl	-28(%ebp), %esi
+	jg	L209
+	movl	16(%ebp), %eax
+	incl	%ebx
+	movswl	20(%eax), %edi
+	jmp	L210
+L209:
+	leal	-12(%ebp), %esp
+	movl	%ebx, %eax
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2617:
+	.section	.text.unlikely._ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE,"x"
+LCOLDE52:
+	.section	.text$_ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE,"x"
+LHOTE52:
+	.section	.text.unlikely._ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc,"x"
+LCOLDB53:
+	.section	.text$_ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc,"x"
+LHOTB53:
+	.globl	__ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc
+	.def	__ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc;	.scl	2;	.type	32;	.endef
+__ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc:
+LFB2618:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	subl	$92, %esp
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	16(%ebp), %ebx
+	movl	8(%ebp), %eax
+	movl	20(%ebp), %esi
+	movl	%ebx, 8(%esp)
+	movl	8(%eax), %eax
+	movl	%eax, 4(%esp)
+	movl	(%esi), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics10line_widthEPKcNS_6vectorERKNS_6formatE
+	movl	8(%ebp), %edi
+	movswl	8(%edi), %edx
+	movl	%ebx, 8(%esp)
+	subl	%eax, %edx
+	movl	8(%edi), %eax
+	movl	%edx, -60(%ebp)
+	movl	%eax, 4(%esp)
+	movl	(%esi), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics10line_charsEPKcNS_6vectorERKNS_6formatE
+	decl	%eax
+	cmpl	$1, 4(%ebx)
+	movl	%eax, -64(%ebp)
+	jne	L213
+	movzwl	-60(%ebp), %eax
+	movl	12(%ebp), %ecx
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	pushl	%eax
+L213:
+	cmpl	$2, 4(%ebx)
+	jne	L214
+	movl	-60(%ebp), %eax
+	movl	$2, %ecx
+	cltd
+	idivl	%ecx
+	movl	12(%ebp), %ecx
+	movzwl	%ax, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	pushl	%eax
+L214:
+	xorl	%eax, %eax
+	movl	$0, -68(%ebp)
+L218:
+	movl	(%esi), %edx
+	movb	(%edx), %dl
+	cmpb	$10, %dl
+	je	L212
+	testb	%dl, %dl
+	je	L212
+	cmpl	$3, 4(%ebx)
+	jne	L216
+	leal	1(%eax), %edi
+	testl	%eax, %eax
+	movl	%edi, -72(%ebp)
+	jne	L217
+	movl	$1, %eax
+L216:
+	movl	%eax, -72(%ebp)
+L219:
+	movl	(%esi), %eax
+	movl	(%ebx), %edi
+	movsbl	(%eax), %ecx
+	movb	32(%ebx), %al
+	movb	%al, -78(%ebp)
+	movb	33(%ebx), %al
+	movb	%cl, -81(%ebp)
+	movb	%al, -77(%ebp)
+	movb	34(%ebx), %al
+	movb	%al, -76(%ebp)
+	movb	35(%ebx), %al
+	movb	%al, -75(%ebp)
+	movb	36(%ebx), %al
+	movb	%al, -74(%ebp)
+	movb	37(%ebx), %al
+	movb	%al, -79(%ebp)
+	movb	38(%ebx), %al
+	movb	%al, -80(%ebp)
+	movb	39(%ebx), %al
+	movb	%al, -73(%ebp)
+	movl	(%edi), %eax
+	movl	%ecx, (%esp)
+	movl	%edi, %ecx
+	call	*8(%eax)
+	movl	%eax, %ecx
+	movw	%ax, -44(%ebp)
+	movb	-78(%ebp), %al
+	pushl	%edx
+	sarl	$16, %ecx
+	movb	-81(%ebp), %dl
+	movw	%cx, -42(%ebp)
+	leal	-48(%ebp), %ecx
+	movl	%edi, -40(%ebp)
+	movb	%al, -35(%ebp)
+	movb	-77(%ebp), %al
+	movb	%dl, -36(%ebp)
+	movl	$__ZTVN8graphics10char_photoE+8, -48(%ebp)
+	movb	%al, -34(%ebp)
+	movb	-76(%ebp), %al
+	movb	%al, -33(%ebp)
+	movb	-75(%ebp), %al
+	movb	%al, -32(%ebp)
+	movb	-74(%ebp), %al
+	movb	%al, -31(%ebp)
+	movb	-79(%ebp), %al
+	movb	%al, -30(%ebp)
+	movb	-80(%ebp), %al
+	movb	%al, -29(%ebp)
+	movb	-73(%ebp), %al
+	movb	%al, -28(%ebp)
+	movl	12(%ebp), %eax
+	movl	(%eax), %eax
+	movl	%eax, 4(%esp)
+	movl	8(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	pushl	%ecx
+	pushl	%ecx
+	movl	20(%ebx), %eax
+	addl	-44(%ebp), %eax
+	movl	12(%ebp), %ecx
+	movzwl	%ax, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	movl	-72(%ebp), %eax
+	pushl	%edi
+	incl	(%esi)
+	jmp	L218
+L217:
+	movl	-68(%ebp), %eax
+	addl	-60(%ebp), %eax
+	movl	$1, %ecx
+	cmpl	$0, -64(%ebp)
+	cmovg	-64(%ebp), %ecx
+	cltd
+	movl	%eax, -68(%ebp)
+	idivl	%ecx
+	movl	12(%ebp), %ecx
+	movl	%eax, %edi
+	movzwl	%ax, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	imull	-64(%ebp), %edi
+	pushl	%eax
+	movl	-68(%ebp), %eax
+	subl	%edi, %eax
+	movl	%eax, -68(%ebp)
+	jmp	L219
+L212:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2618:
+	.section	.text.unlikely._ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc,"x"
+LCOLDE53:
+	.section	.text$_ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc,"x"
+LHOTE53:
+	.section	.text.unlikely._ZNK8graphics4text4drawERNS_5frameENS_6vectorE,"x"
+	.align 2
+LCOLDB54:
+	.section	.text$_ZNK8graphics4text4drawERNS_5frameENS_6vectorE,"x"
+LHOTB54:
+	.align 2
+	.globl	__ZNK8graphics4text4drawERNS_5frameENS_6vectorE
+	.def	__ZNK8graphics4text4drawERNS_5frameENS_6vectorE;	.scl	2;	.type	32;	.endef
+__ZNK8graphics4text4drawERNS_5frameENS_6vectorE:
+LFB2619:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%ecx, %ebx
+	subl	$92, %esp
+	movl	32(%ecx), %eax
+	leal	12(%ebp), %ecx
+	movl	8(%ebp), %edi
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	%eax, -56(%ebp)
+	movl	36(%ebx), %eax
+	leal	-56(%ebp), %ecx
+	pushl	%edx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%ecx
+	movw	8(%edi), %dx
+	leal	12(%ebp), %ecx
+	movw	10(%edi), %si
+	subl	%eax, %edx
+	sarl	$16, %eax
+	subl	%eax, %esi
+	movl	32(%ebx), %eax
+	movw	%dx, -76(%ebp)
+	sall	$16, %esi
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	pushl	%edx
+	movzwl	-76(%ebp), %edx
+	leal	-52(%ebp), %ecx
+	movl	%eax, 4(%esp)
+	movl	%edi, (%esp)
+	orl	%edx, %esi
+	movl	%esi, 8(%esp)
+	call	__ZN8graphics8subframeC4ERNS_5frameENS_6vectorES3_b.constprop.19
+	leal	8(%ebx), %eax
+	subl	$12, %esp
+	movw	$0, -60(%ebp)
+	movw	$0, -58(%ebp)
+	movl	%eax, -84(%ebp)
+	movl	%eax, 8(%esp)
+	movl	-44(%ebp), %eax
+	movl	%eax, 4(%esp)
+	movl	4(%ebx), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics10line_countEPKcNS_6vectorERKNS_6formatE
+	movl	%eax, -76(%ebp)
+	movl	8(%ebx), %eax
+	movswl	-42(%ebp), %edx
+	movswl	8(%eax), %eax
+	imull	-76(%ebp), %eax
+	subl	%eax, %edx
+	movl	$0, %eax
+	movl	%edx, %esi
+	cmovs	%eax, %esi
+	cmpl	$1, 16(%ebx)
+	jne	L222
+	movl	%esi, %eax
+	leal	-60(%ebp), %ecx
+	sall	$16, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	pushl	%eax
+L222:
+	cmpl	$2, 16(%ebx)
+	jne	L223
+	movl	%esi, %eax
+	leal	-60(%ebp), %ecx
+	sarl	%eax
+	sall	$16, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	pushl	%eax
+L223:
+	movl	4(%ebx), %eax
+	xorl	%edi, %edi
+	movl	%eax, -64(%ebp)
+	movl	-76(%ebp), %eax
+	incl	%eax
+	movl	%eax, -88(%ebp)
+L224:
+	movl	-64(%ebp), %eax
+	cmpb	$0, (%eax)
+	je	L221
+	cmpl	$3, 16(%ebx)
+	jne	L226
+	addl	%esi, %edi
+	leal	-60(%ebp), %ecx
+	movl	%edi, %eax
+	cltd
+	idivl	-88(%ebp)
+	movl	%eax, -80(%ebp)
+	sall	$16, %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics6vectorpLES0_
+	pushl	%eax
+	movl	-76(%ebp), %eax
+	notl	%eax
+	imull	-80(%ebp), %eax
+	addl	%eax, %edi
+L226:
+	leal	-64(%ebp), %eax
+	movl	%eax, 12(%esp)
+	movl	-84(%ebp), %eax
+	movl	%eax, 8(%esp)
+	leal	-60(%ebp), %eax
+	movl	%eax, 4(%esp)
+	leal	-52(%ebp), %eax
+	movl	%eax, (%esp)
+	call	__ZN8graphics14draw_text_lineERNS_5frameERNS_6vectorERKNS_6formatEPPKc
+	movl	-64(%ebp), %eax
+	cmpb	$10, (%eax)
+	jne	L224
+	incl	%eax
+	leal	-60(%ebp), %ecx
+	movl	%eax, -64(%ebp)
+	movl	8(%ebx), %eax
+	movl	6(%eax), %eax
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	movl	%eax, -56(%ebp)
+	movl	28(%ebx), %eax
+	leal	-56(%ebp), %ecx
+	pushl	%edx
+	movl	%eax, (%esp)
+	call	__ZNK8graphics6vectorplES0_
+	sarl	$16, %eax
+	pushl	%ecx
+	movw	$0, -60(%ebp)
+	movw	%ax, -58(%ebp)
+	jmp	L224
+L221:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE2619:
+	.section	.text.unlikely._ZNK8graphics4text4drawERNS_5frameENS_6vectorE,"x"
+LCOLDE54:
+	.section	.text$_ZNK8graphics4text4drawERNS_5frameENS_6vectorE,"x"
+LHOTE54:
+	.section .rdata,"dr"
+LC55:
+	.ascii "WindowClass\0"
+LC56:
+	.ascii "Error!\0"
+LC57:
+	.ascii "Window Registration Failed!\0"
+LC58:
+	.ascii "Caption\0"
+LC59:
+	.ascii "Window Creation Failed!\0"
+	.section	.text.unlikely._ZN8graphics13target_screenC2Eii,"x"
+	.align 2
+LCOLDB60:
+	.section	.text$_ZN8graphics13target_screenC2Eii,"x"
+LHOTB60:
+	.align 2
+	.globl	__ZN8graphics13target_screenC2Eii
+	.def	__ZN8graphics13target_screenC2Eii;	.scl	2;	.type	32;	.endef
+__ZN8graphics13target_screenC2Eii:
+LFB3093:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZN8graphics2wcE, %edx
+	xorl	%eax, %eax
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	movl	%edx, %edi
+	subl	$60, %esp
+	movl	8(%ebp), %ebx
+	movl	12(%ebp), %esi
+	movl	$__ZTVN8graphics13target_screenE+8, (%ecx)
+	movb	$0, 4(%ecx)
+	movb	$-1, 5(%ecx)
+	movb	$-1, 6(%ecx)
+	movb	$-1, 7(%ecx)
+	movw	%bx, 8(%ecx)
+	movw	%si, 10(%ecx)
+	movl	$12, %ecx
+	rep stosl
+	movl	__ZN8graphics9hInstanceE, %eax
+	movl	$48, __ZN8graphics2wcE
+	movl	$__ZN8graphics7WndProcEP6HWND__jjl@16, __ZN8graphics2wcE+8
+	movl	$32512, 4(%esp)
+	movl	$0, (%esp)
+	movl	%eax, __ZN8graphics2wcE+20
+	call	*__imp__LoadCursorA@8
+	pushl	%ecx
+	pushl	%ecx
+	movl	__imp__LoadIconA@8, %edi
+	movl	%eax, __ZN8graphics2wcE+28
+	movl	$6, __ZN8graphics2wcE+32
+	movl	$LC55, __ZN8graphics2wcE+40
+	movl	$32512, 4(%esp)
+	movl	$0, (%esp)
+	call	*%edi
+	pushl	%edx
+	pushl	%edx
+	movl	%eax, __ZN8graphics2wcE+24
+	movl	$32512, 4(%esp)
+	movl	$0, (%esp)
+	call	*%edi
+	pushl	%ecx
+	pushl	%ecx
+	movl	%eax, __ZN8graphics2wcE+44
+	movl	$__ZN8graphics2wcE, (%esp)
+	call	*__imp__RegisterClassExA@4
+	testw	%ax, %ax
+	pushl	%edi
+	jne	L230
+	movl	$48, 12(%esp)
+	movl	$LC56, 8(%esp)
+	movl	$LC57, 4(%esp)
+	movl	$0, (%esp)
+	call	*__imp__MessageBoxA@16
+	subl	$16, %esp
+L231:
+	jmp	L231
+L230:
+	movl	__ZN8graphics9hInstanceE, %eax
+	addl	$42, %esi
+	addl	$20, %ebx
+	movl	$0, 44(%esp)
+	movl	$0, 36(%esp)
+	movl	$0, 32(%esp)
+	movl	%esi, 28(%esp)
+	movl	%eax, 40(%esp)
+	movl	%ebx, 24(%esp)
+	movl	$-2147483648, 20(%esp)
+	movl	$-2147483648, 16(%esp)
+	movl	$282001408, 12(%esp)
+	movl	$LC58, 8(%esp)
+	movl	$LC55, 4(%esp)
+	movl	$512, (%esp)
+	call	*__imp__CreateWindowExA@48
+	subl	$48, %esp
+	testl	%eax, %eax
+	movl	%eax, __ZN8graphics4hwndE
+	jne	L232
+	movl	$48, 12(%esp)
+	movl	$LC56, 8(%esp)
+	movl	$LC59, 4(%esp)
+	movl	$0, (%esp)
+	call	*__imp__MessageBoxA@16
+	subl	$16, %esp
+L233:
+	jmp	L233
+L232:
+	movl	%eax, (%esp)
+	movl	$10, %ebx
+	call	*__imp__GetDC@4
+	movl	__imp__SetPixel@16, %esi
+	pushl	%edx
+	movl	%eax, __ZN8graphics3hdcE
+L234:
+	movl	%ebx, %eax
+	movl	%ebx, 8(%esp)
+	movl	%ebx, 4(%esp)
+	orb	$100, %ah
+	incl	%ebx
+	movl	%eax, 12(%esp)
+	movl	__ZN8graphics3hdcE, %eax
+	movl	%eax, (%esp)
+	call	*%esi
+	subl	$16, %esp
+	cmpl	$210, %ebx
+	jne	L234
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret	$8
+	.cfi_endproc
+LFE3093:
+	.section	.text.unlikely._ZN8graphics13target_screenC2Eii,"x"
+LCOLDE60:
+	.section	.text$_ZN8graphics13target_screenC2Eii,"x"
+LHOTE60:
+	.globl	__ZN8graphics13target_screenC1Eii
+	.def	__ZN8graphics13target_screenC1Eii;	.scl	2;	.type	32;	.endef
+	.set	__ZN8graphics13target_screenC1Eii,__ZN8graphics13target_screenC2Eii
+	.section	.text.unlikely._GLOBAL__sub_I_abs,"x"
+LCOLDB61:
+	.section	.text.startup._GLOBAL__sub_I_abs,"x"
+LHOTB61:
+	.def	__GLOBAL__sub_I_abs;	.scl	3;	.type	32;	.endef
+__GLOBAL__sub_I_abs:
+LFB3311:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	call	__ZNSt8ios_base4InitC1Ev
+	movl	$___tcf_0, (%esp)
+	call	_atexit
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE3311:
+	.section	.text.unlikely._GLOBAL__sub_I_abs,"x"
+LCOLDE61:
+	.section	.text.startup._GLOBAL__sub_I_abs,"x"
+LHOTE61:
+	.section	.ctors,"w"
+	.align 4
+	.long	__GLOBAL__sub_I_abs
+	.globl	__ZTVN8graphics8subframeE
+	.section	.rdata$_ZTVN8graphics8subframeE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics8subframeE:
+	.long	0
+	.long	0
+	.long	__ZN8graphics8subframe13checked_writeENS_6vectorENS_5colorE
+	.long	__ZN8graphics5frame13checked_clearEv
+	.long	__ZNK8graphics8subframe17translate_outfromENS_6vectorE
+	.long	__ZNK8graphics8subframe14translate_intoENS_6vectorE
+	.long	__ZN8graphics5frame5flushEv
+	.globl	__ZTVN8graphics10char_photoE
+	.section	.rdata$_ZTVN8graphics10char_photoE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics10char_photoE:
+	.long	0
+	.long	0
+	.long	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	.long	__ZNK8graphics10char_photo12checked_readENS_6vectorE
+	.globl	__ZTVN8graphics4lineE
+	.section	.rdata$_ZTVN8graphics4lineE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics4lineE:
+	.long	0
+	.long	0
+	.long	__ZN8graphics4line4drawERNS_5frameE
+	.globl	__ZTVN8graphics9rectangleE
+	.section	.rdata$_ZTVN8graphics9rectangleE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics9rectangleE:
+	.long	0
+	.long	0
+	.long	__ZN8graphics9rectangle4drawERNS_5frameE
+	.globl	__ZTVN8graphics6circleE
+	.section	.rdata$_ZTVN8graphics6circleE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics6circleE:
+	.long	0
+	.long	0
+	.long	__ZN8graphics6circle4drawERNS_5frameE
+	.globl	__ZTVN8graphics12image_pixelsE
+	.section	.rdata$_ZTVN8graphics12image_pixelsE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics12image_pixelsE:
+	.long	0
+	.long	0
+	.long	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	.long	___cxa_pure_virtual
+	.globl	__ZTVN8graphics16inline_rgb_photoE
+	.section	.rdata$_ZTVN8graphics16inline_rgb_photoE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics16inline_rgb_photoE:
+	.long	0
+	.long	0
+	.long	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	.long	__ZNK8graphics16inline_rgb_photo12checked_readENS_6vectorE
+	.globl	__ZTVN8graphics11inline_fontE
+	.section	.rdata$_ZTVN8graphics11inline_fontE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics11inline_fontE:
+	.long	0
+	.long	0
+	.long	__ZNK8graphics11inline_font3hasEc
+	.long	__ZNK8graphics11inline_font4readEcNS_6vectorE
+	.long	__ZNK8graphics11inline_font9char_sizeEc
+	.long	-12
+	.long	0
+	.long	__ZNK8graphics12image_pixels4drawERNS_5frameENS_6vectorE
+	.long	__ZNK8graphics15inline_bw_photo12checked_readENS_6vectorE
+	.globl	__ZTVN8graphics4textE
+	.section	.rdata$_ZTVN8graphics4textE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics4textE:
+	.long	0
+	.long	0
+	.long	__ZNK8graphics4text4drawERNS_5frameENS_6vectorE
+	.globl	__ZTVN8graphics13target_screenE
+	.section	.rdata$_ZTVN8graphics13target_screenE,"dr"
+	.linkonce same_size
+	.align 4
+__ZTVN8graphics13target_screenE:
+	.long	0
+	.long	0
+	.long	__ZN8graphics13target_screen13checked_writeENS_6vectorENS_5colorE
+	.long	__ZN8graphics5frame13checked_clearEv
+	.long	__ZNK8graphics5frame17translate_outfromENS_6vectorE
+	.long	__ZNK8graphics5frame14translate_intoENS_6vectorE
+	.long	__ZN8graphics5frame5flushEv
+	.globl	__ZN8graphics3hdcE
+	.section	.data$_ZN8graphics3hdcE,"w"
+	.align 4
+__ZN8graphics3hdcE:
+	.space 4
+	.globl	__ZN8graphics3MsgE
+	.section	.data$_ZN8graphics3MsgE,"w"
+	.align 4
+__ZN8graphics3MsgE:
+	.space 28
+	.globl	__ZN8graphics4hwndE
+	.section	.data$_ZN8graphics4hwndE,"w"
+	.align 4
+__ZN8graphics4hwndE:
+	.space 4
+	.globl	__ZN8graphics2wcE
+	.section	.data$_ZN8graphics2wcE,"w"
+	.align 32
+__ZN8graphics2wcE:
+	.space 48
+	.globl	__ZN8graphics9hInstanceE
+	.section	.data$_ZN8graphics9hInstanceE,"w"
+	.align 4
+__ZN8graphics9hInstanceE:
+	.space 4
+	.section .rdata,"dr"
+LC62:
+	.ascii "near\0"
+LC63:
+	.ascii "far\0"
+LC64:
+	.ascii "centre\0"
+LC65:
+	.ascii "filled\0"
+	.section	.rdata$_ZN8graphicsL19font_alignment_nameE,"dr"
+	.align 4
+__ZN8graphicsL19font_alignment_nameE:
+	.long	LC62
+	.long	LC63
+	.long	LC64
+	.long	LC65
+	.section .rdata,"dr"
+LC66:
+	.ascii "flat\0"
+LC67:
+	.ascii "raised\0"
+LC68:
+	.ascii "sunken\0"
+	.section	.rdata$_ZN8graphicsL17shape_relief_nameE,"dr"
+	.align 4
+__ZN8graphicsL17shape_relief_nameE:
+	.long	LC66
+	.long	LC67
+	.long	LC68
+	.section	.data$_ZStL8__ioinit,"w"
+__ZStL8__ioinit:
+	.space 1
+	.ident	"GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 5.2.0"
+	.def	__ZNSt8ios_base4InitD1Ev;	.scl	2;	.type	32;	.endef
+	.def	__ZNSolsEPFRSt8ios_baseS0_E;	.scl	2;	.type	32;	.endef
+	.def	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc;	.scl	2;	.type	32;	.endef
+	.def	__ZNSolsEs;	.scl	2;	.type	32;	.endef
+	.def	__ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St8_SetfillIS3_E;	.scl	2;	.type	32;	.endef
+	.def	__ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt8ios_base4InitC1Ev;	.scl	2;	.type	32;	.endef
+	.def	_atexit;	.scl	2;	.type	32;	.endef
+	.def	___cxa_pure_virtual;	.scl	2;	.type	32;	.endef

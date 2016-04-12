@@ -1,0 +1,176 @@
+	.file	"win.cpp"
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDB0:
+	.section	.text$__tcf_0,"x"
+LHOTB0:
+	.def	___tcf_0;	.scl	3;	.type	32;	.endef
+___tcf_0:
+LFB2584:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	jmp	__ZNSt8ios_base4InitD1Ev
+	.cfi_endproc
+LFE2584:
+	.section	.text.unlikely.__tcf_0,"x"
+LCOLDE0:
+	.section	.text$__tcf_0,"x"
+LHOTE0:
+	.section	.text.unlikely._ZN5bmptk3nowEv,"x"
+LCOLDB1:
+	.section	.text$_ZN5bmptk3nowEv,"x"
+LHOTB1:
+	.globl	__ZN5bmptk3nowEv
+	.def	__ZN5bmptk3nowEv;	.scl	2;	.type	32;	.endef
+__ZN5bmptk3nowEv:
+LFB2383:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$8, %esp
+	call	*__imp__GetTickCount@0
+	movl	%eax, %edx
+	movl	$1000, %eax
+	mull	%edx
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2383:
+	.section	.text.unlikely._ZN5bmptk3nowEv,"x"
+LCOLDE1:
+	.section	.text$_ZN5bmptk3nowEv,"x"
+LHOTE1:
+	.section	.text.unlikely._ZN5bmptk4waitEx,"x"
+LCOLDB2:
+	.section	.text$_ZN5bmptk4waitEx,"x"
+LHOTB2:
+	.globl	__ZN5bmptk4waitEx
+	.def	__ZN5bmptk4waitEx;	.scl	2;	.type	32;	.endef
+__ZN5bmptk4waitEx:
+LFB2384:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	pushl	%esi
+	pushl	%ebx
+	.cfi_offset 7, -12
+	.cfi_offset 6, -16
+	.cfi_offset 3, -20
+	leal	-52(%ebp), %ebx
+	subl	$92, %esp
+	movl	__imp__GetTickCount@0, %ecx
+	movl	8(%ebp), %esi
+	movl	12(%ebp), %edi
+	movl	%ecx, -60(%ebp)
+	call	*%ecx
+	movl	%eax, %edx
+	movl	$1000, %eax
+	mull	%edx
+	addl	%eax, %esi
+	adcl	%edx, %edi
+L10:
+	movl	-60(%ebp), %eax
+	call	*%eax
+	movl	%eax, %edx
+	movl	$1000, %eax
+	mull	%edx
+	cmpl	%edx, %edi
+	jl	L5
+	jg	L11
+	cmpl	%eax, %esi
+	jbe	L5
+L11:
+	movl	$1, 16(%esp)
+	movl	$0, 12(%esp)
+	movl	$0, 8(%esp)
+	movl	$0, 4(%esp)
+	movl	%ebx, (%esp)
+	call	*__imp__PeekMessageA@20
+	subl	$20, %esp
+	cmpl	$-1, %eax
+	jne	L8
+	movl	$0, (%esp)
+	call	_exit
+L8:
+	testl	%eax, %eax
+	jle	L10
+	movl	%ebx, (%esp)
+	call	*__imp__TranslateMessage@4
+	pushl	%eax
+	movl	%ebx, (%esp)
+	call	*__imp__DispatchMessageA@4
+	pushl	%edx
+	jmp	L10
+L5:
+	leal	-12(%ebp), %esp
+	popl	%ebx
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2384:
+	.section	.text.unlikely._ZN5bmptk4waitEx,"x"
+LCOLDE2:
+	.section	.text$_ZN5bmptk4waitEx,"x"
+LHOTE2:
+	.section	.text.unlikely._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+LCOLDB3:
+	.section	.text.startup._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+LHOTB3:
+	.def	__GLOBAL__sub_I__ZN5bmptk3nowEv;	.scl	3;	.type	32;	.endef
+__GLOBAL__sub_I__ZN5bmptk3nowEv:
+LFB2585:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	$__ZStL8__ioinit, %ecx
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	subl	$24, %esp
+	call	__ZNSt8ios_base4InitC1Ev
+	movl	$___tcf_0, (%esp)
+	call	_atexit
+	leave
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.cfi_endproc
+LFE2585:
+	.section	.text.unlikely._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+LCOLDE3:
+	.section	.text.startup._GLOBAL__sub_I__ZN5bmptk3nowEv,"x"
+LHOTE3:
+	.section	.ctors,"w"
+	.align 4
+	.long	__GLOBAL__sub_I__ZN5bmptk3nowEv
+	.section	.data$_ZStL8__ioinit,"w"
+__ZStL8__ioinit:
+	.space 1
+	.ident	"GCC: (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 5.2.0"
+	.def	__ZNSt8ios_base4InitD1Ev;	.scl	2;	.type	32;	.endef
+	.def	_exit;	.scl	2;	.type	32;	.endef
+	.def	__ZNSt8ios_base4InitC1Ev;	.scl	2;	.type	32;	.endef
+	.def	_atexit;	.scl	2;	.type	32;	.endef
